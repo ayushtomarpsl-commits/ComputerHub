@@ -1,0 +1,2 @@
+voice: -16.9 LUFS, TP -1.8 -> gain +2.9 dB + limiter -> -14.1 LUFS, TP -1.4
+mix: -14.1 LUFS, TP -1.0; voice -14.1 LUFS, music under voice -33.4 LUFS (-19.3 dB vs voice); sfx track -29.1 LUFS

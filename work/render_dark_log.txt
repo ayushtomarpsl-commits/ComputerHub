@@ -1,0 +1,13 @@
+frame 0/1800  5s
+frame 150/1800  14s
+frame 300/1800  24s
+frame 450/1800  36s
+frame 600/1800  49s
+frame 750/1800  61s
+frame 900/1800  72s
+frame 1050/1800  83s
+frame 1200/1800  96s
+frame 1350/1800  108s
+frame 1500/1800  120s
+frame 1650/1800  127s
+done D:\New folder\ppc-master-prompt\work\video_dark.mp4 140s

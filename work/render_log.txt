@@ -1,0 +1,13 @@
+frame 0/1800  6s
+frame 150/1800  14s
+frame 300/1800  23s
+frame 450/1800  33s
+frame 600/1800  44s
+frame 750/1800  57s
+frame 900/1800  68s
+frame 1050/1800  80s
+frame 1200/1800  92s
+frame 1350/1800  104s
+frame 1500/1800  117s
+frame 1650/1800  131s
+done D:\New folder\insta_vidoes\work\video_only.mp4 149s
