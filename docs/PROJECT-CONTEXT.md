@@ -118,7 +118,14 @@ Test single frames: `py -I source/render.py stills 5.5 23.5` → `work/qc/`.
   (93.5 s) + `Day02_Post_Kit.md` + SRT. Day 2 reuses helpers from `ep_day01.py` (calendar card, coins, arrows).
   Voice promises Day 3 = "ek bilkul naya idea".
 
+- **Day 3 (Micro-SaaS: e-commerce report → GST/GSTR-1 file):** `source/ep_day03.py`, voice in
+  `episodes/day03/voice.mp3` (original in `output/Day03/`). Uses Ayush's own tool screenshot
+  `episodes/day03/gst_tool.png` (cropped) inside a browser frame. Output `output/Day03/ComputerHub_PlanB_Day03.mp4`
+  (96.2 s) + `Day03_Post_Kit.md` + SRT. Voice CTA: comment "GST" → guide in DM.
+- Note: Segoe UI / Consolas have no ✓ glyph — never type "✓" in sprite text; use the `check` icon instead.
+
 ## Change log (newest first)
+- 2026-11-04: Day 3 episode rendered (GST Micro-SaaS idea, uses the real tool screenshot).
 - 2026-11-03: Day 2 episode rendered. New icons: star, link, up, clock, cross, ticket.
 - 2026-11-02: Episode system (`EP` env, `episode.py`, `ep_day01.py`). Rendered Day 1 pilot episode. New icons:
   puzzle, search, chat, play.
