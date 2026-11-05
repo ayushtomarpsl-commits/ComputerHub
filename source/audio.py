@@ -29,12 +29,22 @@ DUCK_DB = 5.0              # extra dip while the narration is playing
 SFX_UNDER_VOICE = -15.0    # sound effects stay well below the voice
 
 
+_lufs_n = 0
+
+
 def lufs(x):
-    """Integrated loudness via ffmpeg loudnorm analysis."""
-    tmp = os.path.join(ROOT, "work", "_lufs.wav")
+    """Integrated loudness via ffmpeg loudnorm analysis.
+    Each call uses its own temp file: on Windows a just-measured file can stay locked for a moment."""
+    global _lufs_n
+    _lufs_n += 1
+    tmp = os.path.join(ROOT, "work", f"_lufs_{os.getpid()}_{_lufs_n}.wav")
     write(tmp, x)
     r = subprocess.run([FF, "-hide_banner", "-i", tmp, "-af", "loudnorm=print_format=json", "-f", "null", "-"],
                        capture_output=True, text=True)
+    try:
+        os.remove(tmp)
+    except OSError:
+        pass
     js = json.loads(re.search(r"\{[^{}]*\"input_i\"[^{}]*\}", r.stderr, re.S).group(0))
     return float(js["input_i"]), float(js["input_tp"])
 

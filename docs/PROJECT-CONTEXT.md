@@ -124,7 +124,26 @@ Test single frames: `py -I source/render.py stills 5.5 23.5` → `work/qc/`.
   (96.2 s) + `Day03_Post_Kit.md` + SRT. Voice CTA: comment "GST" → guide in DM.
 - Note: Segoe UI / Consolas have no ✓ glyph — never type "✓" in sprite text; use the `check` icon instead.
 
+## Link-in-bio page (2026-11-05)
+- `linkpage/` = static page (index.html + logo, favicon, bg.jpg, og.jpg). Links still marked `PASTE_..._HERE` show as
+  "Coming soon". Only Instagram is filled in; Ayush must add GST guide, GST tool, YouTube, WhatsApp channel, email.
+- Deploy: `vercel --prod` inside `linkpage/` (steps in `linkpage/README.md`). After deploy, make og:image an absolute URL.
+- Local preview: `.claude/launch.json` config "linkpage" (python http.server on port 8765).
+- 2026-11-05: GST guide published as a readable PDF (`output/Day03/GST-Helper-Guide.pdf`, made from
+  `D:\New folder\GST-Filing-E-Com\docs\GST-HELPER-REBUILD-KIT.html` via Edge print-to-PDF) and uploaded to the public
+  Drive folder "GST Doc": https://drive.google.com/file/d/1DKXPbauUDKduDolWE5L2HczxlzaaaktO/view?usp=sharing
+  (Drive shows the .html as raw code; Google Docs conversion failed). Link page: guide + GST tool
+  (https://gst-helper-t4ug.onrender.com/) + Instagram filled. Instagram bio links can only be edited in the mobile app.
+  The same Drive folder also holds Day03_Post_Kit.md (internal notes) — Ayush may want to move it out.
+
+- **Day 4 (app idea: "BlaBlaCar for Parking"):** `source/ep_day04.py`, voice in `episodes/day04/voice.mp3` (original
+  in `output/Day04/`). Output `output/Day04/ComputerHub_PlanB_Day04.mp4` (89.9 s) + `Day04_Post_Kit.md` + SRT.
+  Voice CTA: comment "PARKING" → system design guide in DM. Next: Day 5 = final part of the series.
+  New icons in gfx.py: car, pin, parking, home, shop, hospital, train.
+
 ## Change log (newest first)
+- 2026-11-05: Day 4 episode rendered (parking app idea).
+- 2026-11-05: Built the link-in-bio page (`linkpage/`).
 - 2026-11-04: Day 3 episode rendered (GST Micro-SaaS idea, uses the real tool screenshot).
 - 2026-11-03: Day 2 episode rendered. New icons: star, link, up, clock, cross, ticket.
 - 2026-11-02: Episode system (`EP` env, `episode.py`, `ep_day01.py`). Rendered Day 1 pilot episode. New icons:

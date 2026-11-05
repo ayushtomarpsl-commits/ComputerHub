@@ -1,0 +1,211 @@
+1
+00:00:00,000 --> 00:00:01,260
+Day 4 of building
+
+2
+00:00:01,280 --> 00:00:03,490
+Plan B for Software Engineers.
+
+3
+00:00:04,240 --> 00:00:05,860
+Agar aap ek software engineer hain,
+
+4
+00:00:05,880 --> 00:00:08,180
+toh aapko 9-to-5 ki salary se
+
+5
+00:00:08,200 --> 00:00:09,790
+bahar sochna hi padega,
+
+6
+00:00:09,860 --> 00:00:11,140
+kyunki AI ki wajah se
+
+7
+00:00:11,160 --> 00:00:12,780
+tech industry bahut
+
+8
+00:00:12,800 --> 00:00:14,190
+tezi se badal rahi hai.
+
+9
+00:00:14,300 --> 00:00:15,920
+Aaj main aapke liye ek aisa
+
+10
+00:00:15,940 --> 00:00:17,180
+app idea lekar aaya hoon
+
+11
+00:00:17,200 --> 00:00:18,880
+jo Bharat ki sabse badi
+
+12
+00:00:18,900 --> 00:00:20,770
+daily problem ko solve karta hai —
+
+13
+00:00:20,940 --> 00:00:22,230
+Parking ki samasya!
+
+14
+00:00:22,420 --> 00:00:23,680
+Aapne BlaBlaCar ka naam
+
+15
+00:00:23,700 --> 00:00:24,720
+toh suna hi hoga,
+
+16
+00:00:24,740 --> 00:00:25,960
+jahan log apni car ki
+
+17
+00:00:25,980 --> 00:00:27,730
+khaali seats share karte hain.
+
+18
+00:00:27,820 --> 00:00:29,280
+Bilkul usi concept par
+
+19
+00:00:29,300 --> 00:00:30,580
+aap bana sakte hain —
+
+20
+00:00:30,600 --> 00:00:32,450
+“BlaBlaCar for Parking”!
+
+21
+00:00:32,640 --> 00:00:33,980
+Aaj har bade shehar mein
+
+22
+00:00:34,000 --> 00:00:36,560
+railway station, markets aur hospitals
+
+23
+00:00:36,580 --> 00:00:38,100
+ke bahar parking milna
+
+24
+00:00:38,120 --> 00:00:39,250
+namumkin hai.
+
+25
+00:00:39,440 --> 00:00:41,660
+Log ghanton bhatakte hain
+
+26
+00:00:41,680 --> 00:00:43,020
+aur no-parking mein
+
+27
+00:00:43,040 --> 00:00:44,850
+bhaari challan katwa baithte hain.
+
+28
+00:00:45,020 --> 00:00:45,840
+Is app ke zariye
+
+29
+00:00:45,860 --> 00:00:47,180
+koi bhi insaan apne
+
+30
+00:00:47,200 --> 00:00:48,160
+ghar ke saamne ki
+
+31
+00:00:48,180 --> 00:00:49,460
+khaali jagah, plot
+
+32
+00:00:49,480 --> 00:00:51,120
+ya dukaan ke aage ka space
+
+33
+00:00:51,140 --> 00:00:52,350
+list kar sakta hai.
+
+34
+00:00:52,400 --> 00:00:53,820
+Aur jab bhi kisi driver ko
+
+35
+00:00:53,840 --> 00:00:55,920
+us ilaake mein parking chahiye hogi,
+
+36
+00:00:55,940 --> 00:00:57,400
+app use sabse nazdeeki
+
+37
+00:00:57,420 --> 00:00:59,790
+khaali jagah aur directions dikha dega.
+
+38
+00:00:59,840 --> 00:01:01,060
+Shuruaat mein aapko koi
+
+39
+00:01:01,080 --> 00:01:03,210
+complex payment gateway bhi nahi chahiye —
+
+40
+00:01:03,320 --> 00:01:05,420
+driver seedhe jagah ke maalik ko
+
+41
+00:01:05,440 --> 00:01:07,450
+UPI ya cash de sakta hai.
+
+42
+00:01:07,580 --> 00:01:09,100
+Is tarah ka poora MVP
+
+43
+00:01:09,120 --> 00:01:11,460
+aap Claude aur Cursor ki madad se
+
+44
+00:01:11,480 --> 00:01:12,040
+kuch hi dinon mein
+
+45
+00:01:12,060 --> 00:01:13,230
+code kar sakte hain.
+
+46
+00:01:13,260 --> 00:01:14,700
+Agar aapko is parking app ka
+
+47
+00:01:14,720 --> 00:01:16,260
+poora system design aur
+
+48
+00:01:16,280 --> 00:01:17,720
+step-by-step guide chahiye,
+
+49
+00:01:17,740 --> 00:01:19,830
+toh comment mein likho ‘PARKING’,
+
+50
+00:01:19,860 --> 00:01:21,930
+main seedhe aapke DM mein bhej dunga.
+
+51
+00:01:21,960 --> 00:01:23,500
+Aur is series ke final part
+
+52
+00:01:23,520 --> 00:01:24,900
+yaani Day 5 ke liye,
+
+53
+00:01:24,920 --> 00:01:26,950
+mujhe abhi Follow kar lijiye!

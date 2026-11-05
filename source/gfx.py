@@ -418,6 +418,46 @@ def icon(p, name, cx, cy, s, col, bg=WHITE):
         p.circ(cx - h * 0.9, cy, h * 0.2, fill=rgba(bg))
         p.circ(cx + h * 0.9, cy, h * 0.2, fill=rgba(bg))
         p.text(cx, cy + h * 0.02, "%", "black", s * 0.5, rgba(bg), anchor="mm")
+    elif name == "car":
+        p.rr((cx - h * 0.92, cy - h * 0.12, cx + h * 0.92, cy + h * 0.45), s * 0.1, fill=c)
+        p.poly([(cx - h * 0.55, cy - h * 0.1), (cx - h * 0.35, cy - h * 0.55), (cx + h * 0.35, cy - h * 0.55),
+                (cx + h * 0.6, cy - h * 0.1)], fill=c)
+        p.poly([(cx - h * 0.38, cy - h * 0.14), (cx - h * 0.25, cy - h * 0.42), (cx - h * 0.02, cy - h * 0.42),
+                (cx - h * 0.02, cy - h * 0.14)], fill=rgba(bg))
+        p.poly([(cx + h * 0.06, cy - h * 0.14), (cx + h * 0.06, cy - h * 0.42), (cx + h * 0.28, cy - h * 0.42),
+                (cx + h * 0.42, cy - h * 0.14)], fill=rgba(bg))
+        for dx in (-0.5, 0.5):
+            p.circ(cx + dx * h, cy + h * 0.48, h * 0.22, fill=c)
+            p.circ(cx + dx * h, cy + h * 0.48, h * 0.09, fill=rgba(bg))
+    elif name == "pin":
+        p.circ(cx, cy - h * 0.25, h * 0.6, fill=c)
+        p.poly([(cx - h * 0.5, cy - h * 0.02), (cx + h * 0.5, cy - h * 0.02), (cx, cy + h * 0.92)], fill=c)
+        p.circ(cx, cy - h * 0.25, h * 0.24, fill=rgba(bg))
+    elif name == "parking":
+        p.rr((cx - h * 0.85, cy - h * 0.85, cx + h * 0.85, cy + h * 0.85), s * 0.18, fill=c)
+        p.text(cx + h * 0.04, cy + h * 0.04, "P", "black", s * 0.95, rgba(bg), anchor="mm")
+    elif name == "home":
+        p.poly([(cx, cy - h * 0.85), (cx + h * 0.9, cy - h * 0.05), (cx - h * 0.9, cy - h * 0.05)], fill=c)
+        p.rect((cx - h * 0.62, cy - h * 0.1, cx + h * 0.62, cy + h * 0.8), fill=c)
+        p.rect((cx - h * 0.18, cy + h * 0.25, cx + h * 0.18, cy + h * 0.8), fill=rgba(bg))
+    elif name == "shop":
+        p.rect((cx - h * 0.8, cy - h * 0.1, cx + h * 0.8, cy + h * 0.8), fill=c)
+        for k in range(4):
+            x0 = cx - h * 0.9 + k * h * 0.45
+            p.d.pieslice(p._b((x0, cy - h * 0.6, x0 + h * 0.45, cy - h * 0.05)), 0, 180, fill=c)
+        p.rect((cx - h * 0.9, cy - h * 0.8, cx + h * 0.9, cy - h * 0.38), fill=c)
+        p.rect((cx - h * 0.25, cy + h * 0.25, cx + h * 0.25, cy + h * 0.8), fill=rgba(bg))
+    elif name == "hospital":
+        p.rr((cx - h * 0.85, cy - h * 0.85, cx + h * 0.85, cy + h * 0.85), s * 0.14, fill=c)
+        p.rect((cx - h * 0.16, cy - h * 0.55, cx + h * 0.16, cy + h * 0.55), fill=rgba(bg))
+        p.rect((cx - h * 0.55, cy - h * 0.16, cx + h * 0.55, cy + h * 0.16), fill=rgba(bg))
+    elif name == "train":
+        p.rr((cx - h * 0.65, cy - h * 0.85, cx + h * 0.65, cy + h * 0.5), s * 0.16, fill=c)
+        p.rr((cx - h * 0.45, cy - h * 0.62, cx + h * 0.45, cy - h * 0.12), s * 0.05, fill=rgba(bg))
+        p.circ(cx - h * 0.35, cy + h * 0.2, h * 0.1, fill=rgba(bg))
+        p.circ(cx + h * 0.35, cy + h * 0.2, h * 0.1, fill=rgba(bg))
+        p.line([(cx - h * 0.4, cy + h * 0.6), (cx - h * 0.7, cy + h * 0.92)], c, s * 0.08)
+        p.line([(cx + h * 0.4, cy + h * 0.6), (cx + h * 0.7, cy + h * 0.92)], c, s * 0.08)
     elif name == "play":
         p.poly([(cx - h * 0.4, cy - h * 0.62), (cx + h * 0.62, cy), (cx - h * 0.4, cy + h * 0.62)], fill=c)
     elif name == "globe":
