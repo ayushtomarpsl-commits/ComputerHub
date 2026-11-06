@@ -1,0 +1,11 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# secrets / local tool state
+.env*
+.vercel/
+
+# temporary preview frames (safe to delete, rebuilt by render.py stills)
+work/qc/
+work/qc_final/

@@ -3,7 +3,59 @@
 Video: `ComputerHub_PlanB_Day04.mp4` (1080x1920, 30 fps, 89.9 s, H.264 + AAC)
 Subtitles: `day04_captions.srt`
 
-## Instagram caption (copy as it is — plain text, no ** stars)
+## ⭐ SEO + engagement caption (recommended — copy as it is)
+
+```
+Parking app idea jo India mein ₹ bana sakta hai 🅿️🚗 | BlaBlaCar for Parking
+
+Day 4 of building Plan B for Software Engineers 🚀
+
+Railway station, market ya hospital ke bahar parking dhoondhna = ghanton ki tension + no-parking challan 😩
+Yahi India ki daily problem ek startup idea ban sakti hai.
+
+💡 App idea: parking sharing app (BlaBlaCar for Parking)
+🏠 Log apne ghar ke saamne, plot ya dukaan ke aage ki khaali jagah list karein
+📍 Driver ko sabse nazdeeki parking spot + directions milein
+💸 Payment gateway ki zaroorat nahi: driver seedhe owner ko UPI ya cash de
+🛠️ MVP ko Claude + Cursor (AI coding tools) se kuch hi dinon mein build karo
+
+Ye ek real side hustle aur startup idea hai software engineers ke liye jo 9-to-5 ke saath extra income banana chahte hain.
+
+👇 Aapke shehar mein parking kitni badi problem hai? 1 se 10 rating do!
+💬 Full system design + step-by-step guide chahiye? Comment karo "PARKING", main DM kar dunga.
+🔁 Us dost ko share karo jo roz parking ke liye ghoomta hai.
+💾 Save karo, apna app banate waqt kaam aayega.
+
+➡️ Follow @computer__hub, series ka FINAL part Day 5 aa raha hai 🔥
+
+#ParkingApp #StartupIdeas #AppIdea #SideHustle #BuildWithAI
+```
+
+**Why this works (SEO + engagement):**
+- **First line = search keywords + curiosity:** "Parking app idea", "India", "BlaBlaCar for Parking". Instagram search
+  reads caption text, and only ~125 characters show before "…more", so the hook and keywords come first.
+- **Keywords spread naturally:** parking app, startup idea, side hustle, software engineers, extra income, AI coding
+  tools, MVP, Claude, Cursor, system design. Mixed Hinglish + English, because people search both ways.
+- **4 engagement triggers, each a different action:** rate 1–10 (easy comment), comment "PARKING" (keyword DM),
+  share with a friend, save for later. Saves and shares count strongly in the Reels ranking.
+- **5 focused hashtags,** topic first, broad last. Long hashtag lists no longer help.
+
+**Hook variants to test (swap only the first line):**
+- `Parking ki problem = ₹ banane ka mauka? 🅿️ BlaBlaCar for Parking app idea`
+- `Software engineers, ye app idea India ki sabse badi daily problem solve karega 🅿️`
+- `No-parking challan se pareshan? Is app idea se paisa bhi banega 🚗💸`
+
+**Also set:**
+- **Reel cover text:** `Parking App Idea 🅿️ | Day 4`
+- **Alt text (Advanced settings → Accessibility):** Parking app idea for India: a parking sharing app where people
+  list empty space near their home, plot or shop, drivers find the nearest parking spot with directions and pay by UPI
+  or cash. Built as an MVP with AI coding tools Claude and Cursor.
+- **Pinned comment (post it yourself, then pin):** `Full system design + guide chahiye? Comment "PARKING" 👇 aur
+  batao aapke shehar mein parking ki problem kitni badi hai (1–10)?`
+- **First 30 minutes:** reply to every comment with a question back. Replies double the comment count and tell
+  Instagram the reel starts conversations.
+
+## Original caption (shorter version)
 
 ```
 Day 4 of building Plan B for Software Engineers 🚀

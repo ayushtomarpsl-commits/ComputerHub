@@ -141,7 +141,60 @@ Test single frames: `py -I source/render.py stills 5.5 23.5` → `work/qc/`.
   Voice CTA: comment "PARKING" → system design guide in DM. Next: Day 5 = final part of the series.
   New icons in gfx.py: car, pin, parking, home, shop, hospital, train.
 
+- **Captions:** reusable SEO/engagement prompt in `docs/Caption_Generator_Prompt.md` (hook with keywords in line 1,
+  4 different engagement actions, exactly 5 hashtags, alt text, pinned comment, reply templates). Day 4 post kit has
+  the first caption written this way.
+
+- **Link page is LIVE (2026-11-05):** https://computerhub-links.vercel.app (Vercel account ayushtomarpsl-6540, project
+  `computerhub-links`). Redeploy after edits: `cd linkpage` then `vercel deploy --prod --yes`. `.vercelignore` keeps
+  README.md and `.env*` off the site (Vercel wrote a private `.env.local` token file — never publish or commit it).
+  Live links: GST guide PDF, GST tool, Instagram. "Coming soon": Parking guide (waiting for Ayush's doc), YouTube,
+  WhatsApp, Contact. Instagram bio link must be changed in the mobile app (web can't edit links).
+- **Comment replies:** GST reel — 1 comment for everyone + 24 personal replies posted on 2026-11-05 ~21:45 (pin the
+  comment in the app). Next batch scheduled 22:53 (session-only cron). PARKING replies wait until the parking doc exists.
+- **2026-11-05 22:53 result:** Instagram removed/hid 17 of the 24 batch replies (spam filter on similar replies); 7 still
+  visible. Account Status all green (no limits). Decision: NO more scripted comment replies from Chrome. Use the pinned
+  comment + Story link sticker + ManyChat (official API) instead. ~350 GST comments remain unreplied.
+- **Parking guide is LIVE (2026-11-06):** https://computerhub-links.vercel.app/parking-guide.html — the "Parking App:
+  System Design + Guide" card on the link page now opens it. Source of truth = `output/Day04/Parking-App-Rebuild-Kit.md`
+  (architecture, data model, flows, API, screens, copy-paste MASTER PROMPT, follow-up prompts A–H, go-live costs).
+  Based on a scan of `D:\New folder\parkingfriend` (Expo + Express + Turso). No secrets copied (Ola Maps key,
+  google-services.json, JWT/ADMIN keys stay out). Rebuild the page: `py -I source/build_parking_guide.py`, then redeploy.
+  PARKING commenters can now be pointed to the bio link (pinned comment / ManyChat, not scripted replies).
+
+- **2026-11-06:** Posted the guide comment on the Day 4 reel (DfXL4qlyoFf) from Chrome: "📌 PARKING app ka FREE guide
+  ready hai … computerhub-links.vercel.app/parking-guide.html | Link bio mein bhi hai …". Web menu only offers Delete,
+  so Ayush must PIN it in the Instagram phone app (long-press / swipe left on the comment → pin icon).
+
+## NEW SERIES: Awesome Repos (from 2026-11-06)
+- One useful open-source GitHub repo per episode, promoted with credit to the developer. Same video format/UI as
+  Plan B (light theme, white cards, Viraj voice). Header pill: `COMPUTER HUB · AWESOME REPOS · DAY N`.
+- Folder per episode: `output/AwesomeRepos/DayNN_<Repo>/` with `Repo_Research.md`, `Script_Guide.md`,
+  `ui/original/` (repo screenshots) and `ui/elements/` (crops + logo, made by `source/repoNN_ui_elements.py`).
+- **Day 1 = UPI Gateway** by Mayank Singh (github.com/mynkdev-21/upi-gateway, Laravel 12, self-hosted UPI gateway,
+  money goes straight to the merchant's own UPI; no gateway % fee). Razorpay pricing checked 06-Nov-2026: 2% + 18% GST.
+  Honest limits: UPI only, Paytm for Business verify uses an unofficial API, self-host, own-business use (RBI).
+  README says MIT but repo has no LICENSE file — ask Mayank to add one. Status: research + UI elements + script
+  guide done. CTA: comment "REPO".
+- **Day 1 reel RENDERED (2026-11-06):** `output/AwesomeRepos/Day01_UPI-Gateway/ComputerHub_AwesomeRepos_Day01.mp4`
+  (91.2 s) + `repo01_captions.srt` + `Repo01_Post_Kit.md`. Code: `source/ep_repo01.py` (scenes) +
+  `source/ep_repo01_timing.py` (PHRASES + `K` dict of keyword times — change times there, scenes follow).
+  Voice: `episodes/repo01/voice.mp3` (ElevenLabs Viraj, 88.03 s). Series look: indigo (#4F46E5, the repo's colour)
+  accents on our light theme, Day card in indigo with "Awesome Repos". Render (PowerShell):
+  `$env:EP="repo01"; $env:THEME="light"; $env:BG="assets/backgrounds/isometric.png"; $env:OUT="video_repo01.mp4"`
+  then `py -I source/audio.py`, `py -I source/render.py video`, `py -I source/make_srt.py`, mux with ffmpeg.
+
+- Link page: "UPI Gateway: Free Razorpay Alternative" card (badge AWESOME REPOS · DAY 1) at the top of the list,
+  opens the GitHub repo. Deployed 06-Nov-2026.
+
 ## Change log (newest first)
+- 2026-11-06: Awesome Repos Day 1 reel rendered (UPI Gateway, 91.2 s) + post kit + SRT.
+- 2026-11-06: Link page — Awesome Repos Day 1 card (UPI Gateway → GitHub) added and deployed.
+- 2026-11-06: Started "Awesome Repos" series; Day 1 (UPI Gateway) research, UI elements, script guide.
+- 2026-11-06: Day 4 reel — parking guide comment posted (pin pending in the app).
+- 2026-11-06: Parking App Rebuild Kit (md + styled HTML page with copy buttons) published at /parking-guide.html.
+- 2026-11-05: Link page deployed to Vercel; Parking guide card + Day 4 episode added; journey strip = Day 4.
+- 2026-11-05: SEO caption for Day 4 + reusable caption generator prompt.
 - 2026-11-05: Day 4 episode rendered (parking app idea).
 - 2026-11-05: Built the link-in-bio page (`linkpage/`).
 - 2026-11-04: Day 3 episode rendered (GST Micro-SaaS idea, uses the real tool screenshot).

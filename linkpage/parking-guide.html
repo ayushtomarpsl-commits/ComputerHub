@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Parking App Rebuild Kit · Computer Hub</title>
+<meta name="description" content="Free guide: architecture, data model, API and a copy-paste MASTER PROMPT that makes Claude build a parking-sharing app (BlaBlaCar for parking). By @computer__hub.">
+<meta property="og:title" content="Parking App Rebuild Kit · BlaBlaCar for Parking">
+<meta property="og:description" content="Architecture + copy-paste master prompt to build a parking-sharing app with Claude. Free, from @computer__hub.">
+<meta property="og:image" content="https://computerhub-links.vercel.app/og.jpg">
+<meta property="og:url" content="https://computerhub-links.vercel.app/parking-guide.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f7f3ec">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  :root {
+    --bg: #f7f3ec; --card: #ffffff; --ink: #141b2d; --ink2: #34405c; --muted: #7a859d;
+    --line: #e4e9f2; --blue: #1e6fe0; --cyan: #00aaec; --green: #22b04b; --purple: #a05ce2;
+    --yellow: #ffc828; --codebg: #0f1a2e; --codeink: #dce6f7;
+    --shadow: 0 10px 30px rgba(24, 42, 88, 0.10), 0 2px 6px rgba(24, 42, 88, 0.06);
+    --radius: 22px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 76px; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    font-size: 16px; line-height: 1.6; -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: ""; position: fixed; inset: 0; z-index: -1; opacity: .35;
+    background: url(bg.jpg) center / cover no-repeat;
+  }
+  a { color: var(--blue); }
+  .top {
+    position: sticky; top: 0; z-index: 10; display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px; background: rgba(247, 243, 236, .88); backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+  }
+  .top img { width: 34px; height: 34px; border-radius: 50%; box-shadow: var(--shadow); }
+  .top .brand { font-weight: 800; letter-spacing: .02em; font-size: 15px; }
+  .top .brand small { display: block; font-weight: 600; color: var(--muted); font-size: 12px; letter-spacing: 0; }
+  .top .back {
+    margin-left: auto; text-decoration: none; font-weight: 700; font-size: 13px; color: var(--ink2);
+    background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 22px 16px 120px; }
+  .hero {
+    background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
+    padding: 28px 24px; position: relative; overflow: hidden;
+  }
+  .hero::after {
+    content: ""; position: absolute; right: -60px; top: -60px; width: 220px; height: 220px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,170,236,.18), transparent 70%);
+  }
+  .pill {
+    display: inline-block; font-size: 12px; font-weight: 800; letter-spacing: .08em;
+    color: #fff; background: linear-gradient(90deg, var(--blue), var(--cyan));
+    padding: 6px 12px; border-radius: 999px;
+  }
+  h1 { font-size: clamp(28px, 6vw, 42px); line-height: 1.12; margin: 14px 0 10px; letter-spacing: -.02em; }
+  h1 em { font-style: normal; color: var(--blue); }
+  .hero blockquote { margin: 0 0 16px; border: 0; padding: 0; font-size: 17px; color: var(--ink2); background: none; }
+  .cta { display: flex; flex-wrap: wrap; gap: 10px; margin: 18px 0 6px; }
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px; border: 0; cursor: pointer; text-decoration: none;
+    font: inherit; font-weight: 800; font-size: 15px; border-radius: 14px; padding: 12px 18px; min-height: 46px;
+  }
+  .btn.primary { color: #fff; background: linear-gradient(90deg, var(--blue), var(--cyan)); box-shadow: 0 8px 20px rgba(30,111,224,.3); }
+  .btn.ghost { color: var(--ink); background: #f1f4f9; }
+  nav.toc { display: flex; gap: 8px; overflow-x: auto; padding: 16px 2px 6px; scrollbar-width: none; }
+  nav.toc::-webkit-scrollbar { display: none; }
+  nav.toc a {
+    flex: 0 0 auto; text-decoration: none; color: var(--ink2); font-weight: 700; font-size: 13px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: 7px 13px; white-space: nowrap;
+  }
+  nav.toc a b { color: var(--blue); margin-right: 6px; }
+  .card {
+    background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow);
+    padding: 24px; margin-top: 18px;
+  }
+  .card.star { outline: 3px solid rgba(30,111,224,.35); }
+  h2 { display: flex; align-items: center; gap: 12px; font-size: clamp(21px, 4.4vw, 27px); line-height: 1.25; margin: 0 0 14px; }
+  h2 .num {
+    flex: 0 0 auto; width: 38px; height: 38px; border-radius: 12px; display: grid; place-items: center;
+    color: #fff; font-size: 17px; background: linear-gradient(135deg, var(--blue), var(--cyan));
+  }
+  h3 { font-size: 18px; margin: 22px 0 8px; color: var(--ink); }
+  p, li { color: var(--ink2); }
+  strong { color: var(--ink); }
+  ul, ol { padding-left: 22px; }
+  li { margin: 4px 0; }
+  code {
+    font-family: Consolas, "Cascadia Mono", Menlo, monospace; font-size: .88em;
+    background: #eef3fb; color: #17407e; padding: 1px 6px; border-radius: 6px; word-break: break-word;
+  }
+  blockquote {
+    margin: 14px 0; padding: 12px 16px; border-left: 4px solid var(--yellow);
+    background: #fff9e6; border-radius: 0 12px 12px 0; color: var(--ink2);
+  }
+  .table { overflow-x: auto; margin: 12px 0; border: 1px solid var(--line); border-radius: 14px; }
+  table { border-collapse: collapse; width: 100%; font-size: 14.5px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { background: #f4f7fc; color: var(--ink); font-size: 13px; text-transform: uppercase; letter-spacing: .04em; }
+  tr:last-child td { border-bottom: 0; }
+  td:first-child { font-weight: 600; color: var(--ink); }
+  .hero .table td:first-child { width: 120px; }
+  .code { margin: 14px 0; border-radius: 16px; overflow: hidden; background: var(--codebg); }
+  .code-bar {
+    display: flex; align-items: center; justify-content: space-between; gap: 10px;
+    padding: 8px 10px 8px 16px; background: #17243d; color: #9fb3d6; font-size: 12px; font-weight: 800; letter-spacing: .08em;
+  }
+  .code.master .code-bar { background: linear-gradient(90deg, var(--blue), var(--cyan)); color: #fff; }
+  .copy {
+    font: inherit; font-size: 13px; font-weight: 800; letter-spacing: 0; cursor: pointer; border: 0;
+    border-radius: 10px; padding: 8px 14px; min-height: 36px; color: var(--ink); background: #fff; white-space: nowrap;
+  }
+  .copy.done { background: var(--green); color: #fff; }
+  pre {
+    margin: 0; padding: 16px; overflow: auto; color: var(--codeink);
+    font-family: Consolas, "Cascadia Mono", Menlo, monospace; font-size: 13px; line-height: 1.55; white-space: pre;
+  }
+  .code.master pre { max-height: 560px; }
+  .code.prose pre { white-space: pre-wrap; word-break: break-word; }
+  .float {
+    position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 20;
+    box-shadow: 0 12px 30px rgba(20, 40, 90, .35); white-space: nowrap;
+  }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 28px; }
+  footer a { font-weight: 800; text-decoration: none; }
+  .reveal { animation: up .5s ease both; }
+  @keyframes up { from { transform: translateY(14px); } to { transform: none; } }
+  @media (max-width: 560px) {
+    .card, .hero { padding: 20px 16px; border-radius: 18px; }
+    pre { font-size: 12px; }
+    .top .brand small { display: none; }
+    .hero .table td:first-child { width: 92px; }
+    th, td { padding: 9px 10px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .reveal { animation: none; } html { scroll-behavior: auto; } }
+  @media print { .top, .float, nav.toc, body::before { display: none; } .code.master pre { max-height: none; } pre { white-space: pre-wrap; } }
+</style>
+</head>
+<body>
+<header class="top">
+  <img src="logo.png" alt="Computer Hub logo">
+  <div class="brand">COMPUTER HUB<small>Plan B for Software Engineers · Day 4</small></div>
+  <a class="back" href="./">← All links</a>
+</header>
+<main class="wrap">
+  <section class="hero reveal">
+    <span class="pill">FREE GUIDE · DAY 4</span>
+    <h1>Parking App Rebuild Kit<br><em>"BlaBlaCar for Parking"</em></h1>
+    <blockquote>One guide that explains how a real parking-sharing app works — architecture, data model, flows, screens — plus the <strong>copy-paste prompts</strong> that make Claude build the same kind of app for you.</blockquote><div class="table"><table><tbody><tr><td><strong>Idea</strong></td><td>BlaBlaCar shares empty car seats. This app shares <strong>empty parking spaces</strong> — in front of a home, a plot, a driveway or a shop.</td></tr><tr><td><strong>Who uses it</strong></td><td><strong>Drivers</strong> find and request parking near a station, market or office. <strong>Hosts</strong> list their empty space and earn.</td></tr><tr><td><strong>Built with</strong></td><td>Expo (React Native + TypeScript) app · Node.js + Express API · SQLite / Turso (libsql) database</td></tr><tr><td><strong>Based on</strong></td><td>ParkingFriend — a working app built with Claude Code by Ayush Tomar (@computer__hub)</td></tr><tr><td><strong>Kit version</strong></td><td>1.0 — 06-Nov-2026</td></tr></tbody></table></div>
+    <div class="cta">
+      <a class="btn primary" href="#master-prompt-box">📋 Get the Master Prompt</a>
+      <a class="btn ghost" href="#2-architecture">See the architecture</a>
+    </div>
+  </section>
+  <nav class="toc" aria-label="Sections"><a href="#1-what-the-app-does"><b>1</b>What the app does</a><a href="#2-architecture"><b>2</b>Architecture</a><a href="#3-data-model"><b>3</b>Data model</a><a href="#4-the-core-flows"><b>4</b>The core flows</a><a href="#5-api-endpoints"><b>5</b>API endpoints</a><a href="#6-screens-and-design-system"><b>6</b>Screens and design system</a><a href="#7-how-to-rebuild-it-with-claude--step-by-step"><b>7</b>How to rebuild it with Claude</a><a href="#8-the-master-prompt-copy-paste-this"><b>8</b>The MASTER PROMPT</a><a href="#9-follow-up-prompts"><b>9</b>Follow-up prompts</a><a href="#10-going-live--costs-and-checklist"><b>10</b>Going live</a><a href="#11-rules-safety-and-privacy"><b>11</b>Rules, safety and privacy</a></nav>
+  <section class="card reveal" id="1-what-the-app-does"><h2><span class="num">1</span>What the app does</h2><p>In Indian cities, parking near railway stations, markets, hospitals and offices is almost impossible — people circle for a long time and often get a no-parking challan. At the same time, thousands of homes, plots and shops have empty space in front of them for most of the day.</p><p>The app connects the two sides:</p><ol><li><strong>A host lists a space</strong> — pins it on a map, adds the address, landmark and nearest station, the vehicle types (car / bike / bicycle), how many vehicles fit, a price per day (or free), and when it is available.</li><li><strong>A driver searches</strong> near a place ("near Sector 29 metro") and sees open spaces on a map and in a list, with distance, price, rating and photos.</li><li><strong>The driver sends a request</strong> for a date and time. The host gets a notification.</li><li><strong>The host accepts or declines.</strong> Only after <strong>accept</strong> does the driver see the host's phone number (privacy first). The host also gets the driver's number.</li><li><strong>They chat inside the app</strong> during the booking. The chat closes and is deleted when the parking is done.</li><li><strong>Payment is direct</strong> — the driver pays the owner by UPI or cash. The app never moves money (no payment gateway needed to start). The "Wallet" only keeps a tally of savings (driver) and earnings (host).</li><li><strong>After the parking, both sides rate each other</strong> — drivers rate hosts and spots, hosts rate drivers. Hosts see a driver's rating before accepting.</li></ol><p><strong>Core design rules (learned from the real app):</strong></p><ul><li>The phone number is revealed <strong>only after the host accepts</strong>.</li><li>Every list screen shows <strong>four states</strong>: loading, error (with retry), empty (with a helpful action), data.</li><li>The app works in a <strong>demo mode</strong> (bundled sample data) with one switch, so you can build and test the UI</li></ul><p>before any server exists.</p><ul><li>No payment language anywhere — the app never touches money.</li></ul></section>
+<section class="card reveal" id="2-architecture"><h2><span class="num">2</span>Architecture</h2><div class="code" id="code1-box"><div class="code-bar"><span>TEXT</span><button class="copy" data-target="code1" type="button">Copy</button></div><pre id="code1"> ┌────────────────────────────── Phone app (Expo · React Native · TypeScript) ──────────────────────────────┐
+ │  Screens (React Navigation)  →  services/*Service.ts  →  config/apiConfig.ts  ← THE ONE SWITCH           │
+ │                                                          ├─ API_URL = &quot;&quot;     → DEMO: bundled JSON + AsyncStorage
+ │                                                          └─ API_URL = https… → REAL: REST API below      │
+ └───────────────────────────────────────────────────────────────┬───────────────────────────────────────────┘
+                                                                 │ HTTPS + JSON, JWT &quot;Bearer&quot; token
+ ┌────────────────────────────── REST API (Node.js · Express 4) ─▼───────────────────────────────────────────┐
+ │  /api/auth  /api/spots  /api/host  /api/bookings  /api/messages  /api/ratings  /api/wallet               │
+ │  /api/telemetry   /admin (founder dashboard, ADMIN_KEY)   /health                                         │
+ │  db.js = the ONLY file that talks to storage (all functions async)                                       │
+ └───────────────┬──────────────────────────────────────────────────────────────┬────────────────────────────┘
+                 │                                                              │
+   libsql client │  file:data/app.db  (local dev)                               │  push: Expo Push → FCM → phone
+                 │  libsql://…turso.io (production, free cloud SQLite)           │  SMS OTP: 2Factor (India, DLT)
+                 ▼                                                              ▼
+           SQLite / Turso                                           External services (all have free tiers)
+
+ Maps on the phone: Leaflet in a WebView with OpenStreetMap (or Mapbox) tiles · Place search: Ola Maps (India
+ data) with Photon fallback · Directions: Google Maps URL (no API key) · Location: expo-location</pre></div><p><strong>Why this shape works for a solo builder:</strong></p><ul><li><strong>One switch</strong> (<code>API_URL</code>) moves the whole app from demo to real backend — no code changes in screens.</li><li><strong>One storage file</strong> (<code>db.js</code>) — moving from SQLite to Turso to Postgres later touches only this file.</li><li><strong>Server-side truth</strong> — availability, phone reveal, ratings and earnings are decided by the API, never trusted</li></ul><p>from the phone.</p><ul><li><strong>Free to run</strong> for a pilot: Render (API), Turso (database), Expo EAS (builds), OSM/Photon (maps/search).</li></ul><p><strong>Tech stack</strong></p><div class="table"><table><thead><tr><th>Layer</th><th>Choice</th></tr></thead><tbody><tr><td>App</td><td>Expo SDK (managed workflow), React Native, TypeScript, React Navigation (native-stack + bottom-tabs)</td></tr><tr><td>Animation / UI</td><td>Reanimated, Gesture Handler, Moti, <code>@gorhom/bottom-sheet</code>, <code>expo-linear-gradient</code>, <code>react-native-svg</code></td></tr><tr><td>Fonts / icons</td><td>Poppins (headings) + Inter (body) via <code>@expo-google-fonts</code>, <code>@expo/vector-icons</code></td></tr><tr><td>Device</td><td><code>expo-location</code>, <code>expo-image-picker</code>, <code>expo-notifications</code>, <code>expo-haptics</code>, AsyncStorage</td></tr><tr><td>Maps</td><td><code>react-native-webview</code> + Leaflet + OpenStreetMap tiles (Mapbox optional), web build uses an iframe</td></tr><tr><td>API</td><td>Node.js, Express 4, <code>jsonwebtoken</code> (30-day JWT), <code>cors</code>, <code>@libsql/client</code></td></tr><tr><td>Database</td><td>SQLite file locally, Turso (libsql) in production; Postgres-ready repository layer</td></tr><tr><td>Hosting</td><td>Render.com free web service (<code>render.yaml</code> blueprint) + Turso free database</td></tr><tr><td>Builds</td><td>Expo EAS (<code>eas.json</code>: preview APK, production AAB)</td></tr></tbody></table></div></section>
+<section class="card reveal" id="3-data-model"><h2><span class="num">3</span>Data model</h2><div class="table"><table><thead><tr><th>Table</th><th>Key fields</th><th>Notes</th></tr></thead><tbody><tr><td><code>users</code></td><td>id, phone (unique), name, email, avatar, rating, reviewsCount, driverRating, driverRatingCount, verified, responseTime, pushToken, createdAt</td><td>Two reputations: as <strong>host</strong> (<code>rating</code>) and as <strong>driver</strong> (<code>driverRating</code>). Auto-created on first OTP login.</td></tr><tr><td><code>spots</code></td><td>id, hostId, title, type (<code>home</code>/<code>driveway</code>/<code>garage</code>/<code>openlot</code>/<code>basement</code>), vehicleTypes, capacity, address, area, city, landmark, nearStation, latitude, longitude, pricePerHour, pricePerDay, isFree, images, amenities, availableFrom/To (time), availableAlways, availableStartDate/EndDate, available, instructions, views</td><td><code>remainingCount</code> = capacity − accepted bookings (computed). <code>availabilityState</code> = open / upcoming / ended / off (computed by the server).</td></tr><tr><td><code>bookings</code></td><td>id, userId (driver), spotId, date, time, startTime, endTime, durationHours, vehicleType, vehicleNumber, status, totalAmount, contactUnlocked, otp, cancelReason, cancelledBy, createdAt</td><td>Status: <code>pending → confirmed → active → completed</code>, or <code>cancelled</code>. <code>hostPhone</code> is returned <strong>only</strong> when <code>contactUnlocked</code>.</td></tr><tr><td><code>host_requests</code></td><td>id, hostId, spotId, bookingId, spotTitle, requesterId, requesterName, requesterPhone, requesterAvatar, vehicleType, date, time, status, cancelledBy</td><td>One per booking. Status: <code>pending / accepted / declined / cancelled</code>.</td></tr><tr><td><code>earnings</code></td><td>id, userId, kind (<code>saving</code>/<code>earning</code>), title, subtitle, amount, date, bookingId</td><td>Tallies only — the app never moves money.</td></tr><tr><td><code>ratings</code></td><td>id, bookingId, spotId, raterId, rateeId, raterRole, stars (1–5), comment, createdAt</td><td><strong>Unique (bookingId, raterRole)</strong> — one rating per side per booking.</td></tr><tr><td><code>messages</code></td><td>id, bookingId, senderId, text, createdAt</td><td>Index on (bookingId, createdAt). Deleted when the parking ends.</td></tr><tr><td><code>events</code>, <code>client_errors</code>, <code>devices</code></td><td>anonymous telemetry + crash reports</td><td>Optional; idempotent batches, kill-switch.</td></tr></tbody></table></div></section>
+<section class="card reveal" id="4-the-core-flows"><h2><span class="num">4</span>The core flows</h2><h3 id="41-login-phone-otp">4.1 Login (phone OTP)</h3><ul><li><code>request-otp {phone}</code> → in <strong>dev mode</strong> the code is always <code>123456</code>; with an SMS provider configured, a random</li></ul><p>6-digit code is sent by SMS, expires in <strong>5 minutes</strong>, max <strong>5 wrong tries</strong>, <strong>1 per minute and 5 per hour</strong> per number (stops SMS bombing that burns your credit).</p><ul><li><code>verify-otp {phone, otp, name?}</code> → with <code>name</code> = register (create account), without = login (unknown number</li></ul><p>returns 404 so the app sends them to Register). Returns a 30-day JWT.</p><h3 id="42-request--accept--reveal-phone-the-heart-of-the-app">4.2 Request → accept → reveal phone (the heart of the app)</h3><div class="code" id="code2-box"><div class="code-bar"><span>TEXT</span><button class="copy" data-target="code2" type="button">Copy</button></div><pre id="code2">Driver: POST /api/bookings {spotId, date, time…}
+   → booking.status = &quot;pending&quot;, contactUnlocked = false, hostPhone = null
+   → host_requests row created (with the driver&#x27;s phone) → push to host &quot;New parking request&quot;
+
+Host:   POST /api/host/requests/:id/respond {accept:true}
+   → request &quot;accepted&quot;, booking &quot;confirmed&quot;, contactUnlocked = true → push to driver &quot;Accepted!&quot;
+   → driver now sees hostPhone + &quot;Call&quot; and &quot;Directions&quot; buttons; host sees requesterPhone
+Host:   {accept:false} → request &quot;declined&quot;, booking &quot;cancelled&quot; (phone never revealed)
+
+Either side may cancel later (reason saved, cancelledBy = driver | host).
+Multi-statement writes run as ONE atomic transaction (booking + request, or respond + earning).</pre></div><h3 id="43-availability">4.3 Availability</h3><ul><li>A spot is bookable only if <code>available</code> is on <strong>and</strong> today is inside its date window (or <code>availableAlways</code>).</li><li>The server computes <code>availabilityState</code> so the app can say <em>why</em> it is closed ("opens on 12 Nov",</li></ul><p>"listing ended", "switched off") without trusting the phone's clock.</p><ul><li><code>remainingCount</code> stops over-booking when capacity is full.</li></ul><h3 id="44-chat">4.4 Chat</h3><ul><li>Exists only between the two people of one booking (403 for anyone else).</li><li>Open from the moment of the request until the parking completes or the request dies — then closed and</li></ul><p>messages deleted. Max 500 characters per message. Each message triggers a push.</p><h3 id="45-ratings-two-sided-like-ride-share">4.5 Ratings (two-sided, like ride-share)</h3><ul><li>After a booking is accepted <strong>and</strong> its date has passed, it counts as completed; both sides get a</li></ul><p>"rate your …" prompt (<code>GET /api/ratings/pending</code>).</p><ul><li>Driver → host: updates the host's rating and the spot's rating (public).</li><li>Host → driver: updates the driver's rating (shown to hosts on future requests).</li><li>1–5 stars, optional comment, one rating per side per booking (database unique index).</li></ul><h3 id="46-wallet-tally-not-payments">4.6 Wallet (tally, not payments)</h3><ul><li>Driver: "saved" amounts; host: "earned" amounts per completed parking day; last 3 months + lifetime.</li></ul><h3 id="47-maps-search-and-directions">4.7 Maps, search and directions</h3><ul><li>Search box → <strong>Ola Maps</strong> places (India: sectors, chowks, societies) with <strong>Photon</strong> fallback.</li><li>Results filtered by distance (haversine) and shown as pins + cards; "350 m away" formatting.</li><li>"Directions" opens Google Maps with the spot's coordinates (<code>google.com/maps/dir/?api=1&amp;destination=lat,lng</code>).</li></ul><h3 id="48-push-notifications">4.8 Push notifications</h3><ul><li>The server sends to Expo Push → FCM; fire-and-forget, never slows the API. Until FCM credentials exist,</li></ul><p>the app falls back to polling — nothing breaks.</p></section>
+<section class="card reveal" id="5-api-endpoints"><h2><span class="num">5</span>API endpoints</h2><div class="table"><table><thead><tr><th>Method</th><th>Path</th><th>Auth</th><th>What it does</th></tr></thead><tbody><tr><td>GET</td><td><code>/health</code></td><td>–</td><td><code>{ok:true, db}</code></td></tr><tr><td>POST</td><td><code>/api/auth/request-otp</code></td><td>–</td><td><code>{phone}</code> → sends OTP (dev: <code>123456</code>)</td></tr><tr><td>POST</td><td><code>/api/auth/verify-otp</code></td><td>–</td><td><code>{phone, otp, name?, email?}</code> → <code>{token, user}</code></td></tr><tr><td>GET / PATCH</td><td><code>/api/me</code></td><td>✓</td><td>current user / update name, email, avatar</td></tr><tr><td>GET</td><td><code>/api/spots</code></td><td>–</td><td>search: <code>query</code>, <code>vehicleType</code>, <code>freeOnly</code>, <code>maxPrice</code>, <code>sort=recommended|price_low|price_high|rating</code></td></tr><tr><td>GET</td><td><code>/api/spots/popular</code></td><td>–</td><td>top 6 by rating</td></tr><tr><td>GET</td><td><code>/api/spots/:id</code></td><td>–</td><td>one spot (adds a view)</td></tr><tr><td>GET / POST</td><td><code>/api/host/listings</code></td><td>✓</td><td>your spots / create a listing (with latitude, longitude)</td></tr><tr><td>GET</td><td><code>/api/host/requests</code></td><td>✓</td><td>requests for your spots (with driver phone + rating)</td></tr><tr><td>POST</td><td><code>/api/host/requests/:id/respond</code></td><td>✓</td><td><code>{accept}</code> → accept/decline</td></tr><tr><td>GET / POST</td><td><code>/api/bookings</code></td><td>✓</td><td>your bookings / request a spot</td></tr><tr><td>POST</td><td><code>/api/bookings/:id/cancel</code></td><td>✓</td><td><code>{reason?}</code></td></tr><tr><td>GET / POST</td><td><code>/api/messages/:bookingId</code></td><td>✓</td><td>chat thread / send <code>{text}</code></td></tr><tr><td>GET</td><td><code>/api/ratings/pending</code></td><td>✓</td><td>what you still need to rate</td></tr><tr><td>POST</td><td><code>/api/ratings</code></td><td>✓</td><td><code>{bookingId, stars, comment?}</code></td></tr><tr><td>GET</td><td><code>/api/wallet/summary</code>, <code>/api/wallet/entries</code></td><td>✓</td><td>savings + earnings tallies</td></tr><tr><td>POST</td><td><code>/api/telemetry/events</code>, <code>/api/telemetry/errors</code></td><td>optional</td><td>analytics + crash reports</td></tr><tr><td>GET</td><td><code>/admin</code></td><td>ADMIN_KEY</td><td>founder dashboard (disabled unless <code>ADMIN_KEY</code> ≥ 8 chars is set)</td></tr></tbody></table></div><p>All errors return a status code with <code>{&quot;error&quot;: &quot;message in plain English&quot;}</code>.</p></section>
+<section class="card reveal" id="6-screens-and-design-system"><h2><span class="num">6</span>Screens and design system</h2><p><strong>Navigation</strong></p><div class="code" id="code3-box"><div class="code-bar"><span>TEXT</span><button class="copy" data-target="code3" type="button">Copy</button></div><pre id="code3">Splash → Onboarding → Welcome → Login / Register → OTP
+Main tabs: Home (driver search) · Bookings · POST (centre button: host hub) · Wallet · Profile
+Pushed: Explore (map search) · SearchResults · SpotDetail · BookingDetail · Chat · ListSpace (map-first) ·
+        HostRequests · Favorites · Notifications · Settings · EditProfile · HelpSupport · About ·
+        TermsPrivacy · Feedback · Reports</pre></div><p><strong>Design tokens (light theme; a dark theme mirrors them)</strong></p><div class="table"><table><thead><tr><th>Token</th><th>Value</th><th>Use</th></tr></thead><tbody><tr><td>primary</td><td><code>#0FB57E</code> emerald</td><td>actions, active states</td></tr><tr><td>secondary</td><td><code>#6C5CE7</code> violet</td><td>highlights</td></tr><tr><td>accent / star</td><td><code>#FFB020</code></td><td>ratings, badges</td></tr><tr><td>bg / surface</td><td><code>#F6F8FA</code> / <code>#FFFFFF</code></td><td>screen / cards</td></tr><tr><td>text levels</td><td><code>#0B1B2B</code> · <code>#54677A</code> · <code>#94A3B8</code></td><td>three levels only</td></tr><tr><td>fonts</td><td>Poppins (headings), Inter (body)</td><td></td></tr><tr><td>spacing</td><td>screen edge 20 px, touch targets ≥ 44 px</td><td></td></tr></tbody></table></div><p><strong>UI rules</strong></p><ul><li>Every screen reads colours/spacing/fonts from <code>useTheme()</code> — never hard-coded.</li><li>Shared components: Screen, Header, Card, Button, Input, Chip, Avatar, Toast, SpotCard, Skeleton, EmptyState,</li></ul><p>ErrorState, LiveMap (read-only) and MapPicker (pin your space), bottom sheets for rating/cancel/calendar.</p><ul><li>Every data screen: loading → error (retry) → empty (helpful action) → data, via one <code>useAsync</code> hook.</li><li>Currency always ₹ in en-IN format; friendly empty states ("Be the first to host here").</li></ul></section>
+<section class="card reveal" id="7-how-to-rebuild-it-with-claude--step-by-step"><h2><span class="num">7</span>How to rebuild it with Claude — step by step</h2><p>You need: a computer with <strong>Node.js 20+</strong>, a phone with <strong>Expo Go</strong> (or an Android emulator), and <strong>Claude Code</strong> (desktop app, CLI or IDE extension). Claude.ai chat also works, but Claude Code can create the files and run them for you.</p><ol><li><strong>Make an empty folder</strong>, e.g. <code>D:\parking-app</code>.</li><li><strong>Open Claude Code in that folder.</strong></li><li><strong>Pick your brand and look.</strong> In the master prompt, change the <code>BRAND</code> and <code>DESIGN BRIEF</code> blocks (name, city, colours). Leave them and Claude uses a fresh, friendly look.</li><li><strong>Copy the whole MASTER PROMPT</strong> (section 8) and paste it as one message.</li><li><strong>Let Claude work in phases</strong> (app in demo mode → API → connect → maps → chat/ratings/push → deploy files). If it stops (long jobs can hit limits), send <strong>Follow-up prompt A</strong>.</li><li><strong>Run the app:</strong> <code>npx expo start</code> → scan the QR with Expo Go (same Wi-Fi), or press <code>w</code> for web.</li><li><strong>Run the API:</strong> <code>cd server</code> → <code>npm install</code> → <code>npm run seed</code> → <code>npm start</code> → open <code>http://localhost:4000/health</code>.</li><li><strong>Connect them:</strong> set <code>API_URL</code> in <code>src/config/apiConfig.ts</code> to your PC's LAN address (e.g. <code>http://192.168.1.4:4000</code>) and log in with OTP <code>123456</code>.</li><li><strong>Test the full loop with two phones</strong> (or phone + web): host lists a space → driver requests → host accepts → driver sees the phone number → chat → mark complete → both rate.</li><li><strong>Go live</strong> with <strong>Follow-up prompt E</strong> and section 10.</li></ol><blockquote>Tip: if your plan has smaller limits, use <strong>Follow-up prompt F</strong> (one phase at a time).</blockquote></section>
+<section class="card reveal star" id="8-the-master-prompt-copy-paste-this"><h2><span class="num">8</span>The MASTER PROMPT (copy-paste this)</h2><p>Copy everything inside the box.</p><div class="code master prose" id="master-prompt-box"><div class="code-bar"><span>MASTER PROMPT</span><button class="copy" data-target="master-prompt" type="button">Copy all</button></div><pre id="master-prompt">You are building a two-sided PARKING-SHARING mobile app for India — &quot;BlaBlaCar for parking&quot;.
+Hosts list the empty parking space in front of their home, plot, driveway or shop. Drivers find
+and request a space near a railway/metro station, market, hospital or office. The app never moves
+money: the driver pays the host directly (UPI or cash).
+
+BRAND (replace if you want):
+  App name: ParkingFriend · Tagline: &quot;Your parking friend&quot; · Launch city: Gurugram, India
+DESIGN BRIEF (replace if you want):
+  Warm, trustworthy, premium mobility feel. Emerald primary #0FB57E, violet secondary #6C5CE7,
+  amber accent #FFB020, light background #F6F8FA, white cards, rounded corners, soft shadows.
+  Poppins for headings, Inter for body. Full dark theme. Friendly illustrations for empty states.
+
+=====================================================================
+0. WORKING RULES
+=====================================================================
+- Build in phases, in this order, and run/verify at the end of each phase:
+  Phase 1  App UI on DEMO data (no server): theme, components, navigation, all screens
+  Phase 2  REST API + database (server/ folder) with tests/smoke script
+  Phase 3  Connect app to API through ONE switch (src/config/apiConfig.ts)
+  Phase 4  Maps, place search, directions, availability windows
+  Phase 5  Chat, two-sided ratings, push notifications, wallet tallies
+  Phase 6  Production hardening + deploy files (render.yaml, eas.json, docs)
+- Create CLAUDE.md (short rules + pointer) and docs/PROJECT-CONTEXT.md (what we build,
+  decisions, status, next steps, change log newest first) at the start; update after each phase.
+- Simple, clear English in all UI text. Commands for Windows users in PowerShell 5.1 syntax.
+- Never put secrets or API keys in code that ships; read them from env/config files that are
+  git-ignored. Never commit databases, .env files, keystores or the Android SDK.
+- TypeScript in the app, plain JavaScript (CommonJS) in the server. Small focused files.
+
+=====================================================================
+1. APP — TECH AND STRUCTURE (Expo managed workflow)
+=====================================================================
+Expo SDK (latest stable) + TypeScript, React Navigation (native-stack + bottom-tabs), Reanimated,
+Gesture Handler, Moti, @gorhom/bottom-sheet, expo-linear-gradient, react-native-svg,
+@expo-google-fonts (Poppins, Inter), @expo/vector-icons, AsyncStorage, expo-location,
+expo-image-picker, expo-notifications, expo-haptics, react-native-webview (maps).
+Import alias &quot;@/...&quot; -&gt; src/ (babel-plugin-module-resolver + tsconfig paths).
+
+src/
+  theme/       tokens (colors light+dark, spacing, radius, typography, shadows, gradients) +
+               ThemeProvider/useTheme. Screens NEVER hard-code colours, spacing or fonts.
+  components/ui/  Screen, Header, SectionHeader, Card, Button(primary|outline|ghost|gradient|danger,
+               sm|md|lg), Input, OtpInput, Chip, Avatar, Badge, Toast, SpotCard, Skeleton,
+               EmptyState, ErrorState, ErrorBoundary, LiveMap (read-only), MapPicker (pin a spot),
+               bottom sheets: RatingSheet, CancelReasonSheet, CalendarModal, ConfirmDialog
+  components/illustrations/  small SVG illustrations for empty/success states
+  models/types.ts   User, Host, ParkingSpot, Booking, HostRequest, ChatMessage, ChatThread,
+               PendingRating, SpotReview, EarningEntry, WalletSummary, NotificationItem
+  data/        demo JSON (spots, bookings, users, faqs, onboarding…)
+  services/    one service per domain (auth, spot, booking, host, chat, rating, wallet,
+               notification, places, push). Each checks isApiEnabled(): demo path = bundled JSON +
+               AsyncStorage with simulated latency; API path = fetch with JWT.
+  config/apiConfig.ts   export const API_URL = &quot;&quot;  (&quot;&quot; = demo mode). The ONLY switch.
+  hooks/       useAsync (loading/error/empty/data), useDebounce, useFavorites, useUserLocation,
+               useLiveRefresh (poll fallback), usePendingRequestCount
+  context/     AuthContext (token + user in AsyncStorage)
+  navigation/  RootNavigator, MainTabs, route types
+  screens/     one folder per screen (see section 3)
+Every Pressable has accessibilityRole + accessibilityLabel; touch targets &gt;= 44 px;
+long text gets numberOfLines; ₹ amounts via formatCurrency (en-IN).
+
+=====================================================================
+2. DATA MODEL (server tables; app types mirror them exactly)
+=====================================================================
+users(id, phone UNIQUE, name, email, avatar, rating REAL default 5, reviewsCount,
+      driverRating, driverRatingCount, verified, responseTime, pushToken, createdAt)
+spots(id, hostId, title, type[home|driveway|garage|openlot|basement], vehicleTypes JSON
+      [car|bike|bicycle], capacity (1-50), address, area, city, landmark, nearStation,
+      distanceMeters, latitude, longitude, pricePerHour, pricePerDay, isFree, images JSON,
+      amenities JSON, availableFrom, availableTo (HH:MM), availableAlways, availableStartDate,
+      availableEndDate (YYYY-MM-DD), available (on/off), instructions, views, createdAt)
+      computed in responses: remainingCount = capacity - accepted bookings that day;
+      availabilityState = open|upcoming|ended|off (server timezone); host object embedded.
+bookings(id, userId, spotId, date, time, startTime, endTime, durationHours, vehicleType,
+      vehicleNumber, status[pending|confirmed|active|completed|cancelled], totalAmount,
+      contactUnlocked, otp, cancelReason, hostCancelReason, cancelledBy[driver|host], createdAt)
+host_requests(id, hostId, spotId, bookingId, spotTitle, requesterId, requesterName,
+      requesterPhone, requesterAvatar, vehicleType, date, time,
+      status[pending|accepted|declined|cancelled], cancelledBy)
+earnings(id, userId, kind[saving|earning], title, subtitle, amount, date, bookingId)
+ratings(id, bookingId, spotId, raterId, rateeId, raterRole[driver|host], stars 1-5, comment,
+      createdAt)  + UNIQUE(bookingId, raterRole)
+messages(id, bookingId, senderId, text, createdAt) + INDEX(bookingId, createdAt)
+events / client_errors / devices for optional first-party telemetry.
+Use ALTER TABLE ... ADD COLUMN migrations for columns added later (never drop data).
+
+=====================================================================
+3. SCREENS AND NAVIGATION
+=====================================================================
+Splash -&gt; Onboarding (3 slides) -&gt; Welcome -&gt; Login / Register -&gt; OtpVerification
+Main bottom tabs: Home (driver search, recent activity, popular spots) · Bookings ·
+  POST (raised centre button = host hub: list a space, incoming requests with accept/decline,
+  earnings strip, your spaces) · Wallet (savings + earnings tally, NO payments) · Profile
+Pushed: Explore (full-screen map search with pins + bottom sheet list), SearchResults (filters:
+  vehicle type, free only, max price, sort), SpotDetail (photos, host card with rating, map,
+  amenities, instructions, availability reason, &quot;Request parking&quot; CTA), BookingDetail (status
+  timeline; after accept: host phone with Call + Directions; Chat; Cancel with reason),
+  Chat, ListSpace (map-first: pin on MapPicker, then details, vehicle types, capacity, price/free,
+  time window, always-available or date range), HostRequests, Favorites, Notifications,
+  Settings (dark mode), EditProfile (photo via image picker), HelpSupport (FAQ), About,
+  TermsPrivacy, Feedback, Reports.
+Every data screen renders 4 states: skeleton loading, ErrorState with retry, EmptyState with a
+helpful action, data.
+
+=====================================================================
+4. CORE BUSINESS RULES (the server enforces them; the app mirrors them in demo mode)
+=====================================================================
+A. Auth: phone OTP. request-otp {phone}; verify-otp {phone, otp, name?}. With name = register,
+   without = login (unknown number -&gt; 404 &quot;please register&quot;). 30-day JWT (Bearer).
+   Dev mode: OTP is always 123456 when no SMS provider is configured.
+   Real mode (env SMS_PROVIDER + SMS_API_KEY, e.g. 2Factor for India with DLT template):
+   random crypto 6-digit code, 5-minute expiry, max 5 wrong attempts, 1 send per minute and
+   5 per hour per number. Never return the real code in the response.
+B. Request -&gt; accept -&gt; reveal phone:
+   - Driver POST /api/bookings -&gt; booking &quot;pending&quot;, contactUnlocked=false, hostPhone=null,
+     plus a pending host_request carrying the driver&#x27;s phone. Both rows in ONE transaction.
+   - Host accepts -&gt; request &quot;accepted&quot;, booking &quot;confirmed&quot;, contactUnlocked=true (driver now
+     gets hostPhone; host has requesterPhone). Host declines -&gt; &quot;declined&quot; + booking &quot;cancelled&quot;.
+   - Either side can cancel later with a reason; record cancelledBy.
+   - hostPhone is ALWAYS null in responses until contactUnlocked. Never leak phones.
+C. Availability: bookable only if available=true AND today is inside the date window (or
+   availableAlways). Server computes availabilityState so the app can explain why it is closed.
+   Re-check on booking. Respect capacity via remainingCount (no over-booking).
+D. Chat: only the booking&#x27;s driver and host (403 otherwise). Open from request until the parking
+   completes or the request is declined/cancelled; then closed and messages deleted. Max 500
+   chars. Push the other side on each message.
+E. Ratings: a booking is &quot;completed&quot; when it was accepted and its date has passed. Each side
+   rates the other once (1-5 stars + optional comment). Driver-&gt;host updates host + spot rating;
+   host-&gt;driver updates driverRating, shown to hosts on future requests. GET /api/ratings/pending
+   powers a &quot;rate your last parking&quot; prompt.
+F. Wallet: tallies only — driver &quot;saving&quot;, host &quot;earning&quot; per completed parking day; summary for
+   last 3 months + lifetime. No payment gateway, no payment wording anywhere in the UI.
+G. Push: server -&gt; Expo Push API -&gt; FCM, fire-and-forget (never slow or fail the API call).
+   Save the user&#x27;s Expo push token via PATCH /api/me. Keep a polling fallback in the app.
+
+=====================================================================
+5. API (Node.js + Express 4, CommonJS) — server/ folder
+=====================================================================
+Files: src/index.js (express, cors, json 1mb limit, request log, routes, 404, central error
+handler that never crashes), src/db.js (the ONLY storage layer, all async, @libsql/client:
+file:data/app.db locally, libsql://... Turso in production via TURSO_DATABASE_URL +
+TURSO_AUTH_TOKEN), src/auth.js (signToken, requireAuth), src/otpStore.js, src/sms.js,
+src/push.js, src/seed.js (schema only, idempotent), routes/: auth, spots, host, bookings,
+messages, ratings, wallet, telemetry, admin.
+Endpoints:
+  GET  /health -&gt; {ok:true, db}
+  POST /api/auth/request-otp, POST /api/auth/verify-otp, GET/PATCH /api/me
+  GET  /api/spots?query&amp;vehicleType&amp;freeOnly&amp;maxPrice&amp;sort(recommended|price_low|price_high|rating)
+  GET  /api/spots/popular (top 6 by rating), GET /api/spots/:id (increments views)
+  GET/POST /api/host/listings, GET /api/host/requests, POST /api/host/requests/:id/respond
+  GET/POST /api/bookings, POST /api/bookings/:id/cancel
+  GET/POST /api/messages/:bookingId
+  GET /api/ratings/pending, POST /api/ratings
+  GET /api/wallet/summary, GET /api/wallet/entries
+  POST /api/telemetry/events|errors (optional auth, idempotent ids, always 2xx, 410 kill-switch)
+  GET /admin founder dashboard: enabled ONLY if env ADMIN_KEY (&gt;= 8 chars) is set; timing-safe key
+  check; HttpOnly signed cookie session; login rate-limited per IP.
+Validate every input (types, lengths, enums, dates YYYY-MM-DD, times HH:MM, capacity 1-50,
+stars 1-5) and return {&quot;error&quot;: &quot;plain English&quot;} with the right status code.
+app.set(&quot;trust proxy&quot;, 1) behind Render. Rate-limit OTP and admin login.
+Write a smoke-test script (curl or node) that runs the full loop: host lists -&gt; driver requests
+-&gt; host accepts -&gt; driver sees phone -&gt; chat -&gt; complete -&gt; both rate.
+
+=====================================================================
+6. MAPS, SEARCH, LOCATION, DIRECTIONS
+=====================================================================
+- Maps: Leaflet inside react-native-webview (iframe on web) with free OpenStreetMap tiles;
+  optional Mapbox public token in src/config/mapConfig.ts. LiveMap shows pins; MapPicker lets a
+  host drag a pin and returns latitude/longitude.
+- Place search: placesService.search/reverse/nearby. Use Ola Maps Places (India data: sectors,
+  chowks, societies) when OLA_MAPS_API_KEY is set, and fall back to Photon (photon.komoot.io,
+  free, no key) on any error. Keys come from git-ignored config, never hard-coded in the repo.
+- &quot;Near me&quot;: expo-location with a clear permission message; haversine distance; &quot;350 m away&quot;.
+- Directions: open https://www.google.com/maps/dir/?api=1&amp;destination=LAT,LNG&amp;travelmode=driving
+  (no API key) via Linking.
+
+=====================================================================
+7. DEPLOY FILES AND DOCS
+=====================================================================
+- render.yaml: free web service, rootDir server, build &quot;npm install&quot;, start &quot;npm start&quot;,
+  healthCheckPath /health, JWT_SECRET generateValue, TURSO_DATABASE_URL and TURSO_AUTH_TOKEN
+  (sync:false), optional SMS_PROVIDER, SMS_API_KEY, SMS_TEMPLATE, ADMIN_KEY.
+- eas.json: &quot;preview&quot; (APK for sharing) and &quot;production&quot; (AAB for Play Store).
+- app.json: name, slug, scheme, bundle id/package, icons, splash (primary colour), location +
+  photos + notifications permissions with friendly explanations.
+- Windows helpers: run-on-web.bat, run-on-phone.bat (Expo Go + tunnel), build-apk.bat.
+- README.md, DEPLOYMENT.md (local -&gt; Render + Turso -&gt; EAS build -&gt; Play Store),
+  LAUNCH-CHECKLIST.md (what needs a paid account), UI-GUIDE.md (design rules).
+- .gitignore: node_modules, .expo, dist, android/, ios/, android-sdk/, *.jks, *.keystore, .env*,
+  server/data/, logs.
+
+=====================================================================
+8. DONE MEANS
+=====================================================================
+- Demo mode: the whole app works offline with sample data on phone and web.
+- API mode: two accounts can complete the full loop (list -&gt; request -&gt; accept -&gt; phone revealed
+  -&gt; chat -&gt; complete -&gt; rate) with the smoke test passing.
+- No phone number leaks before accept; no secrets in the repo; every screen has 4 data states.
+- Finish with a short report: what was built, test output, how to run, what you could not verify.
+Start now with Phase 1.</pre></div></section>
+<section class="card reveal" id="9-follow-up-prompts"><h2><span class="num">9</span>Follow-up prompts</h2><p><strong>A — Continue after a stop</strong></p><div class="code prose" id="code5-box"><div class="code-bar"><span>PROMPT</span><button class="copy" data-target="code5" type="button">Copy</button></div><pre id="code5">Continue from where you stopped. First read CLAUDE.md and docs/PROJECT-CONTEXT.md, run the app
+and the API smoke test, then continue with the next unfinished phase.</pre></div><p><strong>B — Change only the look</strong></p><div class="code prose" id="code6-box"><div class="code-bar"><span>PROMPT</span><button class="copy" data-target="code6" type="button">Copy</button></div><pre id="code6">Keep all logic, services, API calls and navigation exactly as they are. Redesign only the theme
+tokens and component styles to this style: &lt;describe your style&gt;. Keep 4 data states on every
+screen and dark mode working. Show me screenshots of Home, Explore, SpotDetail and the POST tab.</pre></div><p><strong>C — Turn on real SMS OTP (India)</strong></p><div class="code prose" id="code7-box"><div class="code-bar"><span>PROMPT</span><button class="copy" data-target="code7" type="button">Copy</button></div><pre id="code7">Wire real SMS OTP into server/src/sms.js using 2Factor (DLT-approved template). Keep the dev OTP
+123456 when SMS env vars are missing. Random 6-digit codes, 5-minute expiry, 5 wrong tries max,
+1 send/minute and 5/hour per number. Never return the code in the response. Add a test.</pre></div><p><strong>D — Move the database to Turso (free, survives redeploys)</strong></p><div class="code prose" id="code8-box"><div class="code-bar"><span>PROMPT</span><button class="copy" data-target="code8" type="button">Copy</button></div><pre id="code8">Make server/src/db.js work with Turso via @libsql/client: TURSO_DATABASE_URL + TURSO_AUTH_TOKEN,
+local file mode when unset. Keep every repository function async and multi-step writes in one
+batch transaction. Give me the exact Turso CLI steps to create the database and token.</pre></div><p><strong>E — Put it live (Render + Turso + APK)</strong></p><div class="code prose" id="code9-box"><div class="code-bar"><span>PROMPT</span><button class="copy" data-target="code9" type="button">Copy</button></div><pre id="code9">Prepare everything to go live for free: check .gitignore blocks secrets/databases, show git status,
+then give me exact PowerShell steps for: GitHub repo, Turso database, Render Blueprint deploy,
+setting API_URL in the app, and building a shareable APK with EAS (preview profile).
+Do not push anything without my OK.</pre></div><p><strong>F — Phased mode (for smaller plans)</strong></p><div class="code prose" id="code10-box"><div class="code-bar"><span>PROMPT</span><button class="copy" data-target="code10" type="button">Copy</button></div><pre id="code10">Use the master prompt above as the full spec. Only do Phase &lt;N&gt; now. Verify it, update
+docs/PROJECT-CONTEXT.md, and stop.</pre></div><p><strong>G — Add online payments later (optional)</strong></p><div class="code prose" id="code11-box"><div class="code-bar"><span>PROMPT</span><button class="copy" data-target="code11" type="button">Copy</button></div><pre id="code11">Add optional in-app UPI payment with Razorpay test keys only, behind a feature flag that is OFF by
+default. Keep the direct UPI/cash flow as the default. Add the payment status to bookings, a
+webhook route with signature verification, and update the wallet wording only when the flag is on.</pre></div><p><strong>H — Launch a new city</strong></p><div class="code prose" id="code12-box"><div class="code-bar"><span>PROMPT</span><button class="copy" data-target="code12" type="button">Copy</button></div><pre id="code12">Add city support: a city picker on Home, default map centre and search bias per city, and
+&quot;popular stations&quot; chips per city. Start with Gurugram, Delhi, Noida, Bengaluru, Pune.</pre></div></section>
+<section class="card reveal" id="10-going-live--costs-and-checklist"><h2><span class="num">10</span>Going live — costs and checklist</h2><div class="table"><table><thead><tr><th>Gate</th><th>Cost</th><th>Needed for</th></tr></thead><tbody><tr><td>Render (API) + Turso (database)</td><td>Free tiers</td><td>App works outside your Wi-Fi</td></tr><tr><td>Expo EAS build</td><td>Free tier</td><td>Shareable APK / Play Store bundle</td></tr><tr><td>Google Play Console</td><td>$25 one-time</td><td>Android store release</td></tr><tr><td>SMS provider (India, DLT)</td><td>≈ ₹0.15–0.25 per SMS</td><td>Real OTP login</td></tr><tr><td>Apple Developer</td><td>$99 per year</td><td>iPhone App Store (optional at launch)</td></tr></tbody></table></div><p><strong>Before real users</strong></p><ol><li>Host the API (Render) and database (Turso); set a strong <code>JWT_SECRET</code> and an <code>ADMIN_KEY</code>.</li><li>Turn on real SMS OTP (until then: internal testing only — anyone can log in with 123456).</li><li>Write a privacy policy page (required: location + phone number) and fill Play Store "Data safety".</li><li>Seed real supply: list 5–10 real spaces near your target stations so first users don't see an empty app.</li><li>Test the full loop with two real phones.</li><li>Free-tier note: Render sleeps after ~15 minutes idle (first request ~30–60 s).</li></ol></section>
+<section class="card reveal" id="11-rules-safety-and-privacy"><h2><span class="num">11</span>Rules, safety and privacy</h2><ul><li><strong>Local rules:</strong> renting out private space for parking may need permission from your society/RWA or local</li></ul><p>authority in some cities. Check before you launch, and tell hosts to check too.</p><ul><li><strong>Privacy:</strong> phone numbers only after accept; chats deleted after the parking; ask location permission with</li></ul><p>a clear reason; never sell data; declare everything honestly in the store forms.</p><ul><li><strong>Trust:</strong> two-sided ratings, host sees the driver's rating before accepting, reasons for cancellations.</li><li><strong>Money:</strong> with direct UPI/cash, write clear terms that the platform is not part of the payment.</li><li><strong>Keys:</strong> keep API keys (maps, SMS, Firebase) out of public repos; restrict browser/app keys in each</li></ul><p>provider's dashboard.</p><blockquote>This kit explains an app idea and how to build it. You are responsible for your launch, your users and local rules. When in doubt, ask a legal or tax advisor.</blockquote><p>Made for the <strong>Plan B for Software Engineers</strong> series by <strong>Computer Hub</strong> — follow <strong>@computer__hub</strong> on Instagram.</p></section>
+  <footer>
+    <p>Made for the <strong>Plan B for Software Engineers</strong> series by Computer Hub.<br>
+    Follow <a href="https://www.instagram.com/computer__hub/" target="_blank" rel="noopener">@computer__hub</a> for Day 5.</p>
+    <p><a href="./">← Back to all links</a></p>
+  </footer>
+</main>
+<button class="btn primary float" type="button" data-target="master-prompt" id="floatCopy">📋 Copy Master Prompt</button>
+<script>
+  function copyText(id, btn) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var text = el.innerText;
+    var old = btn.textContent;
+    function ok() { btn.classList.add('done'); btn.textContent = '✓ Copied'; setTimeout(function () { btn.classList.remove('done'); btn.textContent = old; }, 1800); }
+    function fallback() {
+      var ta = document.createElement('textarea'); ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); ok(); } catch (e) { btn.textContent = 'Select & copy'; }
+      document.body.removeChild(ta);
+    }
+    if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(ok, fallback); else fallback();
+  }
+  document.querySelectorAll('[data-target]').forEach(function (b) {
+    b.addEventListener('click', function () { copyText(b.getAttribute('data-target'), b); });
+  });
+  // Hide the floating button while the master prompt itself is on screen.
+  var box = document.getElementById('master-prompt-box'), fl = document.getElementById('floatCopy');
+  if ('IntersectionObserver' in window && box) {
+    new IntersectionObserver(function (e) { fl.style.display = e[0].isIntersecting ? 'none' : ''; }).observe(box);
+  }
+</script>
+</body>
+</html>

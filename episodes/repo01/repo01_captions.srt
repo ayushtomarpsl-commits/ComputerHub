@@ -1,0 +1,215 @@
+1
+00:00:00,000 --> 00:00:02,160
+Razorpay har payment pe
+
+2
+00:00:02,180 --> 00:00:04,750
+2% plus GST kaatta hai.
+
+3
+00:00:05,200 --> 00:00:07,840
+Monthly 10 lakh ki sale?
+
+4
+00:00:07,860 --> 00:00:09,300
+Matlab 23 hazaar rupaye
+
+5
+00:00:09,320 --> 00:00:11,360
+har mahine sirf fees mein gaye!
+
+6
+00:00:11,380 --> 00:00:12,920
+Lekin ek Indian developer ne
+
+7
+00:00:12,940 --> 00:00:14,740
+iska 100% free aur
+
+8
+00:00:14,760 --> 00:00:16,700
+open-source solution bana diya hai.
+
+9
+00:00:16,720 --> 00:00:18,620
+Welcome to Awesome Repos,
+
+10
+00:00:18,640 --> 00:00:20,440
+Day 1 — UPI Gateway,
+
+11
+00:00:20,460 --> 00:00:21,980
+by Mayank Singh.
+
+12
+00:00:22,000 --> 00:00:23,020
+Yeh ek self-hosted
+
+13
+00:00:23,040 --> 00:00:24,660
+UPI payment gateway hai,
+
+14
+00:00:24,680 --> 00:00:25,840
+jise aap apne khud ke
+
+15
+00:00:25,860 --> 00:00:27,540
+server par host kar sakte hain.
+
+16
+00:00:27,560 --> 00:00:28,600
+Jab bhi koi customer
+
+17
+00:00:28,620 --> 00:00:30,560
+aapki website par order karega,
+
+18
+00:00:30,580 --> 00:00:31,740
+use har order ke liye
+
+19
+00:00:31,760 --> 00:00:34,240
+ek unique dynamic QR code milega.
+
+20
+00:00:34,260 --> 00:00:35,880
+Chahe woh GPay, PhonePe
+
+21
+00:00:35,900 --> 00:00:38,080
+ya Paytm kisi se bhi pay karein.
+
+22
+00:00:38,100 --> 00:00:39,740
+Paisa bina kisi bichauliye ke
+
+23
+00:00:39,760 --> 00:00:41,240
+seedhe aapke bank account mein
+
+24
+00:00:41,260 --> 00:00:43,980
+jaata hai, yaani 0% commission!
+
+25
+00:00:44,000 --> 00:00:44,980
+Aur payment hote hi
+
+26
+00:00:45,000 --> 00:00:46,340
+yeh gateway apne-aap
+
+27
+00:00:46,360 --> 00:00:47,700
+payment verify karke
+
+28
+00:00:47,720 --> 00:00:49,820
+aapki website ko webhook bhej deta hai
+
+29
+00:00:49,840 --> 00:00:51,720
+ki order successful ho gaya.
+
+30
+00:00:51,740 --> 00:00:53,560
+Ismein aapko poora dashboard,
+
+31
+00:00:53,580 --> 00:00:55,320
+API docs aur yahan tak ki
+
+32
+00:00:55,340 --> 00:00:56,800
+multiple UPI accounts
+
+33
+00:00:56,820 --> 00:00:58,600
+rotation ka feature bhi milta hai.
+
+34
+00:00:58,620 --> 00:00:59,860
+Yeh Laravel mein bana hai
+
+35
+00:00:59,880 --> 00:01:00,820
+aur iska setup
+
+36
+00:01:00,840 --> 00:01:02,600
+bas kuch hi commands ka hai.
+
+37
+00:01:02,620 --> 00:01:03,680
+Bas dhyaan rahe,
+
+38
+00:01:03,700 --> 00:01:05,580
+yeh sirf UPI payments ke liye hai
+
+39
+00:01:05,600 --> 00:01:07,360
+aur ise apne legitimate business
+
+40
+00:01:07,380 --> 00:01:08,980
+ke liye hi istemaal karein.
+
+41
+00:01:09,000 --> 00:01:10,240
+Is GitHub repository ka
+
+42
+00:01:10,260 --> 00:01:11,540
+link meri bio mein hai,
+
+43
+00:01:11,560 --> 00:01:13,540
+aur agar aapko seedhe DM mein chahiye,
+
+44
+00:01:13,560 --> 00:01:15,080
+toh neeche comment karo,
+
+45
+00:01:15,100 --> 00:01:16,800
+main aapko direct DM kar dunga.
+
+46
+00:01:16,820 --> 00:01:18,340
+GitHub par jaakar Mayank ke
+
+47
+00:01:18,360 --> 00:01:19,680
+is project ko ek Star
+
+48
+00:01:19,700 --> 00:01:20,780
+zaroor dena, taaki
+
+49
+00:01:20,800 --> 00:01:22,200
+aise Indian developers ko
+
+50
+00:01:22,220 --> 00:01:23,240
+support mile.
+
+51
+00:01:23,260 --> 00:01:24,600
+Aur aise hi kamaal ke
+
+52
+00:01:24,620 --> 00:01:25,820
+open-source tools ke liye,
+
+53
+00:01:25,840 --> 00:01:26,860
+Computer Hub ko
+
+54
+00:01:26,880 --> 00:01:28,650
+abhi Follow kar lo!

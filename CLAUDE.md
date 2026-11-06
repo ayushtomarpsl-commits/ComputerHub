@@ -8,4 +8,5 @@
 - This is a SERIES. Ayush prefers the LIGHT theme (he did not like dark). Background plates are Gemini images in
   `assets/backgrounds/` (current picks: `layers.png`, `doodles.png`). Render with env `THEME=light` (default) and
   `BG=<plate>`; white cards, white caption boxes. Dark theme still works with `THEME=dark`. Details in PROJECT-CONTEXT.
+- Second series "Awesome Repos" (open-source repo promos, credit the developer): files in `output/AwesomeRepos/`.
 - Commands for Ayush: Windows PowerShell 5.1 syntax (no `&&`). Use simple English.
