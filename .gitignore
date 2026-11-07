@@ -9,3 +9,7 @@ __pycache__/
 # temporary preview frames (safe to delete, rebuilt by render.py stills)
 work/qc/
 work/qc_final/
+
+# temporary render frames (rebuilt by the episode scripts)
+work/*_clips/
+work/qc_*/

@@ -196,7 +196,24 @@ Test single frames: `py -I source/render.py stills 5.5 23.5` → `work/qc/`.
   newest on top; undated cards (Instagram, YouTube, WhatsApp, Contact) stay at the bottom. New card = add
   `data-date="YYYY-MM-DDTHH:MM"`. TurtleReels card (Awesome Tools) added 2026-11-07, opens turtlereels.com.
 
+- **TurtleReels promo (Awesome Tools, 2026-11-07):** folder `output/promotions/TurtleReels/` (Ayush's voice in
+  `voice/`, his 1080x1920 sample renders in `clip of sample video/`). HD UI elements in `elements/hd/` (17 files,
+  cut by `source/promo_turtlereels_elements.py`), map of element → script line in `elements/README.md`.
+  CTA in the voice: link in bio + comment "TOOL" for DM.
+- **TurtleReels reel RENDERED (2026-11-07):** `output/promotions/TurtleReels/ComputerHub_AwesomeTools_Day01_TurtleReels.mp4`
+  (73.0 s) + `tool01_captions.srt`. Code: `source/ep_tool01.py` + `source/ep_tool01_timing.py` (K = keyword times).
+  Env `EP=tool01`. Voice `episodes/tool01/voice.mp3` (69.96 s). Real renders play inside phone frames from
+  `work/tool01_clips/c1..c3` (15 fps JPG frames). Header "COMPUTER HUB · AWESOME TOOLS · DAY 1", accent = mint green.
+
+- **Auto DM (2026-11-07):** CreatorFlow free plan (500 DMs/month, 1 IG account; ManyChat free is only 25 contacts/month).
+  Automation "Comments → DM" is LIVE: trigger = NEXT post or reel, any comment; DM text + button "Open TurtleReels"
+  → https://turtlereels.com/; once per person. Public comment replies need CreatorFlow Pro. Manage at
+  app.creatorflow.so/automations (Ayush's Google login). Instagram setting "Allow access to messages" must be ON.
+
 ## Change log (newest first)
+- 2026-11-07: CreatorFlow comment-to-DM automation live for the next reel (TurtleReels link).
+- 2026-11-07: Awesome Tools Day 1 reel (TurtleReels promo) rendered, 73 s.
+- 2026-11-07: TurtleReels promo — HD elements captured (site 2x + logged-in dashboard) and mapped to the script.
 - 2026-11-07: Link page — TurtleReels card + automatic newest-first sorting for links and episodes.
 - 2026-11-07: Link page — "Hire me" card (Instagram DM) + new profile line (5+ yrs, builds for business).
 - 2026-11-06: Awesome Repos Day 1 reel rendered (UPI Gateway, 91.2 s) + post kit + SRT.
