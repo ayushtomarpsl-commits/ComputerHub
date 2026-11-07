@@ -192,7 +192,12 @@ Test single frames: `py -I source/render.py stills 5.5 23.5` → `work/qc/`.
   opens Instagram DM (`https://ig.me/m/computer__hub`); add WhatsApp / email when Ayush gives them.
   Suggested Instagram name field: "Ayush Tomar | AI Developer · SaaS & Apps" (old fancy-font name is not searchable).
 
+- **Link page order is automatic (2026-11-07):** lists with `data-sort="newest"` are sorted by each card's `data-date`,
+  newest on top; undated cards (Instagram, YouTube, WhatsApp, Contact) stay at the bottom. New card = add
+  `data-date="YYYY-MM-DDTHH:MM"`. TurtleReels card (Awesome Tools) added 2026-11-07, opens turtlereels.com.
+
 ## Change log (newest first)
+- 2026-11-07: Link page — TurtleReels card + automatic newest-first sorting for links and episodes.
 - 2026-11-07: Link page — "Hire me" card (Instagram DM) + new profile line (5+ yrs, builds for business).
 - 2026-11-06: Awesome Repos Day 1 reel rendered (UPI Gateway, 91.2 s) + post kit + SRT.
 - 2026-11-06: Link page — Awesome Repos Day 1 card (UPI Gateway → GitHub) added and deployed.

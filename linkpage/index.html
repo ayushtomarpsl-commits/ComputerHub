@@ -202,12 +202,26 @@
   </a>
 
   <!-- ===================== LINKS =====================
+       ORDER IS AUTOMATIC: cards with data-date are sorted newest first by the script at the bottom.
+       New link = copy a card, put today's date in data-date (e.g. 2026-11-08T12:00). No need to move it.
        HOW TO EDIT: replace each PASTE_..._HERE with your real link.
        A link that still says PASTE_ shows as "Coming soon" and cannot be clicked. -->
   <h2>Free guides &amp; tools</h2>
-  <nav class="links" aria-label="Links">
+  <nav class="links" aria-label="Links" data-sort="newest">
 
-    <a class="link featured reveal" href="https://github.com/mynkdev-21/upi-gateway" target="_blank" rel="noopener">
+    <a class="link featured reveal" data-date="2026-11-07T12:00" href="https://turtlereels.com/" target="_blank" rel="noopener">
+      <span class="ico" style="background:#e6f8ee">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#22b04b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="4"/><path d="M10 9.2v5.6l4.8-2.8z" fill="#22b04b"/></svg>
+      </span>
+      <span class="txt">
+        <span class="badge">AWESOME TOOLS · NEW</span>
+        <div class="t">TurtleReels: YouTube Shorts on Autopilot</div>
+        <div class="s">Faceless satisfying Shorts drawn by Python · free trial</div>
+      </span>
+      <span class="arrow" aria-hidden="true">›</span>
+    </a>
+
+    <a class="link featured reveal" data-date="2026-11-06T18:00" href="https://github.com/mynkdev-21/upi-gateway" target="_blank" rel="noopener">
       <span class="ico" style="background:#eef2ff">
         <svg viewBox="0 0 24 24" fill="#4f46e5"><path d="M13.5 2 4 14h6.5L9.5 22 19 10h-6.5z"/></svg>
       </span>
@@ -219,7 +233,7 @@
       <span class="arrow" aria-hidden="true">›</span>
     </a>
 
-    <a class="link featured reveal" href="https://drive.google.com/file/d/1DKXPbauUDKduDolWE5L2HczxlzaaaktO/view?usp=sharing" target="_blank" rel="noopener">
+    <a class="link featured reveal" data-date="2026-11-05T12:00" href="https://drive.google.com/file/d/1DKXPbauUDKduDolWE5L2HczxlzaaaktO/view?usp=sharing" target="_blank" rel="noopener">
       <span class="ico" style="background:#fff3cc">
         <svg viewBox="0 0 24 24" fill="none" stroke="#b07800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h11l5 5v11H4z"/><path d="M15 4v5h5"/><path d="M8 13h8M8 17h5"/></svg>
       </span>
@@ -231,7 +245,7 @@
       <span class="arrow" aria-hidden="true">›</span>
     </a>
 
-    <a class="link featured reveal" href="parking-guide.html">
+    <a class="link featured reveal" data-date="2026-11-06T10:00" href="parking-guide.html">
       <span class="ico" style="background:#e9f1fd">
         <svg viewBox="0 0 24 24" fill="none" stroke="#1e6fe0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M10 16V8h3a2.5 2.5 0 0 1 0 5h-3"/></svg>
       </span>
@@ -243,7 +257,7 @@
       <span class="arrow" aria-hidden="true">›</span>
     </a>
 
-    <a class="link reveal" href="https://gst-helper-t4ug.onrender.com/" target="_blank" rel="noopener">
+    <a class="link reveal" data-date="2026-11-04T12:00" href="https://gst-helper-t4ug.onrender.com/" target="_blank" rel="noopener">
       <span class="ico" style="background:#e8f7ec">
         <svg viewBox="0 0 24 24" fill="none" stroke="#22b04b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18"/><path d="M8 14l2 2 4-4"/></svg>
       </span>
@@ -302,20 +316,20 @@
   <!-- ===================== EPISODES =====================
        Each episode opens the Reels tab. To open one reel directly, paste that reel's link in href. -->
   <h2>Plan B episodes</h2>
-  <div class="eps">
-    <a class="ep reveal" href="https://www.instagram.com/computer__hub/reel/DfXL4qlyoFf/" target="_blank" rel="noopener">
+  <div class="eps" data-sort="newest">
+    <a class="ep reveal" data-date="2026-11-05" href="https://www.instagram.com/computer__hub/reel/DfXL4qlyoFf/" target="_blank" rel="noopener">
       <span class="day" style="background:#ff8c1e"><small>DAY</small><b>4</b></span>
       <span class="txt"><div class="t">Parking app idea</div><div class="s">"BlaBlaCar for Parking" for Indian cities</div></span>
     </a>
-    <a class="ep reveal" href="https://www.instagram.com/computer__hub/reel/DfUim4-yFGO/" target="_blank" rel="noopener">
+    <a class="ep reveal" data-date="2026-11-04" href="https://www.instagram.com/computer__hub/reel/DfUim4-yFGO/" target="_blank" rel="noopener">
       <span class="day"><small>DAY</small><b>3</b></span>
       <span class="txt"><div class="t">GST Micro-SaaS idea</div><div class="s">₹299–₹499/month tool for e-commerce sellers</div></span>
     </a>
-    <a class="ep reveal" href="https://www.instagram.com/computer__hub/reels/" target="_blank" rel="noopener">
+    <a class="ep reveal" data-date="2026-11-03" href="https://www.instagram.com/computer__hub/reels/" target="_blank" rel="noopener">
       <span class="day" style="background:#a05ce2"><small>DAY</small><b>2</b></span>
       <span class="txt"><div class="t">First paying customers</div><div class="s">3-phase distribution plan</div></span>
     </a>
-    <a class="ep reveal" href="https://www.instagram.com/computer__hub/reels/" target="_blank" rel="noopener">
+    <a class="ep reveal" data-date="2026-11-02" href="https://www.instagram.com/computer__hub/reels/" target="_blank" rel="noopener">
       <span class="day" style="background:#22b04b"><small>DAY</small><b>1</b></span>
       <span class="txt"><div class="t">Chrome extension idea</div><div class="s">Build a better alternative with AI</div></span>
     </a>
@@ -340,6 +354,16 @@
       tag.textContent = "COMING SOON";
       (a.querySelector(".txt") || a).appendChild(tag);
     }
+  });
+  // Newest first, always: every list marked data-sort="newest" is sorted by each card's data-date
+  // (newest on top). Cards without a date (Instagram, YouTube, contact…) stay at the bottom in their order.
+  // To add a new link: copy a card anywhere in the list and give it today's data-date ("YYYY-MM-DDTHH:MM").
+  document.querySelectorAll('[data-sort="newest"]').forEach(function (list) {
+    var items = Array.prototype.slice.call(list.children);
+    var dated = items.filter(function (el) { return el.dataset.date; });
+    var undated = items.filter(function (el) { return !el.dataset.date; });
+    dated.sort(function (a, b) { return a.dataset.date < b.dataset.date ? 1 : a.dataset.date > b.dataset.date ? -1 : 0; });
+    dated.concat(undated).forEach(function (el) { list.appendChild(el); });
   });
   // stagger the entrance animation
   document.querySelectorAll(".reveal").forEach(function (el, i) { el.style.animationDelay = (i * 60) + "ms"; });

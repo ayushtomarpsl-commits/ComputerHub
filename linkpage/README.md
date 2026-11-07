@@ -5,6 +5,13 @@ One page with all your links. Put its address in your Instagram bio once; after 
 Files: `index.html` (the page), `logo.png`, `favicon.png`, `bg.jpg` (isometric background), `og.jpg` (preview image
 shown when the link is shared on WhatsApp / X).
 
+## Newest link always on top (automatic)
+
+The "Free guides & tools" list and the "Plan B episodes" list sort themselves, newest first. Each card has a
+`data-date` (for example `data-date="2026-11-08T12:00"`). To add a new link: copy any card, change the text and
+link, and set `data-date` to today. You don't need to move it, because the page puts it on top. Cards without
+`data-date` (Instagram, YouTube, WhatsApp, Contact) always stay at the bottom.
+
 ## 1. Add your links
 
 Open `index.html` in VS Code and search for `PASTE_`. Replace each one:
