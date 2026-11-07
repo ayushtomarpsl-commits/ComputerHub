@@ -187,7 +187,13 @@ Test single frames: `py -I source/render.py stills 5.5 23.5` → `work/qc/`.
 - Link page: "UPI Gateway: Free Razorpay Alternative" card (badge AWESOME REPOS · DAY 1) at the top of the list,
   opens the GitHub repo. Deployed 06-Nov-2026.
 
+- **Positioning (2026-11-07):** Ayush is now a creator with 5+ years in tech who takes client work (websites, apps,
+  AI tools, automation, UPI payments). Client CTA = DM "BUILD". Link page has a blue "Hire me" card at the top that
+  opens Instagram DM (`https://ig.me/m/computer__hub`); add WhatsApp / email when Ayush gives them.
+  Suggested Instagram name field: "Ayush Tomar | AI Developer · SaaS & Apps" (old fancy-font name is not searchable).
+
 ## Change log (newest first)
+- 2026-11-07: Link page — "Hire me" card (Instagram DM) + new profile line (5+ yrs, builds for business).
 - 2026-11-06: Awesome Repos Day 1 reel rendered (UPI Gateway, 91.2 s) + post kit + SRT.
 - 2026-11-06: Link page — Awesome Repos Day 1 card (UPI Gateway → GitHub) added and deployed.
 - 2026-11-06: Started "Awesome Repos" series; Day 1 (UPI Gateway) research, UI elements, script guide.
