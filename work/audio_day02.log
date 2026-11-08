@@ -1,3 +1,0 @@
-voice: -16.8 LUFS, TP -1.4 -> gain +2.8 dB + limiter -> -14.1 LUFS, TP -1.4
-mix: -14.9 LUFS, TP -1.0; voice -14.1 LUFS, music under voice -33.5 LUFS (-19.4 dB vs voice); sfx track -29.1 LUFS
-wrote D:\New folder\ppc-master-prompt\episodes\day02\day02_captions.srt 53 cues

@@ -1,0 +1,14 @@
+[excited] Day five of Building Plan B for Software Engineers. [short pause]
+[curious] क्या आपके साथ भी ऐसा हुआ है? Meeting में senior ने दस points बताए… और development के टाइम पर सबसे ज़रूरी point ही भूल गए? [sighs] फिर review में सुनना पड़ा—"ये तो मैंने बताया था!"
+[excited] आज मैं इसी problem का solution लेकर आया हूँ—और ये सिर्फ़ idea नहीं है, ये tool मैंने खुद बनाया है।
+[thoughtful] आपने Wispr Flow का नाम तो सुना ही होगा। ये आपकी voice को Hindi, English—हर भाषा में—बहुत accurately text में बदल देता है, और लोग इसके लिए हर महीने pay कर रहे हैं। [short pause] लेकिन as a developer, हम इसका इससे भी powerful alternate खुद बना सकते हैं।
+[excited] सोचो एक ऐसा AI assistant, जो आपके laptop के background में चुपचाप चलता रहे—twenty-four into seven autopilot पे। आप meeting में हो, discussion चल रहा हो, या कोई आपको task समझा रहा हो—ये सब सुनता है, और सब कुछ एक साफ़ format में तैयार कर देता है।
+[fast] Topic-wise notes—किससे क्या बात हुई, पूरी conversation की summary, raw transcript, translation, और आपके to-dos—today, tomorrow और पूरे calendar के हिसाब से।
+[happy] मतलब अब कोई भी point miss नहीं होगा।
+[informative] Daily meetings, बदलती requirements, goals, targets—जो भी working professional हर दिन ये सब handle करता है, उसके लिए ये tool game changer है।
+[excited] और सबसे अच्छी बात? मैंने ये पूरा tool Claude की मदद से A to Z बनाया है, और GitHub पर पूरी तरह open source कर दिया है। मैं इसे खुद अपने daily काम में use करता हूँ।
+[informative] पीछे बस आपको एक voice model की API key लगानी है। शुरुआत में Groq जैसी free API से try कर सकते हो—यानी शुरू करने का खर्चा लगभग zero।
+[thoughtful] और यहीं छुपा है आपका Plan B। [short pause] अगर ये tool आपके लिए काम करता है, तो आप non-technical लोगों और छोटी teams को इसका setup करके service बेच सकते हो। आजकल लोग ऐसे AI setups के लिए अच्छे पैसे दे रहे हैं।
+[serious] बस एक बात याद रखना—office में किसी की बातें record करने से पहले उनकी permission और company की policy ज़रूर check करना।
+[friendly] Repo का link चाहिए? कमेंट में लिखो 'VOICE', मैं सीधे आपके DM में भेज दूँगा। Clone करो, use करो, और चाहो तो contribute भी करो।
+[excited] ये था Plan B series का Day 5—लेकिन ये journey यहीं खत्म नहीं होती। ऐसे ही और tools और ideas के लिए, Computer Hub को अभी follow कर लीजिए!

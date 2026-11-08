@@ -1,0 +1,371 @@
+1
+00:00:00,000 --> 00:00:01,340
+Day 5 of building
+
+2
+00:00:01,360 --> 00:00:03,850
+Plan B for Software Engineers.
+
+3
+00:00:03,960 --> 00:00:05,620
+Kya aapke saath bhi aisa hua hai?
+
+4
+00:00:05,640 --> 00:00:06,760
+Meeting mein senior ne
+
+5
+00:00:06,780 --> 00:00:07,780
+das points bataye…
+
+6
+00:00:07,800 --> 00:00:09,380
+aur development ke time par
+
+7
+00:00:09,400 --> 00:00:10,680
+sabse zaroori point
+
+8
+00:00:10,700 --> 00:00:11,940
+hi bhool gaye?
+
+9
+00:00:11,960 --> 00:00:14,000
+Phir review mein sunna pada—
+
+10
+00:00:14,020 --> 00:00:15,740
+"Ye to maine bataya tha!"
+
+11
+00:00:15,760 --> 00:00:17,080
+Aaj main isi problem ka
+
+12
+00:00:17,100 --> 00:00:18,460
+solution lekar aaya hoon—
+
+13
+00:00:18,480 --> 00:00:20,000
+aur ye sirf idea nahi hai,
+
+14
+00:00:20,020 --> 00:00:22,260
+ye tool maine khud banaya hai.
+
+15
+00:00:22,280 --> 00:00:23,960
+Aapne Wispr Flow ka
+
+16
+00:00:23,980 --> 00:00:25,200
+naam to suna hi hoga.
+
+17
+00:00:25,220 --> 00:00:26,360
+Ye aapki voice ko
+
+18
+00:00:26,380 --> 00:00:28,360
+Hindi, English— har bhasha mein—
+
+19
+00:00:28,380 --> 00:00:30,180
+bahut accurately text mein
+
+20
+00:00:30,200 --> 00:00:30,860
+badal deta hai,
+
+21
+00:00:30,880 --> 00:00:32,060
+aur log iske liye
+
+22
+00:00:32,080 --> 00:00:34,060
+har mahine pay kar rahe hain.
+
+23
+00:00:34,080 --> 00:00:35,100
+Lekin as a developer,
+
+24
+00:00:35,120 --> 00:00:37,440
+hum iska isse bhi powerful alternate
+
+25
+00:00:37,460 --> 00:00:38,880
+khud bana sakte hain.
+
+26
+00:00:38,900 --> 00:00:40,660
+Socho ek aisa AI assistant,
+
+27
+00:00:40,680 --> 00:00:42,680
+jo aapke laptop ke background mein
+
+28
+00:00:42,700 --> 00:00:44,160
+chupchaap chalta rahe—
+
+29
+00:00:44,180 --> 00:00:46,800
+24x7 autopilot pe.
+
+30
+00:00:46,820 --> 00:00:47,900
+Aap meeting mein ho,
+
+31
+00:00:47,920 --> 00:00:48,820
+discussion chal raha ho,
+
+32
+00:00:48,840 --> 00:00:51,100
+ya koi aapko task samjha raha ho—
+
+33
+00:00:51,120 --> 00:00:52,100
+ye sab sunta hai,
+
+34
+00:00:52,120 --> 00:00:54,500
+aur sab kuch ek saaf format mein
+
+35
+00:00:54,520 --> 00:00:55,760
+taiyaar kar deta hai.
+
+36
+00:00:55,780 --> 00:00:57,060
+Topic-wise notes—
+
+37
+00:00:57,080 --> 00:00:58,280
+kisse kya baat hui,
+
+38
+00:00:58,300 --> 00:00:59,620
+poori conversation ki summary,
+
+39
+00:00:59,640 --> 00:01:01,580
+raw transcript, translation,
+
+40
+00:01:01,600 --> 00:01:02,660
+aur aapke to-dos—
+
+41
+00:01:02,680 --> 00:01:04,260
+today, tomorrow aur
+
+42
+00:01:04,280 --> 00:01:06,100
+poore calendar ke hisaab se.
+
+43
+00:01:06,120 --> 00:01:07,680
+Matlab ab koi bhi point
+
+44
+00:01:07,700 --> 00:01:08,880
+miss nahi hoga.
+
+45
+00:01:08,900 --> 00:01:10,080
+Daily meetings,
+
+46
+00:01:10,100 --> 00:01:11,260
+badalti requirements,
+
+47
+00:01:11,280 --> 00:01:12,580
+goals, targets—
+
+48
+00:01:12,600 --> 00:01:13,980
+jo bhi working professional
+
+49
+00:01:14,000 --> 00:01:15,660
+har din ye sab handle karta hai,
+
+50
+00:01:15,680 --> 00:01:16,640
+uske liye ye tool
+
+51
+00:01:16,660 --> 00:01:18,040
+game changer hai.
+
+52
+00:01:18,060 --> 00:01:19,300
+Aur sabse achhi baat?
+
+53
+00:01:19,320 --> 00:01:20,380
+Maine ye poora tool
+
+54
+00:01:20,400 --> 00:01:21,500
+Claude ki madad se
+
+55
+00:01:21,520 --> 00:01:22,700
+A to Z banaya hai,
+
+56
+00:01:22,720 --> 00:01:24,300
+aur GitHub par poori tarah
+
+57
+00:01:24,320 --> 00:01:25,820
+open source kar diya hai.
+
+58
+00:01:25,840 --> 00:01:27,120
+Main ise khud apne daily kaam
+
+59
+00:01:27,140 --> 00:01:28,240
+mein use karta hoon.
+
+60
+00:01:28,260 --> 00:01:30,060
+Peeche bas aapko ek voice model ki
+
+61
+00:01:30,080 --> 00:01:31,740
+API key lagani hai.
+
+62
+00:01:31,760 --> 00:01:33,660
+Shuruaat mein Groq jaisi free API
+
+63
+00:01:33,680 --> 00:01:34,920
+se try kar sakte ho—
+
+64
+00:01:34,940 --> 00:01:36,500
+yaani shuru karne ka kharcha
+
+65
+00:01:36,520 --> 00:01:37,240
+lagbhag zero.
+
+66
+00:01:37,260 --> 00:01:38,840
+Aur yahin chhupa hai
+
+67
+00:01:38,860 --> 00:01:40,480
+aapka Plan B.
+
+68
+00:01:40,500 --> 00:01:41,640
+Agar ye tool aapke liye
+
+69
+00:01:41,660 --> 00:01:42,380
+kaam karta hai,
+
+70
+00:01:42,400 --> 00:01:43,940
+toh aap non-technical logon
+
+71
+00:01:43,960 --> 00:01:45,160
+aur chhoti teams ko
+
+72
+00:01:45,180 --> 00:01:46,140
+iska setup karke
+
+73
+00:01:46,160 --> 00:01:47,520
+service bech sakte ho.
+
+74
+00:01:47,540 --> 00:01:49,100
+Aajkal log aise AI setups
+
+75
+00:01:49,120 --> 00:01:51,000
+ke liye achhe paise de rahe hain.
+
+76
+00:01:51,020 --> 00:01:52,560
+Bas ek baat yaad rakhna—
+
+77
+00:01:52,580 --> 00:01:53,800
+office mein kisi ki baatein
+
+78
+00:01:53,820 --> 00:01:55,100
+record karne se pehle
+
+79
+00:01:55,120 --> 00:01:56,360
+unki permission aur
+
+80
+00:01:56,380 --> 00:01:57,440
+company ki policy
+
+81
+00:01:57,460 --> 00:01:58,340
+zaroor check karna.
+
+82
+00:01:58,360 --> 00:02:00,120
+Repo ka link chahiye?
+
+83
+00:02:00,140 --> 00:02:01,640
+Comment mein likho ‘VOICE’,
+
+84
+00:02:01,660 --> 00:02:03,520
+main seedhe aapke DM mein bhej dunga.
+
+85
+00:02:03,540 --> 00:02:05,040
+Clone karo, use karo,
+
+86
+00:02:05,060 --> 00:02:07,260
+aur chaho toh contribute bhi karo.
+
+87
+00:02:07,280 --> 00:02:08,800
+Ye tha Plan B series ka
+
+88
+00:02:08,820 --> 00:02:09,980
+Day 5—
+
+89
+00:02:10,000 --> 00:02:11,120
+lekin ye journey yahin
+
+90
+00:02:11,140 --> 00:02:12,180
+khatam nahi hoti.
+
+91
+00:02:12,200 --> 00:02:14,100
+Aise hi aur tools aur ideas ke liye,
+
+92
+00:02:14,120 --> 00:02:15,060
+Computer Hub ko
+
+93
+00:02:15,080 --> 00:02:16,950
+abhi Follow kar lijiye!
