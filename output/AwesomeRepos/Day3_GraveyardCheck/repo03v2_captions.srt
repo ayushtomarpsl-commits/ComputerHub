@@ -1,0 +1,199 @@
+1
+00:00:02,500 --> 00:00:04,780
+90% software engineers ko lagta hai
+
+2
+00:00:04,800 --> 00:00:07,040
+ki unka project bilkul safe hai —
+
+3
+00:00:07,060 --> 00:00:08,380
+lekin asliyat yeh hai ki
+
+4
+00:00:08,400 --> 00:00:09,860
+aapke code mein kam se kam
+
+5
+00:00:09,880 --> 00:00:11,600
+4 aisi libraries chal rahi hain
+
+6
+00:00:11,620 --> 00:00:13,160
+jo andar se poori tarah
+
+7
+00:00:13,180 --> 00:00:14,380
+‘mar’ chuki hain!
+
+8
+00:00:14,400 --> 00:00:16,120
+Jab aap npm install karte hain
+
+9
+00:00:16,140 --> 00:00:18,060
+aur woh peeli warnings aati hain,
+
+10
+00:00:18,080 --> 00:00:19,960
+toh aap bhi unhe ignore kar dete hain,
+
+11
+00:00:19,980 --> 00:00:20,840
+right?
+
+12
+00:00:20,860 --> 00:00:22,380
+Sabse bada khatra yeh hai ki
+
+13
+00:00:22,400 --> 00:00:24,880
+jo library saalon se laawaris padi hai,
+
+14
+00:00:24,900 --> 00:00:26,900
+uska kabhi koi security update
+
+15
+00:00:26,920 --> 00:00:27,460
+nahi aayega.
+
+16
+00:00:27,480 --> 00:00:30,000
+Hackers inhi dead libraries ke zariye
+
+17
+00:00:30,020 --> 00:00:32,160
+companies ke server hack karte hain —
+
+18
+00:00:32,180 --> 00:00:33,720
+aur aapka regular scanner bolega
+
+19
+00:00:33,740 --> 00:00:35,960
+“All green, no issue!”
+
+20
+00:00:35,980 --> 00:00:38,140
+Isi problem ko jad se khatm karne ke liye
+
+21
+00:00:38,160 --> 00:00:40,400
+ek Indian developer, Taha Kotwal ne
+
+22
+00:00:40,420 --> 00:00:42,580
+banaya hai — Graveyard Check.
+
+23
+00:00:42,600 --> 00:00:45,120
+Bas apne terminal mein ek single command chalao —
+
+24
+00:00:45,140 --> 00:00:47,300
+aur yeh 3 second mein aapki poori
+
+25
+00:00:47,320 --> 00:00:49,680
+npm ya Python dependency scan karke
+
+26
+00:00:49,700 --> 00:00:51,580
+bata dega ki kaun sa package
+
+27
+00:00:51,600 --> 00:00:53,520
+4 saal se band pada hai!
+
+28
+00:00:53,540 --> 00:00:55,800
+Aur sabse bada ‘jaadoo’ kya hai pata hai?
+
+29
+00:00:55,820 --> 00:00:57,460
+Yeh sirf bimaari nahi batata —
+
+30
+00:00:57,480 --> 00:00:59,140
+dawa bhi deta hai!
+
+31
+00:00:59,160 --> 00:01:01,060
+Agar aapka request package dead hai,
+
+32
+00:01:01,080 --> 00:01:02,440
+toh yeh khud bolega —
+
+33
+00:01:02,460 --> 00:01:03,460
+“bhai, ise hatao
+
+34
+00:01:03,480 --> 00:01:06,220
+aur iski jagah axios ya got lagao!”
+
+35
+00:01:06,240 --> 00:01:08,000
+Aap iska GitHub Action laga do,
+
+36
+00:01:08,020 --> 00:01:09,900
+toh yeh production mein jaane se pehle hi
+
+37
+00:01:09,920 --> 00:01:12,000
+dead code ki dhajjiyaan uda dega.
+
+38
+00:01:12,020 --> 00:01:14,560
+100% free aur open-source hai,
+
+39
+00:01:14,580 --> 00:01:16,020
+bina kisi signup ke.
+
+40
+00:01:16,040 --> 00:01:17,460
+Agar aapko is tool ka direct
+
+41
+00:01:17,480 --> 00:01:19,580
+GitHub link aur setup guide chahiye,
+
+42
+00:01:19,600 --> 00:01:21,380
+toh comment mein likho “DEAD”
+
+43
+00:01:21,400 --> 00:01:23,580
+link seedhe aapke DM mein aa jayega.
+
+44
+00:01:23,600 --> 00:01:25,660
+GitHub pe jaakar Taha ke is project ko
+
+45
+00:01:25,680 --> 00:01:27,460
+ek Star zaroor dena,
+
+46
+00:01:27,480 --> 00:01:29,580
+taaki aise Indian open-source developers ko
+
+47
+00:01:29,600 --> 00:01:30,280
+support mile.
+
+48
+00:01:30,300 --> 00:01:32,880
+Aur aise hi hidden developer tools ke liye —
+
+49
+00:01:32,900 --> 00:01:33,900
+Computer Hub ko
+
+50
+00:01:33,920 --> 00:01:35,600
+abhi Follow kar lo!

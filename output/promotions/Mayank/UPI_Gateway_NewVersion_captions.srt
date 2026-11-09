@@ -1,0 +1,183 @@
+1
+00:00:00,000 --> 00:00:02,940
+Hi, main hoon Mayank — ek developer.
+
+2
+00:00:02,960 --> 00:00:05,540
+Aapne shaayad mera UPI Gateway dekha hoga.
+
+3
+00:00:05,560 --> 00:00:06,720
+UPI payments ke liye
+
+4
+00:00:06,740 --> 00:00:08,000
+Razorpay ka free aur
+
+5
+00:00:08,020 --> 00:00:09,560
+open-source alternative.
+
+6
+00:00:09,580 --> 00:00:10,600
+Sirf kuch hi dinon mein
+
+7
+00:00:10,620 --> 00:00:12,580
+GitHub par ise 100 se zyaada stars
+
+8
+00:00:12,600 --> 00:00:13,520
+mil chuke hain aur
+
+9
+00:00:13,540 --> 00:00:14,580
+bahut saare log ise
+
+10
+00:00:14,600 --> 00:00:15,360
+apne business ke liye
+
+11
+00:00:15,380 --> 00:00:17,040
+setup bhi kar chuke hain.
+
+12
+00:00:17,060 --> 00:00:18,700
+Lekin aap mein se kaafi logon ke
+
+13
+00:00:18,720 --> 00:00:20,700
+security ko lekar sawaal the.
+
+14
+00:00:20,720 --> 00:00:22,000
+Isliye maine ek naya version
+
+15
+00:00:22,020 --> 00:00:23,520
+GitHub par push kiya hai —
+
+16
+00:00:23,540 --> 00:00:25,560
+saare security patches ke saath.
+
+17
+00:00:25,580 --> 00:00:27,680
+Live aur Sandbox ke alag keys,
+
+18
+00:00:27,700 --> 00:00:29,480
+har webhook par time-limited signature,
+
+19
+00:00:29,500 --> 00:00:31,000
+encrypted secrets, aur
+
+20
+00:00:31,020 --> 00:00:32,320
+installation poora hote hi
+
+21
+00:00:32,340 --> 00:00:34,280
+installer khud lock ho jaata hai.
+
+22
+00:00:34,300 --> 00:00:35,240
+Yaani ab aap ise
+
+23
+00:00:35,260 --> 00:00:37,240
+bina chinta ke use kar sakte ho.
+
+24
+00:00:37,260 --> 00:00:38,480
+Aur sabse bada update?
+
+25
+00:00:38,500 --> 00:00:40,660
+Installation ab bilkul simple hai!
+
+26
+00:00:40,680 --> 00:00:42,380
+Bas production ZIP download karo,
+
+27
+00:00:42,400 --> 00:00:44,100
+apni website par /install kholo
+
+28
+00:00:44,120 --> 00:00:46,120
+aur installation wizard follow karo.
+
+29
+00:00:46,140 --> 00:00:47,860
+Requirements check — Next.
+
+30
+00:00:47,880 --> 00:00:49,900
+Database ki details daalo — Next.
+
+31
+00:00:49,920 --> 00:00:51,440
+Tables apne-aap ban jaayengi —
+
+32
+00:00:51,460 --> 00:00:53,040
+Next. Admin login banao
+
+33
+00:00:53,060 --> 00:00:54,540
+aur setup done!
+
+34
+00:00:54,560 --> 00:00:56,180
+Na SSH, na coding —
+
+35
+00:00:56,200 --> 00:00:57,640
+koi bhi non-technical person
+
+36
+00:00:57,660 --> 00:00:59,280
+ise khud setup kar sakta hai.
+
+37
+00:00:59,300 --> 00:01:00,360
+Aur kahin atak gaye,
+
+38
+00:01:00,380 --> 00:01:02,320
+toh free installation support bhi hai.
+
+39
+00:01:02,340 --> 00:01:03,440
+Bas ek baat —
+
+40
+00:01:03,460 --> 00:01:04,880
+live payments lene se pehle
+
+41
+00:01:04,900 --> 00:01:06,820
+ek test payment zaroor kar lena.
+
+42
+00:01:06,840 --> 00:01:08,280
+Repo ka link chahiye?
+
+43
+00:01:08,300 --> 00:01:09,540
+Neeche kuch bhi comment karo,
+
+44
+00:01:09,560 --> 00:01:11,500
+main seedhe aapke DM mein bhej dunga.
+
+45
+00:01:11,520 --> 00:01:13,380
+Aur aise hi open-source tools ke liye
+
+46
+00:01:13,400 --> 00:01:15,650
+mujhe Follow karna mat bhoolna!
