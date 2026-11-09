@@ -1,0 +1,235 @@
+1
+00:00:03,200 --> 00:00:05,260
+Aapka project ek zombie library
+
+2
+00:00:05,280 --> 00:00:06,000
+par chal raha hai…
+
+3
+00:00:06,020 --> 00:00:08,220
+aur Dependabot aapko
+
+4
+00:00:08,240 --> 00:00:09,760
+yeh kabhi nahi bataega.
+
+5
+00:00:09,780 --> 00:00:11,160
+npm install karte hi
+
+6
+00:00:11,180 --> 00:00:13,400
+yeh peele-peele deprecated warnings
+
+7
+00:00:13,420 --> 00:00:14,380
+dikhte hain?
+
+8
+00:00:14,400 --> 00:00:15,860
+Ya Python update karte hi
+
+9
+00:00:15,880 --> 00:00:18,150
+tests crash ho jaate hain?
+
+10
+00:00:18,340 --> 00:00:20,060
+Hum sab inhe ignore kar dete hain.
+
+11
+00:00:20,080 --> 00:00:21,840
+Lekin problem yeh hai —
+
+12
+00:00:21,860 --> 00:00:24,240
+jo library abandoned ho chuki hai,
+
+13
+00:00:24,260 --> 00:00:25,560
+uska kabhi naya version
+
+14
+00:00:25,580 --> 00:00:26,700
+aayega hi nahi.
+
+15
+00:00:26,720 --> 00:00:28,740
+Matlab koi security fix bhi nahi.
+
+16
+00:00:28,760 --> 00:00:30,640
+Scanner bolega “all up to date”…
+
+17
+00:00:30,660 --> 00:00:32,180
+aur aapka project
+
+18
+00:00:32,200 --> 00:00:34,200
+andar se khokhla hota rahega.
+
+19
+00:00:34,220 --> 00:00:35,860
+Welcome to Awesome Repos,
+
+20
+00:00:35,880 --> 00:00:37,720
+Day 3 — Graveyard Check,
+
+21
+00:00:37,740 --> 00:00:39,320
+by Taha Kotwal.
+
+22
+00:00:39,340 --> 00:00:40,720
+Bas ek command chalao —
+
+23
+00:00:40,740 --> 00:00:41,900
+graveyard-check scan
+
+24
+00:00:41,920 --> 00:00:43,300
+aur yeh aapki poori
+
+25
+00:00:43,320 --> 00:00:44,880
+dependency list check kar leta hai.
+
+26
+00:00:44,900 --> 00:00:47,260
+npm, pnpm, yarn…
+
+27
+00:00:47,280 --> 00:00:48,520
+aur Python bhi.
+
+28
+00:00:48,540 --> 00:00:50,720
+Har package ko ek verdict milta hai —
+
+29
+00:00:50,740 --> 00:00:52,180
+maintained, at-risk, ya
+
+30
+00:00:52,200 --> 00:00:53,080
+likely-abandoned
+
+31
+00:00:53,100 --> 00:00:54,440
+aur saath mein proof:
+
+32
+00:00:54,460 --> 00:00:56,580
+“No release in 4 years.”
+
+33
+00:00:56,600 --> 00:00:57,700
+Aur sabse kamaal ki baat?
+
+34
+00:00:57,720 --> 00:00:59,520
+Yeh sirf problem nahi batata —
+
+35
+00:00:59,540 --> 00:01:01,040
+replacement bhi batata hai.
+
+36
+00:01:01,060 --> 00:01:02,260
+request dead hai?
+
+37
+00:01:02,280 --> 00:01:04,040
+got ya axios use karo.
+
+38
+00:01:04,060 --> 00:01:05,060
+pycrypto dead hai?
+
+39
+00:01:05,080 --> 00:01:06,320
+pycryptodome lagao.
+
+40
+00:01:06,340 --> 00:01:07,680
+GitHub Action laga do,
+
+41
+00:01:07,700 --> 00:01:09,620
+toh yeh har hafte khud check karega,
+
+42
+00:01:09,640 --> 00:01:11,260
+aur koi dead dependency mili
+
+43
+00:01:11,280 --> 00:01:12,980
+toh build wahin fail kar dega —
+
+44
+00:01:13,000 --> 00:01:14,880
+production tak pahunchne se pehle.
+
+45
+00:01:14,900 --> 00:01:17,660
+Na signup, na server, na tracking.
+
+46
+00:01:17,680 --> 00:01:18,680
+MIT licensed,
+
+47
+00:01:18,700 --> 00:01:20,400
+poori tarah open source.
+
+48
+00:01:20,420 --> 00:01:22,280
+Aur website pe bina install kiye bhi
+
+49
+00:01:22,300 --> 00:01:23,260
+try kar sakte ho.
+
+50
+00:01:23,280 --> 00:01:24,360
+Repo ka link chahiye?
+
+51
+00:01:24,380 --> 00:01:25,840
+Comment mein likho “DEAD”
+
+52
+00:01:25,860 --> 00:01:27,840
+link seedhe aapke DM mein aa jayega.
+
+53
+00:01:27,860 --> 00:01:29,520
+Aur GitHub pe Taha ko
+
+54
+00:01:29,540 --> 00:01:31,100
+ek Star zaroor dena.
+
+55
+00:01:31,120 --> 00:01:32,920
+Aise open-source Indian developers ko
+
+56
+00:01:32,940 --> 00:01:34,300
+support milna chahiye.
+
+57
+00:01:34,320 --> 00:01:36,000
+Aise hi aur awesome repos ke liye —
+
+58
+00:01:36,020 --> 00:01:37,020
+Computer Hub ko
+
+59
+00:01:37,040 --> 00:01:38,650
+abhi Follow kar lo!

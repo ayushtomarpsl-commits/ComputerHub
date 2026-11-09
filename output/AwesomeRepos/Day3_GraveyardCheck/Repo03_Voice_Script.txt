@@ -1,0 +1,11 @@
+[serious] आपका project एक zombie library पे चल रहा है… [short pause] और Dependabot आपको ये कभी नहीं बताएगा।
+[curious] npm install करते ही ये पीले-पीले "deprecated" warnings दिखते हैं? या Python update करते ही tests crash हो जाते हैं? [sighs] हम सब इन्हें ignore कर देते हैं।
+[thoughtful] लेकिन problem ये है—जो library abandoned हो चुकी है, उसका कभी नया version आएगा ही नहीं। मतलब कोई security fix भी नहीं। [short pause] Scanner बोलेगा "all up to date"… और आपका project अंदर से खोखला होता रहेगा।
+[excited] Welcome to Awesome Repos, Day Three—Graveyard Check, by Taha Kotwal.
+[informative] बस एक command चलाओ—graveyard-check scan—और ये आपकी पूरी dependency list check कर लेता है। npm, pnpm, yarn… और Python भी।
+[fast] हर package को एक verdict मिलता है—maintained, at-risk, या likely-abandoned—और साथ में proof: "No release in four years."
+[happy] और सबसे कमाल की बात? ये सिर्फ़ problem नहीं बताता—replacement भी बताता है। request dead है? got या axios use करो। pycrypto dead है? pycryptodome लगाओ।
+[informative] GitHub Action लगा दो, तो ये हर हफ़्ते खुद check करेगा, और कोई dead dependency मिली तो build वहीं fail कर देगा—production तक पहुँचने से पहले।
+[thoughtful] ना signup, ना server, ना tracking—MIT licensed, पूरी तरह open source। और website पे बिना install किए भी try कर सकते हो।
+[friendly] Repo का link चाहिए? Comment में लिखो "DEAD"—link सीधे आपके DM में आ जाएगा। [encouraging] और GitHub पे Taha को एक star ज़रूर देना, ऐसे open source Indian developers को support मिलना चाहिए।
+[excited] ऐसे ही और awesome repos के लिए—Computer Hub को अभी follow कर लो!

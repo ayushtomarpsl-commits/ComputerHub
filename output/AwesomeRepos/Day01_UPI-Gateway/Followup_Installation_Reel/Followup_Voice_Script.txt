@@ -1,0 +1,9 @@
+[friendly] Hi, मैं हूँ Mayank—एक developer. [short pause] आपने शायद मेरा UPI Gateway देखा होगा—UPI payments के लिए Razorpay का free और open-source alternative. [excited] सिर्फ़ कुछ ही दिनों में GitHub पर इसे सौ से ज़्यादा stars मिल चुके हैं, और बहुत सारे लोग इसे अपने business के लिए setup भी कर चुके हैं।
+
+[thoughtful] लेकिन आप में से काफ़ी लोगों के security को लेकर सवाल थे। [serious] इसलिए मैंने एक नया version GitHub पर push किया है—सारे security patches के साथ। [informative] Live और Sandbox के अलग keys, हर webhook पर time-limited signature, encrypted secrets, और installation पूरा होते ही installer खुद lock हो जाता है। [confident] यानी अब आप इसे बिना चिंता के use कर सकते हो।
+
+[excited] और सबसे बड़ा update? Installation अब बिल्कुल simple है! [informative] बस production ZIP download करो, अपनी website पर slash install खोलो, और installation wizard follow करो। [fast] Requirements check—Next. Database की details डालो—Next. Tables अपने-आप बन जाएँगी—Next. Admin login बनाओ—और setup done! [happy] ना SSH, ना coding—कोई भी non-technical person इसे खुद setup कर सकता है। और कहीं अटक गए, तो free installation support भी है।
+
+[serious] बस एक बात—live payments लेने से पहले एक test payment ज़रूर कर लेना।
+
+[friendly] Repo का link चाहिए? नीचे कुछ भी comment करो, मैं सीधे आपके DM में भेज दूँगा। [excited] और ऐसे ही open-source tools के लिए मुझे follow करना मत भूलना!
