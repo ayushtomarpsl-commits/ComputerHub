@@ -1,0 +1,28 @@
+All Movie Land — UX showcase reel — voice-over script (safe version)
+Made to fit the current video (60.5 s). Each line sits on its scene, so the voice and the on-screen text match.
+Generate it in ElevenLabs with the same voice (Bunty). Read at a calm-to-energetic pace, small pause between lines.
+Then give me the MP3 and I will sync it, fix caption timings and mix it under the music.
+
+[0 - 6 s]   Logo intro
+Movie dekhne ka ek naya, simple tareeka. Milo All Movie Land se — ek app concept demo.
+
+[6 - 14 s]  Home screen
+Clean, dark home screen. Trending rows, bas ek tap door.
+
+[14 - 22 s] Language picker
+Apni bhasha chuno — Hindi, Tamil, Telugu, aur bhi bahut kuch.
+
+[22 - 30 s] Movie detail page
+Movie details, ek nazar mein. Full HD aur multi-audio, sab saaf dikhta hai.
+
+[30 - 38 s] Player
+Smooth playback. HD quality, subtitles ready.
+
+[38 - 46 s] Downloads
+Download karo, aur offline dekho — safar mein bhi.
+
+[46 - 52 s] Feature recap
+Har bhasha. Full HD. Offline.
+
+[52 - 60 s] Outro
+All Movie Land — ek UX concept demo. Designed by Computer Hub.

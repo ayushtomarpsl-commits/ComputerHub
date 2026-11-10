@@ -1,0 +1,339 @@
+1
+00:00:00,000 --> 00:00:02,100
+Yeh poori website dekho,
+
+2
+00:00:02,120 --> 00:00:04,160
+developer bolta do hafte,
+
+3
+00:00:04,180 --> 00:00:06,900
+agency bolti pachaas hazaar.
+
+4
+00:00:06,920 --> 00:00:08,380
+Maine banai teen minute
+
+5
+00:00:08,400 --> 00:00:09,200
+se bhi kam mein,
+
+6
+00:00:09,220 --> 00:00:10,380
+bina ek bhi line
+
+7
+00:00:10,400 --> 00:00:11,340
+code likhe.
+
+8
+00:00:11,360 --> 00:00:13,000
+Kaise? Abhi live dikhata
+
+9
+00:00:13,020 --> 00:00:14,080
+hoon aur end mein
+
+10
+00:00:14,100 --> 00:00:15,660
+iski keemat bataunga,
+
+11
+00:00:15,680 --> 00:00:16,800
+yakeen nahin hoga.
+
+12
+00:00:16,820 --> 00:00:18,300
+Welcome to Awesome Tools
+
+13
+00:00:18,320 --> 00:00:19,480
+Day 2.
+
+14
+00:00:19,500 --> 00:00:20,360
+Aaj ka tool hai
+
+15
+00:00:20,380 --> 00:00:22,220
+MilesWeb AI Builder.
+
+16
+00:00:22,240 --> 00:00:23,740
+MilesWeb dashboard mein AI
+
+17
+00:00:23,760 --> 00:00:24,980
+Builder khola aur bas
+
+18
+00:00:25,000 --> 00:00:25,660
+itna likha.
+
+19
+00:00:25,680 --> 00:00:27,540
+Gurugram mein Chai Adda
+
+20
+00:00:27,560 --> 00:00:29,520
+Café ki modern website.
+
+21
+00:00:29,540 --> 00:00:31,460
+Menu, aaj ke offers,
+
+22
+00:00:31,480 --> 00:00:33,000
+gallery, reviews,
+
+23
+00:00:33,020 --> 00:00:34,440
+map aur WhatsApp booking
+
+24
+00:00:34,460 --> 00:00:35,620
+button ke saath.
+
+25
+00:00:35,640 --> 00:00:36,660
+Phir AI ne ek
+
+26
+00:00:36,680 --> 00:00:38,200
+dost ki tarah baat ki.
+
+27
+00:00:38,220 --> 00:00:39,080
+Ek do savaal poochhe
+
+28
+00:00:39,100 --> 00:00:40,820
+aur poora plan banakar
+
+29
+00:00:40,840 --> 00:00:42,000
+saamne rakh diya.
+
+30
+00:00:42,020 --> 00:00:43,980
+Maine bas approve dabaya.
+
+31
+00:00:44,000 --> 00:00:45,020
+Aur ab dekho,
+
+32
+00:00:45,040 --> 00:00:46,200
+AI khud design kar
+
+33
+00:00:46,220 --> 00:00:46,860
+raha hai.
+
+34
+00:00:46,880 --> 00:00:48,280
+Layout, content,
+
+35
+00:00:48,300 --> 00:00:49,600
+images, buttons,
+
+36
+00:00:49,620 --> 00:00:50,540
+sab kuch.
+
+37
+00:00:50,560 --> 00:00:52,020
+Aur wait karte karte
+
+38
+00:00:52,040 --> 00:00:52,740
+aap game bhi khel
+
+39
+00:00:52,760 --> 00:00:53,560
+sakte ho.
+
+40
+00:00:53,580 --> 00:00:54,840
+Aur yeh raha result.
+
+41
+00:00:54,860 --> 00:00:56,340
+Hero section,
+
+42
+00:00:56,360 --> 00:00:58,100
+prices ke saath poora menu,
+
+43
+00:00:58,120 --> 00:00:59,180
+today‘s offers,
+
+44
+00:00:59,200 --> 00:01:00,940
+gallery, customer reviews,
+
+45
+00:01:00,960 --> 00:01:02,140
+table booking form aur
+
+46
+00:01:02,160 --> 00:01:04,100
+Google map bilkul ready.
+
+47
+00:01:04,120 --> 00:01:05,080
+Kuch badlana hai?
+
+48
+00:01:05,100 --> 00:01:06,100
+Chat mein bol do.
+
+49
+00:01:06,120 --> 00:01:07,940
+AI website update kar dega.
+
+50
+00:01:07,960 --> 00:01:08,660
+Na coding,
+
+51
+00:01:08,680 --> 00:01:09,780
+na designer.
+
+52
+00:01:09,800 --> 00:01:11,100
+Ab woh keemat jo
+
+53
+00:01:11,120 --> 00:01:12,740
+maine promise ki thi.
+
+54
+00:01:12,760 --> 00:01:14,020
+AI Builder MilesWeb ke
+
+55
+00:01:14,040 --> 00:01:15,160
+hosting plans ke saath
+
+56
+00:01:15,180 --> 00:01:15,860
+aata hai,
+
+57
+00:01:15,880 --> 00:01:17,440
+AI credits included.
+
+58
+00:01:17,460 --> 00:01:18,360
+Aur plans shuru hote
+
+59
+00:01:18,380 --> 00:01:19,680
+hain sirf 69 rupaye
+
+60
+00:01:19,700 --> 00:01:20,720
+mahine se.
+
+61
+00:01:20,740 --> 00:01:21,680
+Saath mein 30 din
+
+62
+00:01:21,700 --> 00:01:22,820
+ki money-back guarantee.
+
+63
+00:01:22,840 --> 00:01:23,800
+Café ho,
+
+64
+00:01:23,820 --> 00:01:24,840
+dukaan ho,
+
+65
+00:01:24,860 --> 00:01:26,240
+Freelancer ho ya aapki
+
+66
+00:01:26,260 --> 00:01:27,480
+pehli website.
+
+67
+00:01:27,500 --> 00:01:28,600
+Ab developer ke peeche
+
+68
+00:01:28,620 --> 00:01:29,920
+hafton mat ghoomna.
+
+69
+00:01:29,940 --> 00:01:30,960
+To link chahiye?
+
+70
+00:01:30,980 --> 00:01:32,880
+Abhi neeche comment karo "WEBSITE".
+
+71
+00:01:32,900 --> 00:01:34,220
+Link seedhe aapke DM
+
+72
+00:01:34,240 --> 00:01:35,320
+mein pahunch jayega.
+
+73
+00:01:35,340 --> 00:01:36,200
+Link bio mein bhi
+
+74
+00:01:36,220 --> 00:01:37,440
+hai aur comment mein
+
+75
+00:01:37,460 --> 00:01:38,480
+yeh bhi batana.
+
+76
+00:01:38,500 --> 00:01:39,440
+Aap kis business ki
+
+77
+00:01:39,460 --> 00:01:40,480
+website banaoge?
+
+78
+00:01:40,500 --> 00:01:41,420
+Is reel ko save
+
+79
+00:01:41,440 --> 00:01:42,140
+kar lo.
+
+80
+00:01:42,160 --> 00:01:43,360
+Apni website banaate waqt
+
+81
+00:01:43,380 --> 00:01:44,820
+yahi kaam aayegi aur
+
+82
+00:01:44,840 --> 00:01:45,940
+aise hi kamaal ke
+
+83
+00:01:45,960 --> 00:01:46,880
+AI tools ke liye
+
+84
+00:01:46,900 --> 00:01:48,160
+Computer Hub ko abhi
+
+85
+00:01:48,180 --> 00:01:49,390
+follow karo.

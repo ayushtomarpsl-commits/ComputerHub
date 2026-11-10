@@ -1,0 +1,30 @@
+All Movie Land — UX showcase reel (concept demo)
+No voice-over: music + sound effects + on-screen kinetic captions.
+Length: 60.5 s, 1080x1920, 30 fps. All screens, posters and titles are original prototype art (made-up movies).
+
+On-screen captions (time in seconds):
+00.60-03.30  Meet All Movie Land
+03.40-05.90  App concept demo
+06.30-09.20  Clean, dark home screen
+09.40-13.90  Trending rows — one tap away
+14.30-17.40  Apni bhasha chuno
+17.50-21.90  Hindi Tamil Telugu aur bhi
+22.30-25.80  Movie details ek nazar mein
+25.90-29.90  Full HD · multi-audio
+30.30-33.60  Smooth playback
+33.70-37.90  HD quality, subtitles ready
+38.30-41.40  Download karo
+41.50-45.90  Offline dekho, safar mein bhi
+46.30-51.90  Har bhasha · Full HD · Offline
+52.30-56.30  All Movie Land — concept demo
+56.40-59.60  Designed by Computer Hub
+
+Scenes:
+0-6    Logo intro (app icon + wordmark)
+6-14   Home screen, trending rows, tap on a poster
+14-22  Language picker
+22-30  Movie detail page (slide-in)
+30-38  Landscape player with moving progress bar
+38-46  Downloads screen, bars fill live, "Download complete" toast
+46-52  Feature recap chips
+52-60  Outro: icon, store card, "CONCEPT DEMO · UX SHOWCASE", "Designed by Computer Hub"

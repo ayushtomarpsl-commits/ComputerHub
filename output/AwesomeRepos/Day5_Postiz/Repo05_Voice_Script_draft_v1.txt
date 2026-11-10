@@ -1,0 +1,11 @@
+[excited] एक post बनाओ… और वो अपने-आप Instagram, YouTube, Facebook, LinkedIn—तीस से ज़्यादा platforms पर चली जाए! [surprised] वो भी बिलकुल free में?
+[curious] अगर आप creator हो, business owner हो, या social media manager—तो आपको पता है, हर app पे जाके अलग-अलग post करना कितना time खा जाता है। [sighs] और Buffer, Hootsuite जैसे tools हर channel या हर user के हिसाब से हर महीने पैसे लेते हैं।
+[happy] वेलकम टू Awesome Repos, Day Five! आज का repo है—Postiz.
+[informative] Postiz एक open-source, AI social media manager है—GitHub पर इसके इकतालीस हज़ार से ज़्यादा stars हैं। [short pause] आप एक बार post लिखो, calendar में date और time set करो, और ये Instagram, YouTube, LinkedIn, X, Threads, Pinterest, Telegram और Google Business Profile तक—सब जगह खुद post कर देता है।
+[excited] और इसमें AI भी है! [fast] AI से caption लिखो, images बनाओ, और अपनी लंबी YouTube video से अपने-आप captions वाली short reels बनवाओ।
+[thoughtful] Agencies के लिए तो ये और भी कमाल है—हर client के accounts अलग group में, team approval, और analytics—सब एक dashboard में।
+[happy] सबसे अच्छी बात? इसे अपने server पर self-host करो, तो channels, posts और team members—सब unlimited, और license का खर्चा zero।
+[serious] बस एक बात ध्यान रखना—self-host करने के लिए developer चाहिए, और Meta और YouTube जैसे platforms की app approval में कुछ हफ़्ते लग सकते हैं। Jaldi start करना है, तो इनका cloud version भी है।
+[thoughtful] और यहीं है आपका Plan B। [short pause] इसे set up करके local businesses को "social media automation" एक service की तरह बेच सकते हो।
+[friendly] Repo का link चाहिए? कमेंट में लिखो 'POST', मैं सीधे आपके DM में भेज दूँगा। [encouraging] और GitHub पर इस project को एक Star ज़रूर देना।
+[excited] ऐसे ही कमाल के open-source tools के लिए, Computer Hub को अभी follow कर लीजिए!

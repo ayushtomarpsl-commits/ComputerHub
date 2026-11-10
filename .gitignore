@@ -9,3 +9,6 @@ __pycache__/
 *.pyc
 .env*
 .vercel/
+
+# files over GitHub's 100 MB limit (kept local only)
+/output/promotions/MilesWeb/elements or clips demo/Recording 2026-11-10 111730.mp4
