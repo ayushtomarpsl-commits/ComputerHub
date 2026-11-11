@@ -1,0 +1,45 @@
+All Movie Land — promo voice script v2 (clean / legal version)
+Replaces the old ElevenLabs voice. Same voice style is fine (Bunty, loud & expressive), about 55-58 s.
+Each line is timed to the current video scenes (0-60 s), so only the voice + captions change.
+Use the Devanagari version in ElevenLabs (better Hindi pronunciation). Pick ONE ending: A or B.
+
+==================== FOR ELEVENLABS (Devanagari) ====================
+
+[0-6 s · Hook]
+क्या आप भी मूवी ढूँढने में आधा घंटा लगा देते हो, और फिर देखने का मन ही नहीं करता?
+
+[6-14 s · Home screen]
+तो अब रुक जाइए! क्योंकि आ चुका है All Movie Land — एक साफ़, सिंपल ऐप, जहाँ ट्रेंडिंग मूवीज़ बस एक टैप दूर हैं।
+
+[14-22 s · Language picker]
+अपनी भाषा चुनो — हिंदी, तमिल, तेलुगु, और भी बहुत कुछ। जो देखना है, अपनी भाषा में देखो।
+
+[22-30 s · Movie detail]
+मूवी की पूरी डिटेल्स, एक नज़र में — रेटिंग, भाषा, क्वालिटी, सब साफ़-साफ़।
+
+[30-38 s · Player]
+स्मूथ प्लेबैक, HD क्वालिटी, और सबटाइटल्स के साथ। बस ऐप खोलो, मूवी चुनो, और प्ले करो।
+
+[38-46 s · Downloads]
+एक क्लिक में डाउनलोड करो, और ऑफ़लाइन देखो — सफ़र में भी, बिना इंटरनेट के।
+
+[46-52 s · Recap]
+हर भाषा। HD क्वालिटी। ऑफ़लाइन डाउनलोड। सब एक ही ऐप में।
+
+[52-60 s · Ending A — only if the app is LIVE on the store]
+All Movie Land — अभी नीचे दिए लिंक से इंस्टॉल करें, और आज ही अपनी मूवी नाइट शुरू करें!
+
+[52-60 s · Ending B — sample app / pitch / client demo]
+All Movie Land — एक नया, सिंपल मूवी ऐप कॉन्सेप्ट। Designed by Computer Hub.
+
+==================== ROMAN (for captions) ====================
+
+[0-6]   Kya aap bhi movie dhoondhne mein aadha ghanta laga dete ho, aur phir dekhne ka mann hi nahi karta?
+[6-14]  To ab ruk jaiye! Kyunki aa chuka hai All Movie Land — ek saaf, simple app, jahan trending movies bas ek tap door hain.
+[14-22] Apni bhasha chuno — Hindi, Tamil, Telugu, aur bhi bahut kuch. Jo dekhna hai, apni bhasha mein dekho.
+[22-30] Movie ki poori details, ek nazar mein — rating, bhasha, quality, sab saaf-saaf.
+[30-38] Smooth playback, HD quality, aur subtitles ke saath. Bas app kholo, movie chuno, aur play karo.
+[38-46] Ek click mein download karo, aur offline dekho — safar mein bhi, bina internet ke.
+[46-52] Har bhasha. HD quality. Offline download. Sab ek hi app mein.
+[52-60] A: All Movie Land — abhi neeche diye link se install karein, aur aaj hi apni movie night shuru karein!
+[52-60] B: All Movie Land — ek naya, simple movie app concept. Designed by Computer Hub.
