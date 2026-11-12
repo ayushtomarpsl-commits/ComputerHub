@@ -1,0 +1,18 @@
+Free UPI Gateway… sach mein chalta hai? 👀 Real users ke messages dekh lo 👇
+
+✅ "It's working perfectly"
+✅ VPS par install ho gaya
+✅ Website par live
+✅ "I was searching for this type of workflow"
+
+UPI Gateway = open-source payment gateway. Customer QR scan karta hai, paisa seedhe aapke apne UPI account mein, payment auto-verify. Gateway koi commission nahi leta.
+
+🆕 Ab Shopify support bhi — store, website ya app, har jagah.
+Setup: khud karo (installation wizard, no SSH, no coding) ya humse karwa lo.
+⚠️ Live jaane se pehle ek ₹1 test payment zaroor karo.
+
+💬 Comment "UPI" — repo link + setup details DM mein.
+
+(Names & numbers hidden for privacy.)
+
+#UPI #UPIGateway #PaymentGateway #OpenSource #Shopify #ShopifyIndia #SmallBusiness #Laravel #DevelopersIndia #GitHub

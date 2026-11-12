@@ -1,0 +1,8 @@
+[curious] ये साठ सेकंड की animated film देखो… [short pause] इसे ना किसी animator ने बनाया, ना editor ने। [excited] एक AI agent ने बनाई—और AI tools का पूरा ख़र्चा सिर्फ़ एक डॉलर तैंतीस सेंट!
+[confident] Repo का नाम है OpenMontage—GitHub पर उन्यासी हज़ार से ज़्यादा stars, और पूरी तरह free और open-source। [whispers] और आख़िरी feature मेरा favourite है।
+[informative] ये आपके Claude Code या Cursor को एक पूरा video production studio बना देता है। आप बस लिखो—"साठ सेकंड का explainer बनाओ"… [fast] और agent खुद research करता है, script लिखता है, voice देता है, visuals और music लाता है, captions लगाता है—और final video render कर देता है।
+[thoughtful] और हर step पर आपसे पूछता है। Script पसंद नहीं? बदल दो। Visuals ठीक नहीं? Render से पहले ही रोक दो। सारा काम एक live storyboard पर दिखता है।
+[excited] और चाहो तो इसे बिल्कुल zero cost पर चलाओ—free voice, free stock footage, असली video clips से documentary तक। [confident] या अपनी पसंद का कोई भी model जोड़ लो—Veo, Kling, ElevenLabs—जो भी आपको पसंद हो।
+[amazed] और मेरा favourite—कोई भी reel paste करो। ये उसकी pacing और hook समझकर, आपके topic पर बिल्कुल नया version बना देता है।
+[serious] बस ध्यान रहे—इसे चलाने के लिए Claude Code जैसा coding assistant चाहिए, और setup में Python, Node और FFmpeg लगते हैं।
+[excited] Windows का पूरा setup guide चाहिए? नीचे comment करो 'VIDEO'—guide सीधे आपके DM में।

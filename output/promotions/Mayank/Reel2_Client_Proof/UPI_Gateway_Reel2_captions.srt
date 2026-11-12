@@ -1,0 +1,107 @@
+1
+00:00:00,000 --> 00:00:03,980
+Kuch din pehle maine ek free UPI Gateway banaya tha...
+
+2
+00:00:04,000 --> 00:00:06,460
+Ab dekho, log mujhe kya bhej rahe hain!
+
+3
+00:00:06,480 --> 00:00:08,400
+"It‘s working perfectly."
+
+4
+00:00:08,420 --> 00:00:10,920
+"Install successful?" — "Yes!"
+
+5
+00:00:10,940 --> 00:00:13,000
+Kisi ne VPS par install kar liya,
+
+6
+00:00:13,020 --> 00:00:14,940
+kisi ne apni website par live chala liya
+
+7
+00:00:14,960 --> 00:00:19,260
+aur kisi ne kaha — "main theek aisa hi workflow dhoondh raha tha."
+
+8
+00:00:19,280 --> 00:00:21,340
+Agar aapne pichhli reel miss kar di —
+
+9
+00:00:21,360 --> 00:00:24,620
+UPI Gateway ek open-source payment gateway hai.
+
+10
+00:00:24,640 --> 00:00:26,640
+Customer QR scan karta hai,
+
+11
+00:00:26,660 --> 00:00:29,980
+paisa seedhe aapke apne UPI account mein aata hai.
+
+12
+00:00:30,000 --> 00:00:32,680
+Payment apne-aap verify ho jaata hai.
+
+13
+00:00:32,700 --> 00:00:35,100
+Gateway apna koi commission nahi leta.
+
+14
+00:00:35,120 --> 00:00:37,260
+Aur ab sabse bada update —
+
+15
+00:00:37,280 --> 00:00:38,580
+Shopify support!
+
+16
+00:00:38,600 --> 00:00:41,720
+Yaani Shopify store ho, apni website ho ya app
+
+17
+00:00:41,740 --> 00:00:43,720
+har jagah laga sakte ho.
+
+18
+00:00:43,740 --> 00:00:45,260
+Setup ke do raaste hain.
+
+19
+00:00:45,280 --> 00:00:46,520
+GitHub se download karo
+
+20
+00:00:46,540 --> 00:00:49,180
+aur installation wizard se khud setup karo.
+
+21
+00:00:49,200 --> 00:00:51,220
+Na SSH, na coding.
+
+22
+00:00:51,240 --> 00:00:54,140
+Ya phir apne business ke liye humse setup karwa lo.
+
+23
+00:00:54,160 --> 00:00:55,720
+Bas live jaane se pehle
+
+24
+00:00:55,740 --> 00:00:58,360
+ek chhota test payment zaroor karna.
+
+25
+00:00:58,380 --> 00:00:59,640
+Comment karo "UPI"
+
+26
+00:00:59,660 --> 00:01:02,200
+Repo ka link aur setup ki details
+
+27
+00:01:02,220 --> 00:01:03,900
+seedhe aapke DM mein!

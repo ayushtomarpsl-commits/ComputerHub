@@ -1,0 +1,13 @@
+[curious] कुछ दिन पहले मैंने एक free UPI Gateway बनाया था… [short pause] अब देखो, लोग मुझे क्या भेज रहे हैं।
+
+[happy] "It's working perfectly." [short pause] "Install successful?" — "Yes!" [excited] किसी ने VPS पर install कर लिया, किसी ने अपनी website पर live चला लिया, और किसी ने कहा—"मैं ठीक ऐसा ही workflow ढूँढ रहा था।"
+
+[informative] अगर आपने पिछली reel miss कर दी—UPI Gateway एक open-source payment gateway है। Customer QR scan करता है, पैसा सीधे आपके अपने UPI account में आता है, और payment अपने-आप verify हो जाता है। [confident] Gateway अपना कोई commission नहीं लेता।
+
+[excited] और अब सबसे बड़ा update—Shopify support! [informative] यानी Shopify store हो, अपनी website हो या app—हर जगह लगा सकते हो।
+
+[friendly] Setup के दो रास्ते हैं। GitHub से download करो और installation wizard से खुद setup करो—ना SSH, ना coding। [short pause] या फिर अपने business के लिए हमसे setup करवा लो।
+
+[serious] बस live जाने से पहले एक छोटा test payment ज़रूर करना।
+
+[excited] Comment करो "UPI"—repo का link और setup की details सीधे आपके DM में।
