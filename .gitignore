@@ -1,14 +1,47 @@
-# ONLY the output/ folder goes to GitHub (Ayush's rule, 2026-11-08).
-# Everything else (source/, work/, assets/, episodes/, linkpage/, docs/, testing/, root files) stays local only.
+# ONLY finished deliverables inside output/ go to GitHub (Ayush's rule, updated 2026-11-13):
+#   final video (.mp4) · cover image (.png/.jpg) · caption · transcript / voice script (.txt) · subtitles (.srt)
+# Research, elements, frames, work files, source code, docs, link page etc. stay local only.
+
+# 1) nothing at the repo root except output/
 /*
 !/.gitignore
 !/output/
 
-# never upload these, even inside output/
+# 2) inside output/: ignore everything, then allow only the deliverable file types
+/output/**
+!/output/**/
+!/output/**/*.mp4
+!/output/**/*.png
+!/output/**/*.jpg
+!/output/**/*.jpeg
+!/output/**/*.srt
+!/output/**/*Voice_Script*.txt
+!/output/**/*[Tt]ranscript*.txt
+!/output/**/*[Tt]ranscript*.md
+!/output/**/*[Cc]aption*.txt
+!/output/**/*Post_Kit*.md
+
+# 3) ...but never these (later lines win)
+/output/**/*draft*
+/output/**/*sheet*
+/output/**/*contact*
+/output/**/*elements*/
+/output/**/*frames*/
+/output/**/work*/
+/output/**/raw/
+/output/**/hd/
+/output/**/ui/
+/output/**/original/
+/output/**/icons*/
+/output/**/gif*/
+/output/**/repo_assets/
+/output/**/hyperframes/
+/output/**/client/
+/output/**/[Vv]oice/
+/output/**/Recording*.mp4
+
+# never upload these anywhere
 __pycache__/
 *.pyc
 .env*
 .vercel/
-
-# files over GitHub's 100 MB limit (kept local only)
-/output/promotions/MilesWeb/elements or clips demo/Recording 2026-11-10 111730.mp4
