@@ -1,0 +1,21 @@
+Clients dhoondhne ke liye sales team nahi, ek AI agent kaafi hai 🤯
+
+Harvey (naya naam: Sellbird) = free, open-source Claude Code agent jo aapke laptop par sales ka poora kaam sambhalta hai 🤖
+
+🔎 Lead generation: internet se aapke ideal customers dhoondhta hai
+🧠 Har company ki website padh ke research + decision-maker ka verified email
+✍️ Claude har lead ke liye personal cold email likhta hai (template nahi)
+✅ Aapke "Approve" ke bina ek bhi email send nahi hota
+📊 Replies track + sales pipeline + live dashboard
+💸 No API bill: aapke Claude Pro/Max plan par chalta hai
+⭐ 5.3K+ GitHub stars · open source
+
+Freelancer ho, agency chalate ho ya B2B business: ye aapka AI sales assistant ban sakta hai, jab tak laptop on hai, kaam chalta rahega 😉
+
+💬 Comment "HARVEY" — GitHub link + Windows setup guide seedha DM mein 📩
+
+AI sales agent · sales automation · lead generation · cold email automation · Claude Code · Claude AI · AI agents · AI tools · GitHub open source
+
+Credit: Harvey/Sellbird by Ethan (ethanplusai on GitHub). Software free hai; Claude plan + email mailbox aapka.
+
+#ClaudeCode #AIAgents #SalesAutomation #LeadGeneration #AITools

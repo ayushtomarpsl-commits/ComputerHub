@@ -1,0 +1,10 @@
+ये demo video… किसी editor ने नहीं बनाई। ना screen recording हाथ से, ना zoom, ना voiceover। ये बनी है — एक script से।
+और इसे बनाने वाले हैं Dixit Ram, एक Indian developer… जिनके repo पर अभी सिर्फ़ उनचास stars हैं।
+नाम है DemoForge। Free है, open-source है, MIT license।
+काम कैसे करता है? आप अपना flow लिखो — बस एक छोटी JSON file। DemoForge आपका app browser में खुद चलाता है, हर click पे automatically zoom करता है, smooth cursor दिखाता है… और हर step की narration भी बोलता है।
+Claude Code को बोलो — "इस app का demo record करो।" वो flow लिखता है, record करता है, और हर frame check भी करता है।
+Voice के लिए free local voice, या अपनी ElevenLabs key लगा लो। आख़िर में browser editor में zoom, captions, background बदलो — और MP4 export।
+और सबसे मज़ेदार… app का UI बदल गया? बस command दोबारा चलाओ। वही script, नया video।
+ये किसी बड़ी company का product नहीं… एक developer की मेहनत है। अगर पसंद आया, तो उसे support करो — GitHub पे एक star दे दो।
+Repo का link चाहिए? नीचे comment करो "FORGE" — link सीधा आपके DM में आ जाएगा।
+और ऐसे ही Awesome Repos के लिए, Computer Hub को follow कर लो!

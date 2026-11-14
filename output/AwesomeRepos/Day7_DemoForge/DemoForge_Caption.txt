@@ -1,0 +1,20 @@
+Ye demo video kisi editor ne nahi banayi 🎬 Ek script ne banayi hai. Aur isse banane wale Indian developer ke repo pe abhi sirf 49 stars hain ⭐
+
+DemoForge by Dixit Ram = free, open-source tool jo script se product demo video banata hai 🇮🇳
+🎯 Har click pe auto-zoom + smooth cursor
+🗣️ Har step ki narration (free voice ya ElevenLabs / Gemini ki key)
+🤖 Claude Code ko bolo "demo record karo": flow likhta hai, record karta hai, har frame check karta hai
+✂️ Browser editor mein zoom, captions, background badlo, phir MP4 export
+🔁 App ka UI badal gaya? Command dobara chalao, wahi script, naya video
+📜 MIT license
+
+Ek solo Indian developer ki mehnat hai ye 🙏 Pasand aaye to GitHub pe ek ⭐ dekar support karo, bas ek tap.
+
+💬 Repo ka link chahiye? Comment karo "FORGE", link seedha DM mein 📩
+
+AI demo video · product demo video kaise banaye · Playwright · open source tool · Claude Code · developer tools · Indian developer · GitHub star
+
+Honest note: ye web apps ke liye hai (browser mein record hota hai) aur abhi early project hai (v0.1.0). Free voice robotic hai; natural voice ke liye Gemini / ElevenLabs key chahiye.
+Credit: DemoForge by Dixit Ram (github.com/DixitRam). Clips are from the DemoForge README.
+
+#OpenSource #Developers #ClaudeCode #AITools #BuildInPublic

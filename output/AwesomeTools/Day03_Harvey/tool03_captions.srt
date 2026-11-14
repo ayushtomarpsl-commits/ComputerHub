@@ -1,0 +1,283 @@
+1
+00:00:00,000 --> 00:00:01,480
+Clients aur naye customers
+
+2
+00:00:01,500 --> 00:00:02,520
+dhoondhane ke liye ab
+
+3
+00:00:02,540 --> 00:00:03,940
+kisi mahangi sales team
+
+4
+00:00:03,960 --> 00:00:05,300
+ya hazaaron rupaye vaale
+
+5
+00:00:05,320 --> 00:00:06,880
+tools ki bilkul zaroorat
+
+6
+00:00:06,900 --> 00:00:07,800
+nahin hai.
+
+7
+00:00:07,820 --> 00:00:09,020
+Open source community
+
+8
+00:00:09,040 --> 00:00:10,080
+ne Claude ka ek
+
+9
+00:00:10,100 --> 00:00:11,760
+aisa powerful AI agent
+
+10
+00:00:11,780 --> 00:00:13,080
+bana diya hai jiska
+
+11
+00:00:13,100 --> 00:00:14,920
+sirf ek hi kaam hai,
+
+12
+00:00:14,940 --> 00:00:16,020
+aapke business ke liye
+
+13
+00:00:16,040 --> 00:00:17,800
+paying customers laana.
+
+14
+00:00:17,820 --> 00:00:19,080
+Iska naam hai Harvey
+
+15
+00:00:19,100 --> 00:00:20,780
+aur yeh 100%
+
+16
+00:00:20,800 --> 00:00:22,820
+free aur open source hai.
+
+17
+00:00:22,840 --> 00:00:23,920
+Aapko bas ise itna
+
+18
+00:00:23,940 --> 00:00:25,000
+bataana hai ki aap
+
+19
+00:00:25,020 --> 00:00:26,320
+kya service ya product
+
+20
+00:00:26,340 --> 00:00:27,420
+bechate hain aur aapka
+
+21
+00:00:27,440 --> 00:00:29,060
+target customer kaun hai.
+
+22
+00:00:29,080 --> 00:00:30,540
+Iske baad Harvey khud
+
+23
+00:00:30,560 --> 00:00:32,380
+internet se leads dhoondhta hai,
+
+24
+00:00:32,400 --> 00:00:33,220
+har ek company aur
+
+25
+00:00:33,240 --> 00:00:34,640
+founder par deep research
+
+26
+00:00:34,660 --> 00:00:36,020
+karta hai aur sabse
+
+27
+00:00:36,040 --> 00:00:37,440
+best clients ko filter
+
+28
+00:00:37,460 --> 00:00:38,440
+kar leta hai.
+
+29
+00:00:38,460 --> 00:00:39,720
+Phir Claude us research
+
+30
+00:00:39,740 --> 00:00:41,160
+ka istemaal karke aise
+
+31
+00:00:41,180 --> 00:00:42,580
+personalized cold emails
+
+32
+00:00:42,600 --> 00:00:44,080
+likhta hai jinhen koi
+
+33
+00:00:44,100 --> 00:00:46,140
+ignore hi nahin kar sakta.
+
+34
+00:00:46,160 --> 00:00:48,220
+Aur sabse surakshit baat?
+
+35
+00:00:48,240 --> 00:00:49,020
+jab tak aap khud
+
+36
+00:00:49,040 --> 00:00:50,160
+review karke approve
+
+37
+00:00:50,180 --> 00:00:51,140
+nahin karenge,
+
+38
+00:00:51,160 --> 00:00:52,100
+tab tak ek bhi
+
+39
+00:00:52,120 --> 00:00:53,700
+email send nahin hoga.
+
+40
+00:00:53,720 --> 00:00:54,940
+Yeh emails ke replies
+
+41
+00:00:54,960 --> 00:00:56,080
+track karta hai,
+
+42
+00:00:56,100 --> 00:00:57,300
+poori sales pipeline
+
+43
+00:00:57,320 --> 00:00:58,820
+sambhaalta hai aur aapke
+
+44
+00:00:58,840 --> 00:00:59,960
+liye meetings book karne
+
+45
+00:00:59,980 --> 00:00:59,960
+ke liye.
+
+46
+00:00:59,980 --> 00:01:01,860
+Aapke khud ke laptop
+
+47
+00:01:01,880 --> 00:01:03,380
+par 24 ghante kaam
+
+48
+00:01:03,400 --> 00:01:04,720
+karta rahta hai aur
+
+49
+00:01:04,740 --> 00:01:06,440
+sabse bada faayda iske
+
+50
+00:01:06,460 --> 00:01:07,400
+liye koi alag se
+
+51
+00:01:07,420 --> 00:01:09,480
+API bill nahin bharna.
+
+52
+00:01:09,500 --> 00:01:11,060
+Yeh aapke usi Claude
+
+53
+00:01:11,080 --> 00:01:11,960
+subscription par chalta
+
+54
+00:01:11,980 --> 00:01:12,980
+hai jo aap pehle
+
+55
+00:01:13,000 --> 00:01:13,720
+se use kar rahe
+
+56
+00:01:13,740 --> 00:01:14,840
+hain aur saath mein
+
+57
+00:01:14,860 --> 00:01:16,280
+aapko ek live sales
+
+58
+00:01:16,300 --> 00:01:17,920
+dashboard bhi milta hai.
+
+59
+00:01:17,940 --> 00:01:18,920
+Agar aapko is GitHub
+
+60
+00:01:18,940 --> 00:01:20,100
+repo ka direct link
+
+61
+00:01:20,120 --> 00:01:21,000
+aur step by step
+
+62
+00:01:21,020 --> 00:01:22,340
+setup guide chahiye to
+
+63
+00:01:22,360 --> 00:01:23,420
+neeche comment mein likho
+
+64
+00:01:23,440 --> 00:01:24,580
+“HARVEY”.
+
+65
+00:01:24,600 --> 00:01:25,920
+Link seedhe aapke DM
+
+66
+00:01:25,940 --> 00:01:27,120
+mein aa jayega aur
+
+67
+00:01:27,140 --> 00:01:28,360
+aise hi next level
+
+68
+00:01:28,380 --> 00:01:29,660
+AI agents aur open
+
+69
+00:01:29,680 --> 00:01:30,700
+source tools ke liye
+
+70
+00:01:30,720 --> 00:01:32,060
+Computer Hub ko abhi
+
+71
+00:01:32,080 --> 00:01:33,250
+follow kar lo.
