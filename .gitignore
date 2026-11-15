@@ -45,3 +45,5 @@ __pycache__/
 *.pyc
 .env*
 .vercel/
+
+.vercel
