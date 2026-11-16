@@ -1,0 +1,12 @@
+MacBook Air लूँ या Windows laptop? ये सवाल ही गलत है। सही सवाल है — आप laptop पे actually करते क्या हो? क्योंकि गलत चुना, तो एक लाख से ज़्यादा रुपये फँस जाएँगे।
+Laptop Doctor, Day 1 — पाँच rounds, और end में सीधा फ़ैसला।
+Round 1 — Speed. नया M5 MacBook Air रोज़ के काम में बहुत fast है। Apps खोलना, browsing, coding — सब instant। और इसमें fan ही नहीं है, तो बिल्कुल silent। बस घंटों लंबे heavy काम में, जैसे लंबा video render, ये थोड़ा slow हो जाता है।
+Round 2 — Battery और weight. Apple अठारह घंटे तक video playback का दावा करता है, और वज़न सिर्फ़ 1.23 kilo। Windows में battery हर model में अलग होती है — review देखे बिना मत ख़रीदना।
+Round 3 — Gaming. यहाँ Windows साफ़ जीतता है। RTX graphics वाले gaming laptops सिर्फ़ Windows में मिलते हैं। Air कुछ games चला लेगा, पर ये gaming machine नहीं है।
+Round 4 — College software. और यहीं लोग सबसे बड़ी गलती करते हैं। SolidWorks जैसे कई engineering software Mac पे चलते ही नहीं। तो ख़रीदने से पहले अपने course के software की list check करो। और Qualcomm chip वाले Windows laptops में भी कुछ apps और games ठीक से नहीं चलते।
+Round 5 — RAM और price. M5 Air में शुरू से ही 16 GB RAM मिलती है, पर Mac में RAM बाद में नहीं बढ़ती — जो लेना है, खरीदते वक़्त ही लो। India में ये करीब 1.2 लाख से launch हुआ, जबकि Windows में हर budget का laptop मिलता है।
+एक बात और — iPhone है, तो Mac पे AirDrop और copy-paste बहुत easy है। Android है, तो Windows का Phone Link calls और messages laptop पे दिखा देता है।
+तो सीधा फ़ैसला: Study, office, coding और लंबी battery चाहिए — MacBook Air। Gaming, engineering software, या budget tight है — Windows।
+और अगर budget 1.2 लाख नहीं है? तो पुराना M1 या M2 Air भी option है — पर उसमें धोखा कैसे पकड़ें, वो Laptop Doctor के अगले episode में।
+Laptop लेने का plan है? नीचे comment करो "LAPTOP" — मैं DM में आपको free laptop buying checklist भेज दूँगा।
+और अगला episode miss ना हो, तो Computer Hub को follow कर लो!
