@@ -1,0 +1,199 @@
+1
+00:00:00,000 --> 00:00:00,900
+Sorry,
+
+2
+00:00:00,920 --> 00:00:02,540
+I can‘t help with that.
+
+3
+00:00:02,560 --> 00:00:03,900
+AI ka yeh na
+
+4
+00:00:03,920 --> 00:00:05,820
+uske dimaag mein sirf
+
+5
+00:00:05,840 --> 00:00:07,300
+ek direction hai aur
+
+6
+00:00:07,320 --> 00:00:08,780
+ek open-source tool use
+
+7
+00:00:08,800 --> 00:00:10,760
+dhoondh kar nikaal deta hai.
+
+8
+00:00:10,780 --> 00:00:12,280
+Naam hai Heretic.
+
+9
+00:00:12,300 --> 00:00:13,920
+GitHub par 40 hazaar
+
+10
+00:00:13,940 --> 00:00:15,400
+se zyada stars.
+
+11
+00:00:15,420 --> 00:00:16,460
+Yeh model ko dobara
+
+12
+00:00:16,480 --> 00:00:17,880
+train nahin karta,
+
+13
+00:00:17,900 --> 00:00:18,860
+bas math se pata
+
+14
+00:00:18,880 --> 00:00:20,020
+lagata hai ki model
+
+15
+00:00:20,040 --> 00:00:21,260
+ke andar mana karne
+
+16
+00:00:21,280 --> 00:00:22,340
+wala hissa kahan hai
+
+17
+00:00:22,360 --> 00:00:23,680
+aur use halka kar
+
+18
+00:00:23,700 --> 00:00:24,320
+deta hai.
+
+19
+00:00:24,340 --> 00:00:25,900
+Use karna bhi simple hai,
+
+20
+00:00:25,920 --> 00:00:26,900
+bas do commands.
+
+21
+00:00:26,920 --> 00:00:29,160
+pip install heretic-llm,
+
+22
+00:00:29,180 --> 00:00:30,620
+phir heretic Aur model
+
+23
+00:00:30,640 --> 00:00:31,420
+ka naam,
+
+24
+00:00:31,440 --> 00:00:33,160
+baaki sab automatic.
+
+25
+00:00:33,180 --> 00:00:34,580
+Ek achhe gaming PC par
+
+26
+00:00:34,600 --> 00:00:36,100
+chhota model aadhe-paune
+
+27
+00:00:36,120 --> 00:00:37,260
+ghante mein taiyaar.
+
+28
+00:00:37,280 --> 00:00:38,600
+Aur yeh sirf refusals
+
+29
+00:00:38,620 --> 00:00:39,420
+ke liye nahin hai.
+
+30
+00:00:39,440 --> 00:00:41,360
+AI ki chaaploosi kam karo,
+
+31
+00:00:41,380 --> 00:00:43,700
+ghisi-piti AI wali bhasha hatao,
+
+32
+00:00:43,720 --> 00:00:45,120
+jawab chhote karo,
+
+33
+00:00:45,140 --> 00:00:46,860
+sab ek config file se.
+
+34
+00:00:46,880 --> 00:00:48,280
+Do baatein dhyan rakhna,
+
+35
+00:00:48,300 --> 00:00:49,280
+yeh sirf un open
+
+36
+00:00:49,300 --> 00:00:50,320
+models par chalta hai
+
+37
+00:00:50,340 --> 00:00:51,580
+jo aap apne computer
+
+38
+00:00:51,600 --> 00:00:52,480
+par chalate ho.
+
+39
+00:00:52,500 --> 00:00:54,940
+Jaise Qwen, Gemma, Llama.
+
+40
+00:00:54,960 --> 00:00:56,480
+ChatGPT ya Gemini par
+
+41
+00:00:56,500 --> 00:00:57,820
+nahin aur model se
+
+42
+00:00:57,840 --> 00:00:59,340
+kya karwate ho uski
+
+43
+00:00:59,360 --> 00:01:00,840
+zimmedari aapki hai.
+
+44
+00:01:00,860 --> 00:01:02,200
+Repo ka link chahiye?
+
+45
+00:01:02,220 --> 00:01:03,960
+Neeche comment karo “HERETIC”.
+
+46
+00:01:03,980 --> 00:01:05,160
+Link seedha aapke DM
+
+47
+00:01:05,180 --> 00:01:06,220
+mein aa jayega aur
+
+48
+00:01:06,240 --> 00:01:07,740
+aise hi Awesome Repos ke
+
+49
+00:01:07,760 --> 00:01:09,200
+liye Computer Hub ko follow
+
+50
+00:01:09,220 --> 00:01:10,250
+kar lo.

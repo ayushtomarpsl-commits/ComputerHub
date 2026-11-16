@@ -1,0 +1,9 @@
+[serious] "Sorry, I can't help with that." [short pause] AI का ये "ना"… उसके दिमाग़ में सिर्फ़ [emphasized] एक direction है। [curious] और एक open-source tool उसे ढूँढकर… निकाल देता है।
+[excited] नाम है Heretic। GitHub पर चालीस हज़ार से ज़्यादा stars।
+[thoughtful] ये model को दोबारा train नहीं करता। बस math से पता लगाता है कि model के अंदर "मना करने" वाला हिस्सा कहाँ है — और उसे हल्का कर देता है।
+[confidently] Use करना भी simple है। बस दो commands: pip install heretic-llm… फिर heretic, और model का नाम। बाक़ी सब automatic।
+[impressed] एक अच्छे gaming PC पर छोटा model आधे-पौने घंटे में तैयार।
+[energetic] और ये सिर्फ़ refusals के लिए नहीं है। AI की चापलूसी कम करो, घिसी-पिटी "AI वाली भाषा" हटाओ, जवाब छोटे करो — सब एक config file से।
+[serious] दो बातें ध्यान रखना। ये सिर्फ़ उन open models पर चलता है जो आप अपने computer पर चलाते हो — जैसे Qwen, Gemma, Llama। ChatGPT या Gemini पर नहीं। [short pause] और model से क्या करवाते हो… उसकी ज़िम्मेदारी आपकी है।
+[friendly] Repo का link चाहिए? नीचे comment करो "HERETIC" — link सीधा आपके DM में आ जाएगा।
+[enthusiastic] और ऐसे ही Awesome Repos के लिए, Computer Hub को follow कर लो!

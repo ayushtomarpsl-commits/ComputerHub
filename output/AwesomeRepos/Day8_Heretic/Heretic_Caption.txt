@@ -1,0 +1,19 @@
+"Sorry, I can't help with that" 🙅 AI ka ye "na" model ke andar sirf ek direction hai, aur ye open-source tool use dhoondhkar hata deta hai.
+
+Heretic (40K+ ⭐ GitHub) = open AI models ka bartaav badlo, bina dobara training ke 🔧
+⚙️ Sirf 2 commands: pip install -U heretic-llm → heretic <model name>
+🧠 Refusals kam · chaaploosi kam · ghisi-piti "AI wali bhasha" kam · chhote jawab: sab ek config file se
+⏱️ RTX 3090 par 4B model ~30-40 min (README ke hisaab se)
+📦 Hugging Face par 7,000+ Heretic models
+
+Dhyan rahe 👇
+1️⃣ Ye sirf un open models par chalta hai jo aap apne computer par chalate ho (Qwen, Gemma, Llama). ChatGPT / Gemini par nahi.
+2️⃣ Model se kya karwate ho, uski zimmedari aapki hai. Law aur platform rules wahi rehte hain.
+
+💬 Repo ka link chahiye? Comment karo "HERETIC", link seedha DM mein 📩
+
+local LLM · open source AI tool · abliteration · AI model customization · Qwen · Gemma · Llama · Hugging Face · GitHub trending repo · run AI locally
+
+Credit: Heretic by Philipp Emanuel Weidmann (github.com/p-e-w/heretic), AGPL-3.0
+
+#OpenSource #LocalLLM #AITools #Developers #GitHub
