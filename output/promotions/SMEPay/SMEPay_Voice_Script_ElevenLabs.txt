@@ -1,0 +1,10 @@
+[serious] आपके business में एक partner है… [short pause] जो ना माल बेचता है, ना customer लाता है — फिर भी हर sale का [emphasized] दो percent ले जाता है। [short pause] उसका नाम है — payment gateway।
+[curious] और end में दिखाऊँगा, यही काम सिर्फ़ पाँच रुपये में कैसे होता है।
+[confidently] हिसाब देखो। मान लो आपका एक order हज़ार रुपये का है, और महीने के पाँच सौ orders आते हैं। दो percent के हिसाब से — हर महीने [emphasized] दस हज़ार रुपये सिर्फ़ gateway की fees।
+[thoughtful] अब सोचो… UPI payment सौ रुपये का हो या हज़ार का, काम तो एक ही है। तो fees percent में क्यों?
+[excited] SMEPay यही बदलता है। ये UPI payment gateway percent नहीं काटता — हर successful payment पर बस एक flat fee लेता है। पाँच रुपये… और Pro plan में सिर्फ़ तीन।
+[impressed] वही पाँच सौ orders — fees सिर्फ़ ढाई हज़ार। यानी हर महीने [emphasized] साढ़े सात हज़ार की बचत, सीधा आपके profit में।
+[energetic] Website नहीं है? Payment link बनाओ और WhatsApp पे भेज दो। QR code, payment page, या पूरा mini store — बिना coding के। और पैसा अगले working day आपके bank में।
+[serious] एक simple rule याद रखो: आपका average order ढाई सौ रुपये से ऊपर है, तो flat fee सस्ती पड़ेगी।
+[friendly] Link चाहिए? नीचे comment करो "PAY" — link सीधा आपके DM में आ जाएगा।
+[enthusiastic] और ऐसे ही business tools के लिए, Computer Hub को follow कर लो!

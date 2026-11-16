@@ -1,0 +1,18 @@
+Aapka laptop internet waste kar raha hai 😳 WiFi bhi hai, hotspot bhi, par wo sirf EK use karta hai.
+
+NetMerge = free, open-source tool jo WiFi + Ethernet + phone hotspot ko ek saath jod deta hai 🔗
+⚡ Real test (README): akela best connection 121 Mbps → teeno milakar 300 Mbps tak
+🎮 Sabse zyada fark: Steam, IDM, torrents, Drive uploads, browser downloads
+⚠️ Ek catch: ek akela single-connection download fast nahi hoga
+🚫 No account · No VPN · No server
+💻 Windows · Mac · Linux (+ Android)
+📜 MIT license · 3.3K+ GitHub stars
+
+💬 Link chahiye? Comment karo "MERGE", link seedha DM mein 📩
+📤 Us dost ko bhejo jo hamesha hotspot maangta hai 😄
+
+internet speed kaise badhaye · WiFi aur hotspot ek saath · combine internet connections · download speed increase · free open source tool · GitHub · Windows tips
+
+Credit: net-merge by rohit267 (github.com/net-merge/net-merge). Speed test numbers README se; aapki speed aapke connections par depend karegi.
+
+#InternetSpeed #OpenSource #TechTips #WiFi #GitHub
