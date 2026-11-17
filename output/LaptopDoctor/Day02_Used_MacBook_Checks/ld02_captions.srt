@@ -1,0 +1,411 @@
+1
+00:00:00,000 --> 00:00:01,260
+OLX ya kisi dukaan
+
+2
+00:00:01,280 --> 00:00:02,700
+par second-hand MacBook
+
+3
+00:00:02,720 --> 00:00:03,420
+aadhe daam mein mil
+
+4
+00:00:03,440 --> 00:00:04,240
+raha hai.
+
+5
+00:00:04,260 --> 00:00:05,140
+Ek minute ruko,
+
+6
+00:00:05,160 --> 00:00:06,040
+paise dene se pehle
+
+7
+00:00:06,060 --> 00:00:07,080
+agar aapne ye paanch
+
+8
+00:00:07,100 --> 00:00:08,040
+test nahi kiye,
+
+9
+00:00:08,060 --> 00:00:09,560
+to ₹50,000 dene ke
+
+10
+00:00:09,580 --> 00:00:10,720
+baad bhi wo MacBook
+
+11
+00:00:10,740 --> 00:00:12,160
+kabhi aapka nahi hoga,
+
+12
+00:00:12,180 --> 00:00:13,080
+balki do din baad
+
+13
+00:00:13,100 --> 00:00:14,320
+ek permanent kachre ka
+
+14
+00:00:14,340 --> 00:00:15,500
+dibba ban jayega.
+
+15
+00:00:15,520 --> 00:00:17,420
+Laptop Doctor, Day 2,
+
+16
+00:00:17,440 --> 00:00:18,440
+paanch minute aur ye
+
+17
+00:00:18,460 --> 00:00:19,780
+paanch secret checks.
+
+18
+00:00:19,800 --> 00:00:20,880
+Check number 1,
+
+19
+00:00:20,900 --> 00:00:22,340
+the Erase Test.
+
+20
+00:00:22,360 --> 00:00:23,740
+Seller se bolo aapke
+
+21
+00:00:23,760 --> 00:00:24,900
+saamne settings mein jaakar
+
+22
+00:00:24,920 --> 00:00:26,720
+Erase All Content and Settings
+
+23
+00:00:26,740 --> 00:00:27,360
+kare.
+
+24
+00:00:27,380 --> 00:00:28,380
+Restart hone ke baad
+
+25
+00:00:28,400 --> 00:00:29,520
+agar screen par purane
+
+26
+00:00:29,540 --> 00:00:31,020
+maalik ki Apple ID ya
+
+27
+00:00:31,040 --> 00:00:32,480
+Activation Lock aa gaya,
+
+28
+00:00:32,500 --> 00:00:33,600
+to haath jodo aur
+
+29
+00:00:33,620 --> 00:00:35,100
+deal wahin khatam karo.
+
+30
+00:00:35,120 --> 00:00:36,080
+Warna naya update aate
+
+31
+00:00:36,100 --> 00:00:37,640
+hi aapka laptop lock
+
+32
+00:00:37,660 --> 00:00:38,440
+ho jayega.
+
+33
+00:00:38,460 --> 00:00:39,600
+Check number 2,
+
+34
+00:00:39,620 --> 00:00:40,840
+company ka chori ka
+
+35
+00:00:40,860 --> 00:00:41,620
+maal to nahi?
+
+36
+00:00:41,640 --> 00:00:42,740
+Setup ke dauraan agar
+
+37
+00:00:42,760 --> 00:00:43,280
+screen par
+
+38
+00:00:43,300 --> 00:00:44,640
+Remote Management likha aa
+
+39
+00:00:44,660 --> 00:00:45,940
+gaya, to samajh jao ye
+
+40
+00:00:45,960 --> 00:00:47,600
+kisi company ka laptop hai.
+
+41
+00:00:47,620 --> 00:00:48,700
+Wo company apne office
+
+42
+00:00:48,720 --> 00:00:49,920
+mein baithe-baithe ek
+
+43
+00:00:49,940 --> 00:00:51,040
+click se aapke laptop
+
+44
+00:00:51,060 --> 00:00:51,920
+ko lock kar sakti
+
+45
+00:00:51,940 --> 00:00:53,200
+hai aur aapki location
+
+46
+00:00:53,220 --> 00:00:54,420
+track kar sakti hai.
+
+47
+00:00:54,440 --> 00:00:55,360
+Ise bhool kar bhi
+
+48
+00:00:55,380 --> 00:00:56,200
+mat chhoona.
+
+49
+00:00:56,220 --> 00:00:57,440
+Check number 3,
+
+50
+00:00:57,460 --> 00:00:59,080
+battery ka hidden scam.
+
+51
+00:00:59,100 --> 00:00:59,680
+Settings mein
+
+52
+00:00:59,700 --> 00:01:00,700
+battery health aur
+
+53
+00:01:00,720 --> 00:01:02,040
+cycle count check karo.
+
+54
+00:01:02,060 --> 00:01:02,400
+Agar wahan
+
+55
+00:01:02,420 --> 00:01:03,660
+Service Recommended likha
+
+56
+00:01:03,680 --> 00:01:05,560
+hai ya cycle count 1,000
+
+57
+00:01:05,580 --> 00:01:06,400
+ke paar hai,
+
+58
+00:01:06,420 --> 00:01:07,480
+to seller se seedhe
+
+59
+00:01:07,500 --> 00:01:08,840
+nayi original battery ke
+
+60
+00:01:08,860 --> 00:01:10,480
+₹15,000 keemat mein se
+
+61
+00:01:10,500 --> 00:01:11,560
+turant kam karwao.
+
+62
+00:01:11,580 --> 00:01:12,820
+Check number 4,
+
+63
+00:01:12,840 --> 00:01:14,440
+serial number ka fraud.
+
+64
+00:01:14,460 --> 00:01:15,800
+About This Mac ka serial
+
+65
+00:01:15,820 --> 00:01:17,240
+number laptop ke neeche
+
+66
+00:01:17,260 --> 00:01:18,320
+chhape serial number se
+
+67
+00:01:18,340 --> 00:01:18,840
+milao.
+
+68
+00:01:18,860 --> 00:01:19,480
+Phir Apple ki
+
+69
+00:01:19,500 --> 00:01:20,600
+Check Coverage site par
+
+70
+00:01:20,620 --> 00:01:21,960
+daalkar dekho ki andar
+
+71
+00:01:21,980 --> 00:01:23,080
+sach mein wahi model
+
+72
+00:01:23,100 --> 00:01:23,960
+hai ya kisi ne
+
+73
+00:01:23,980 --> 00:01:26,240
+2017 ka purana motherboard
+
+74
+00:01:26,260 --> 00:01:27,080
+naye case mein fit
+
+75
+00:01:27,100 --> 00:01:27,820
+kar diya hai.
+
+76
+00:01:27,840 --> 00:01:29,160
+Check number 5,
+
+77
+00:01:29,180 --> 00:01:29,660
+hardware.
+
+78
+00:01:29,680 --> 00:01:31,660
+Aur sabse bada pachtawa.
+
+79
+00:01:31,680 --> 00:01:32,780
+Saare ports,
+
+80
+00:01:32,800 --> 00:01:33,400
+webcam,
+
+81
+00:01:33,420 --> 00:01:34,620
+speakers aur safed
+
+82
+00:01:34,640 --> 00:01:35,900
+background lagakar screen
+
+83
+00:01:35,920 --> 00:01:36,960
+ke daag dekho.
+
+84
+00:01:36,980 --> 00:01:37,840
+Aur ek kadwa sach
+
+85
+00:01:37,860 --> 00:01:38,700
+yaad rakhna,
+
+86
+00:01:38,720 --> 00:01:39,880
+MacBook mein baad mein
+
+87
+00:01:39,900 --> 00:01:40,820
+na RAM badh sakti
+
+88
+00:01:40,840 --> 00:01:42,120
+hai na storage.
+
+89
+00:01:42,140 --> 00:01:43,600
+Agar 8 GB wala le
+
+90
+00:01:43,620 --> 00:01:45,040
+liya to zindagi bhar
+
+91
+00:01:45,060 --> 00:01:46,380
+8 GB ka hi rona
+
+92
+00:01:46,400 --> 00:01:47,120
+rahega.
+
+93
+00:01:47,140 --> 00:01:48,120
+Second-hand laptop
+
+94
+00:01:48,140 --> 00:01:49,020
+khareedte waqt ki ye
+
+95
+00:01:49,040 --> 00:01:50,060
+poori secret checklist
+
+96
+00:01:50,080 --> 00:01:50,820
+chahiye?
+
+97
+00:01:50,840 --> 00:01:51,660
+Neeche comment mein likho
+
+98
+00:01:51,680 --> 00:01:52,400
+“CHECK”.
+
+99
+00:01:52,420 --> 00:01:53,580
+Poori checklist seedhe
+
+100
+00:01:53,600 --> 00:01:54,800
+aapke DM mein bhej dunga
+
+101
+00:01:54,820 --> 00:01:56,020
+aur agla episode miss
+
+102
+00:01:56,040 --> 00:01:57,360
+na ho to Computer Hub
+
+103
+00:01:57,380 --> 00:01:59,050
+ko abhi follow kar lo.
