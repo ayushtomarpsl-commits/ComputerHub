@@ -1,0 +1,22 @@
+WiFi + mobile hotspot EK SAATH chalao 🤯 Free tool se laptop ke downloads 2x tak fast
+
+Aapke paas WiFi bhi hai, phone ka hotspot bhi… par laptop sirf EK use karta hai. Baaki internet bekaar jaata hai.
+
+NetMerge (free + open-source) sabko jod deta hai 🔗
+1️⃣ WiFi + Ethernet + phone hotspot connect karo
+2️⃣ NetMerge on karo
+3️⃣ Downloads har connection pe baant jaate hain ⚡
+
+📊 Developer ka test: akela best connection 121 Mbps → teeno milake 300 Mbps tak
+🎮 Sabse zyada fayda: Steam games, IDM, torrents, Google Drive uploads, browser downloads
+⚠️ Sach bhi jaan lo: ek single-connection download fast nahi hoga, aur speed aapke connections pe depend karegi
+
+✅ Free · No account · No VPN
+💻 Windows · Mac · Linux
+
+💬 Comment karo "MERGE" → GitHub link + setup DM mein 📩
+💾 Save kar lo, agli baar download atke to kaam aayega
+
+Credit: NetMerge by rohit267 · github.com/net-merge/net-merge (MIT license)
+
+#InternetSpeed #WiFiHack #OpenSource #LaptopTips #TechTipsHindi
