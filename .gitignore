@@ -47,3 +47,6 @@ __pycache__/
 .vercel/
 
 .vercel
+
+# SMEPay campaign: brand T&C confidentiality, keep off the public repo
+output/promotions/SMEPay/

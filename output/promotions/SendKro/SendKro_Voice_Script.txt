@@ -1,0 +1,22 @@
+Excel wali customer list ko mail karna hai? Gmail 500 ke baad rok deta hai, aur Mailchimp ₹8,360 mahina leta hai!
+
+Aur ye bill har naye customer ke saath badhta hai — unka bhi, jo mail kholte tak nahi.
+
+Lekin same 10,000 customers, ek flat ₹2,100 mahine mein? Saal ke ₹75,000 se zyada bachat.
+
+Ye hai SendKro — mails jaate hain aapke apne Gmail ya business email se.
+
+Step one — Gmail, Outlook ya Zoho connect karo.
+Step two — Excel upload karo. Columns khud match, duplicates gayab, har mail mein customer ka naam.
+Step three — 100 ready templates mein se ek chuno.
+Step four — send dabao, aur live dekho kisne open kiya, kisne click.
+
+Mailchimp se comparison? Wahan har contact ka paisa, yahan unlimited. Wahan unke shared servers, yahan aapka apna address. Aur har sender ki speed aap set karo, taaki Gmail ko sab normal lage.
+
+Bas yaad rakho — free Gmail din mein lagbhag 500 mails hi bhejta hai. Badi list ke liye Google Workspace ya Amazon SES connect karo.
+
+24 ghante ka free trial, koi payment nahi.
+
+Link chahiye? Neeche comment karo "MAIL" — link seedha DM mein.
+
+Aise hi paise bachane wale tools ke liye Computer Hub ko follow karo!

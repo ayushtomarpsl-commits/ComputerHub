@@ -1,0 +1,23 @@
+Laptop Doctor · Day 3 — Instagram caption (no paid partnership, no #ad)
+
+----- CAPTION (copy from the next line) -----
+₹60,000 ka laptop 2 saal mein bekaar? Dukaan ki ye 5 lines sunte hi ruk jao 🛑
+
+1️⃣ "i5 hai sir, sabse fast!" → number dekho. i5-12xx = 2022 ka processor, aaj ke daam par.
+2️⃣ "8GB kaafi hai, baad mein badha lena" → kai laptops mein RAM soldered hoti hai, badhti hi nahi. 16GB se kam mat lo.
+3️⃣ "Full HD display hai!" → Full HD sabmein hai. Nits poochho: 250 = pheeki screen, 300+ lo.
+4️⃣ "Graphics card hai, gaming chalegi!" → Intel UHD / Iris Xe alag card nahi, processor ka hi hissa hai.
+5️⃣ "MRP ₹75,000, aapke liye sirf ₹52,000!" → MRP sirf chhapa hua number hai. Model number ki photo lo, wahin online daam dekho.
+
+⏱️ 10-second test (dukaan ke demo laptop par): Ctrl + Shift + Esc → Performance → CPU, Memory, GPU. Teen jhooth pakde gaye.
+
+📩 Ye reel us dost ko bhejo jo laptop lene wala hai.
+
+Screens: Intel, Lenovo spec sheet aur Flipkart ki asli listings (19 Nov 2026). Ye sirf examples hain, daam roz badalte hain. "Row of chips" aam taur par soldered RAM hota hai, spec sheet se confirm karo.
+
+laptop buying guide India | laptop kaise kharide | i5 12th gen vs 13th gen | 8GB vs 16GB RAM | laptop under 60000 | student laptop tips Hindi
+
+#laptopdoctor #laptopbuyingguide #techtipshindi #studentlaptop #computerhub
+
+----- PINNED COMMENT -----
+Day 4: gaming laptop ka RTX sticker scam 🎮 Follow kar lo, miss na ho. Aapko dukaan par kaunsi line suni thi? 👇
