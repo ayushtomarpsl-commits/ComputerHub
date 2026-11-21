@@ -1,0 +1,12 @@
+[serious] अस्सी हज़ार का RTX gaming laptop… [short pause] और game चल रहा है उससे सस्ते RTX से भी slow?
+[curious] वजह sticker पे नहीं लिखी होती। और end में एक दस सेकंड का test, जो दुकान में खड़े-खड़े इसे पकड़ लेता है।
+[friendly] लैपटॉप डॉक्टर, डे four.
+[confident] Sticker पे सिर्फ़ नाम होता है: RTX forty fifty, sixty, fifty sixty. लेकिन असली ताक़त नाम में नहीं, watt में है।
+[serious] NVIDIA की अपनी website देखो। RTX fifty sixty laptop GPU: पैंतालीस से सौ watt. मतलब same नाम का chip, एक laptop में पैंतालीस watt पे, दूसरे में सौ पे। Power में दो गुना से ज़्यादा फ़र्क़।
+[amazed] और game पे असर? Notebookcheck ने एक ही chip को अलग-अलग watt पे चला के test किया। महँगा RTX forty seventy, पैंतीस watt पे: Cyberpunk में तिरपन FPS. [short pause] सस्ता RTX forty fifty, सौ watt पे: पैंसठ FPS. महँगा card, सस्ते से भी पीछे!
+[serious] और ये number दुकानदार बताता नहीं। Online listing में भी अक्सर लिखा ही नहीं होता।
+[confident] तो याद रखो: GPU का नाम आधी कहानी है। Watt पूरी कहानी।
+[excited] अब दस सेकंड का test. Demo laptop पे desktop पे right-click करो, NVIDIA Control Panel खोलो, नीचे बाएँ System Information. Display tab में "Maximum Graphics Power" लिखा होगा। यही असली watt है।
+[confident] सौ के पास है, तो card पूरी ताक़त पे है। पचास-साठ दिखे, तो वो RTX अपनी ताक़त से काफ़ी नीचे चल रहा है। या तो दाम कम करवाओ, या आगे बढ़ो।
+[friendly] ये रील उस दोस्त को भेजो, जो gaming laptop लेने वाला है।
+[excited] और डे five में: चालीस, साठ, अस्सी हज़ार। हर budget में असल में क्या देखना है। Comments में आपने यही पूछा था। Computer Hub को follow कर लो!
