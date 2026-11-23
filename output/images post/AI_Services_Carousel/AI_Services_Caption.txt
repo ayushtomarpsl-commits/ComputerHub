@@ -1,0 +1,57 @@
+AI SERVICES CAROUSEL — CAPTION + PINNED COMMENT (23 Nov 2026)
+Post: 10 slides, AI_Services_01.png … AI_Services_10.png (upload in this order). Hook picked by Ayush: H2.
+
+==================== CAPTION (copy from here) ====================
+AI se side income: 7 AI kaam jinke liye local business har mahine paise dete hain 💸
+
+₹30K/month side income miss kar rahe ho? 3 clients × ₹10,000 = ₹30,000.
+Clinic, broker, online store — sabko ye kaam chahiye, aur zyaadatar no-code tools se ho jaata hai:
+
+1️⃣ WhatsApp AI receptionist (clinic, salon, gym)
+2️⃣ Property lead follow-up (brokers)
+3️⃣ AI customer support bot (online stores)
+4️⃣ AI resume screening (small companies)
+5️⃣ Qualified leads becho (coaching, interior, solar)
+6️⃣ Creator–brand matching (local brands)
+7️⃣ Back-office automation (invoice, reminder, review)
+
+Har slide pe: kaun pay karega, kaunse tools, kitna charge karo.
+Slide 9 pe pehla client laane wala WhatsApp message hai — copy-paste karo. 📌
+
+Ye post us dost ko bhejo jo side income dhoondh raha hai 📩
+
+AI side income India | AI agency business ideas | WhatsApp chatbot business | AI automation services Hindi | freelancing with AI
+
+#sideincome #aiagency #businessideas #whatsappautomation #aitools
+==================== END CAPTION ====================
+
+==================== PINNED COMMENT ====================
+Charges approx. hain — city, client aur kaam ke hisaab se badalte hain. Shuru mein sirf 1 niche + 1 service pakdo (jaise clinic + WhatsApp receptionist). Aap kaunsa number try karoge, 1 se 7? 👇
+==================== END PINNED COMMENT ====================
+
+ALT TEXT (Instagram → Advanced settings → Write alt text, slide 1):
+"₹30K per month side income: 7 AI services local businesses pay for — WhatsApp AI receptionist, property lead follow-up, AI support bot, resume screening, lead selling, creator-brand matching, back-office automation."
+
+==================== SEO + VIRALITY CHECK ====================
+Checked against: output/Insights/Instagram_Algo_Review_2026-11-23.md + docs/VIRAL-SCRIPT-RULES.md (Hook Gate, LOSS+SUSPENSE, ONE CTA).
+
+| Check | Result | Points |
+|---|---|---|
+| SEO keyword in caption line 1 ("AI se side income", "7 AI kaam", "local business") | ✅ | 10/10 |
+| Keyword line (5 search phrases) + exactly 5 hashtags, mixed size | ✅ | 10/10 |
+| ₹ / loss in the first line of slide 1 ("₹30K/month side income miss?") | ✅ (₹ is a projection: 3 × ₹10K, shown on the slide) | 13/15 |
+| Hook Gate (₹ · mass audience · known anchor · viewer stake · ≤ 6 words) | 5/5 (anchor = dukaan/clinic/broker/WhatsApp) | 15/15 |
+| Open loop → payoff at the end (cover promises the WhatsApp message, paid on slide 9) | ✅ | 10/10 |
+| Save reason (charges + tools on every slide, copy-paste message, 3 steps) | ✅ strong | 15/15 |
+| Share reason built in (CTA names who to send it to; topic = money for a friend) | ✅ | 12/15 |
+| ONE CTA (share only; pinned comment is a clarification + light question) | ✅ | 5/5 |
+| Slide count 7–10, 4:5, same look on every slide, number on every slide | ✅ 10 slides | 5/5 |
+| Honest numbers (sources dated, "approx." on charges) | ✅ receptionist ₹15–25K = Payscale India; chatbot builds ₹25–75K = vendor blogs | — |
+
+SCORE: 95/105 → **90 / 100** (target ≥ 85).
+
+Risks / what to watch:
+- Carousels usually reach fewer non-followers than Reels; they win on SAVES. Judge at 24 h: save ≥ 3%, share ≥ 2%, non-followers ≥ 85%.
+- "₹30K/month" is a possibility, not a promise; the slide shows the math (3 clients × ₹10K) and the pinned comment says charges vary.
+- Topic idea came from a carousel by another creator (@aiwithshivang). All text, examples and design are our own. Credit is Ayush's call.
+- Optional test (not verified): add a trending audio to the carousel when posting; some 2026 guides say it helps reach.

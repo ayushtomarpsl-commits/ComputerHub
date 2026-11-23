@@ -39,6 +39,8 @@
 /output/**/client/
 /output/**/[Vv]oice/
 /output/**/Recording*.mp4
+/output/**/Raw ref*/
+/output/**/gemini_raw/
 
 # never upload these anywhere
 __pycache__/
