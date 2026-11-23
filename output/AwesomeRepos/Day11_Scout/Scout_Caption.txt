@@ -1,0 +1,29 @@
+Awesome Repos Day 11 — Scout (github.com/kiryano/Scout) — Instagram caption
+Facts checked 23 Nov 2026: GitHub API + README (826 stars, MIT, 8 platforms, SMTP check, score 0-100, CSV);
+Hunter.io Starter $49/month billed monthly (hunter.io/pricing). Not a paid promo → no #ad. Credit the developer.
+
+----- CAPTION (copy from the next line) -----
+Client emails ke liye Hunter.io jaise tools pe ₹4,000+/mahina? 😳 Ye FREE open-source tool social media bios se emails nikaal ke verify bhi karta hai 👇
+
+🔍 Scout (by kiryano on GitHub, MIT license)
+✅ 8 platforms: Instagram, TikTok, LinkedIn, GitHub, YouTube, Twitch, Pinterest, Linktree
+✅ Bio + website se email, phone aur links
+✅ Har email ka mail server (SMTP) check + 0-100 lead score
+✅ Sab ek CSV mein → Excel mein kholo
+✅ Paid API nahi chahiye (Hunter.io optional)
+
+⚙️ Setup: git clone → pip install -r requirements.txt → python scout.py
+
+⚠️ Honest baat:
+• Kuch mail servers SMTP check block karte hain, tab score kam aata hai
+• LinkedIn ke liye apni login cookie lagti hai (account risk) — skip karna safe
+• Platforms ke rules follow karo, sirf business emails pe kaam ki baat bhejo, spam nahi
+
+📩 Repo link chahiye? Is reel ka link copy karke comment mein paste karo (ya kuch bhi comment karo) → link seedha DM mein.
+
+free email finder | Hunter.io alternative free | lead generation tool | cold email India | freelancer clients kaise dhoondhe | appointment setter tools
+
+#leadgeneration #freelancing #github #opensource #computerhub
+
+----- PINNED COMMENT -----
+Repo link chahiye? Is reel ka link copy karke yahan paste karo, DM mein aa jayega 📩 Credit: github.com/kiryano 🙌

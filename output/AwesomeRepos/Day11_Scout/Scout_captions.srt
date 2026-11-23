@@ -1,0 +1,327 @@
+1
+00:00:00,000 --> 00:00:01,020
+Clients ke email
+
+2
+00:00:01,040 --> 00:00:02,220
+nikaalne ke liye abhi
+
+3
+00:00:02,240 --> 00:00:03,260
+bhi paid tools par
+
+4
+00:00:03,280 --> 00:00:04,220
+hazaaron rupaye barbaad
+
+5
+00:00:04,240 --> 00:00:05,490
+kar rahe ho.
+
+6
+00:00:05,780 --> 00:00:06,780
+Ruk jao!
+
+7
+00:00:06,800 --> 00:00:07,860
+kyunki ye ek free
+
+8
+00:00:07,880 --> 00:00:09,780
+tool Hunter.io jaise
+
+9
+00:00:09,800 --> 00:00:11,120
+mehenge tools ki poori
+
+10
+00:00:11,140 --> 00:00:12,420
+chhutti kar sakta hai.
+
+11
+00:00:12,440 --> 00:00:13,540
+Hello Computer Hub
+
+12
+00:00:13,560 --> 00:00:14,540
+family,
+
+13
+00:00:14,560 --> 00:00:15,240
+aaj main aapke liye
+
+14
+00:00:15,260 --> 00:00:16,280
+lekar aaya hoon ek
+
+15
+00:00:16,300 --> 00:00:17,620
+zabardast free tool
+
+16
+00:00:17,640 --> 00:00:19,880
+jiska naam hai Scout.
+
+17
+00:00:19,900 --> 00:00:20,960
+Ye tool bina kisi
+
+18
+00:00:20,980 --> 00:00:22,680
+paid API ke seedhe
+
+19
+00:00:22,700 --> 00:00:24,000
+social media bio se
+
+20
+00:00:24,020 --> 00:00:25,180
+verified emails dhoondh
+
+21
+00:00:25,200 --> 00:00:26,000
+kar nikaalta hai.
+
+22
+00:00:26,020 --> 00:00:27,640
+Ye Instagram,
+
+23
+00:00:27,660 --> 00:00:28,560
+TikTok,
+
+24
+00:00:28,580 --> 00:00:29,900
+LinkedIn aur inke alawa
+
+25
+00:00:29,920 --> 00:00:31,380
+5 aur platform se
+
+26
+00:00:31,400 --> 00:00:32,700
+profiles ko scrape karta
+
+27
+00:00:32,720 --> 00:00:32,860
+hai
+
+28
+00:00:32,880 --> 00:00:34,520
+aur unmein se emails,
+
+29
+00:00:34,540 --> 00:00:36,160
+phone numbers aur saare
+
+30
+00:00:36,180 --> 00:00:37,300
+zaroori links baahar
+
+31
+00:00:37,320 --> 00:00:38,400
+nikaal leta hai.
+
+32
+00:00:38,420 --> 00:00:39,340
+Aur sabse kamaal ki
+
+33
+00:00:39,360 --> 00:00:40,800
+baat ye sirf data
+
+34
+00:00:40,820 --> 00:00:42,140
+ikattha nahi karta.
+
+35
+00:00:42,160 --> 00:00:43,460
+Scraping ke baad ye
+
+36
+00:00:43,480 --> 00:00:44,500
+har ek email ko
+
+37
+00:00:44,520 --> 00:00:45,800
+seedhe mail server se
+
+38
+00:00:45,820 --> 00:00:47,180
+check karke verify karta
+
+39
+00:00:47,200 --> 00:00:47,460
+hai
+
+40
+00:00:47,480 --> 00:00:48,600
+aur saath mein ek
+
+41
+00:00:48,620 --> 00:00:49,820
+score bhi deta hai
+
+42
+00:00:49,840 --> 00:00:50,800
+jisse aapko pata chal
+
+43
+00:00:50,820 --> 00:00:51,900
+jaata hai ki wo
+
+44
+00:00:51,920 --> 00:00:53,380
+email asal mein kitna
+
+45
+00:00:53,400 --> 00:00:53,960
+valid hai.
+
+46
+00:00:53,980 --> 00:00:55,920
+Matlab email bounce hone
+
+47
+00:00:55,940 --> 00:00:57,580
+ka jhanjhat hi khatam.
+
+48
+00:00:57,600 --> 00:00:58,840
+Ise chalana bhi behad
+
+49
+00:00:58,860 --> 00:00:59,800
+aasaan hai.
+
+50
+00:00:59,820 --> 00:01:01,080
+Aapko bas apne terminal
+
+51
+00:01:01,100 --> 00:01:02,400
+mein ek single command
+
+52
+00:01:02,420 --> 00:01:03,000
+run karni hai
+
+53
+00:01:03,020 --> 00:01:04,160
+aur ye saara ka
+
+54
+00:01:04,180 --> 00:01:05,760
+saara data ek clean
+
+55
+00:01:05,780 --> 00:01:07,300
+CSV file mein export
+
+56
+00:01:07,320 --> 00:01:08,200
+kar deta hai.
+
+57
+00:01:08,220 --> 00:01:09,440
+Jise aap seedhe Excel
+
+58
+00:01:09,460 --> 00:01:10,480
+mein khol kar apne
+
+59
+00:01:10,500 --> 00:01:11,860
+kaam mein le sakte ho.
+
+60
+00:01:11,880 --> 00:01:13,520
+Ye Hunter.io ka ek
+
+61
+00:01:13,540 --> 00:01:14,920
+damdaar free alternative
+
+62
+00:01:14,940 --> 00:01:15,360
+hai.
+
+63
+00:01:15,380 --> 00:01:16,420
+Jise khaas taur par
+
+64
+00:01:16,440 --> 00:01:17,900
+appointment setters,
+
+65
+00:01:17,920 --> 00:01:19,480
+freelancers aur outreach
+
+66
+00:01:19,500 --> 00:01:20,460
+teams ke liye banaaya
+
+67
+00:01:20,480 --> 00:01:21,200
+gaya hai.
+
+68
+00:01:21,220 --> 00:01:22,180
+To agar aapko bhi
+
+69
+00:01:22,200 --> 00:01:23,460
+iska direct repo link
+
+70
+00:01:23,480 --> 00:01:23,960
+chahiye.
+
+71
+00:01:23,980 --> 00:01:24,940
+To ek chhota sa
+
+72
+00:01:24,960 --> 00:01:25,820
+kaam karo.
+
+73
+00:01:25,840 --> 00:01:26,760
+Is reel ka link
+
+74
+00:01:26,780 --> 00:01:28,120
+copy karke mere comment
+
+75
+00:01:28,140 --> 00:01:28,880
+box mein bhej do
+
+76
+00:01:28,900 --> 00:01:30,440
+aur main turant aapko
+
+77
+00:01:30,460 --> 00:01:31,420
+iska repo link send
+
+78
+00:01:31,440 --> 00:01:32,280
+kar dunga.
+
+79
+00:01:32,300 --> 00:01:33,480
+Aisi hi kamaal ki
+
+80
+00:01:33,500 --> 00:01:34,660
+tech aur AI videos
+
+81
+00:01:34,680 --> 00:01:35,940
+ke liye Computer Hub
+
+82
+00:01:35,960 --> 00:01:37,650
+ko abhi follow kar lo.
