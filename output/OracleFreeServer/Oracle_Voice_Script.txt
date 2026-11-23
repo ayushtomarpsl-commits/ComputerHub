@@ -1,0 +1,13 @@
+Oracle tum sabko abhi free cloud server de raha hai, wo bhi 12 GB of RAM, 2 CPUs aur 200 GB of storage ke saath.
+To haan, iska matlab ye hai ki ab tum 24 ghante apne saare apps aur automations run kar sakte ho, wo bhi tab, jab tumhara laptop band hai.
+Par end mein wo ek galti bataunga, jisse ye free server 7 din mein wapas chhin sakta hai.
+Aur haan, purani videos 24 GB bolti hain, par ab official limit 12 GB hai.
+Builder ho? Coolify daalo, aur apni website aur apps deploy karo.
+Business hai? n8n aur Twenty CRM host karo, leads se follow-up tak sab automatic.
+Student ho? Linux aur Docker seekho, aur college project live dikhao.
+Setup mein log do jagah fanste hain.
+Pehli: region. Home region baad mein badalta nahi, aur kai region mein "out of capacity" aata hai.
+Aur ab wo galti: server ko khaali chhod dena. Agar 7 din tak CPU, network aur memory 20% se kam rahe, to Oracle use idle maan kar wapas le sakta hai.
+Isliye us par kuch na kuch chalate raho, jaise n8n.
+Sign up se setup tak ki poori guide chahiye? Comment karo "SERVER", main DM mein bhej dunga.
+Aur ye reel apne us dost ko bhej dena, jiske paas hosting ke paise nahi hain.

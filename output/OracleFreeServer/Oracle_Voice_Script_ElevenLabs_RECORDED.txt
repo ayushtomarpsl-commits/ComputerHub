@@ -1,0 +1,13 @@
+[excited] Oracle तुम सबको अभी free cloud server दे रहा है, वो भी बारह GB of RAM, दो CPUs और दो सौ GB of storage के साथ।
+[confident] तो हाँ, इसका मतलब ये है कि अब तुम चौबीसों घंटे अपने सारे apps और automations run कर सकते हो, वो भी तब, जब तुम्हारा laptop बंद है।
+[curious] पर end में वो एक गलती बताऊँगा, जिससे ये free server सात दिन में वापस छिन सकता है। [short pause]
+[serious] और हाँ, पुरानी videos चौबीस GB बोलती हैं, पर अब official limit बारह GB है।
+[confident] Builder हो? Coolify डालो, और अपनी website और apps deploy करो।
+Business है? n8n और Twenty CRM host करो, leads से follow-up तक सब automatic.
+Student हो? Linux और Docker सीखो, और college project live दिखाओ।
+[serious] Setup में लोग दो जगह फँसते हैं।
+पहली: region. Home region बाद में बदलता नहीं, और कई region में "out of capacity" आता है।
+[short pause] और अब वो गलती: server को खाली छोड़ देना। अगर सात दिन तक CPU, network और memory बीस percent से कम रहे, तो Oracle उसे idle मानकर वापस ले सकता है।
+[friendly] इसलिए उस पर कुछ ना कुछ चलाते रहो, जैसे n8n.
+[excited] Sign up से setup तक की पूरी guide चाहिए? Comment करो "SERVER", मैं DM में भेज दूँगा।
+[friendly] और ये reel अपने उस दोस्त को भेज देना, जिसके पास hosting के पैसे नहीं हैं।

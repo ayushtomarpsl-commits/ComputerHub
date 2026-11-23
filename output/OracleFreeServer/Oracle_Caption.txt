@@ -1,0 +1,32 @@
+Oracle Free Cloud Server reel — Instagram caption (not a paid promo, no #ad)
+Facts checked 23 Nov 2026 on Oracle docs (Always Free Resources): 2 OCPUs + 12 GB (A1.Flex), 200 GB block storage,
+home region only, idle rule 7 days < 20%. Card needed at signup (verification hold, no charge unless you upgrade).
+
+----- CAPTION (copy from the next line) -----
+Free cloud server with 12 GB RAM, 24/7 chalta hai, laptop band ho tab bhi 😳 Par ek galti se 7 din mein wapas chala jaata hai 👇
+
+🖥️ Oracle Cloud Always Free (official limit, 2026)
+✅ 2 CPUs (Ampere ARM) + 12 GB RAM
+✅ 200 GB storage
+✅ Apps, websites aur automations 24/7
+
+👨‍💻 Builder → Coolify se website/apps deploy
+💼 Business → n8n + Twenty CRM: leads, follow-up, reports automatic
+🎓 Student → Linux, Docker seekho, college project live karo
+
+⚠️ 2 jagah log fanste hain:
+1️⃣ Home region baad mein badalta nahi, aur "out of host capacity" aa sakta hai
+2️⃣ Server khaali chhoda → 7 din tak CPU, network, memory 20% se kam = Oracle wapas le sakta hai
+
+ℹ️ Purani videos "24 GB free" bolti hain. June 2026 se official limit 12 GB hai.
+💳 Signup pe card lagta hai (verification), upgrade kiye bina charge nahi.
+
+📩 Comment "SERVER" → sign up se setup tak ki poori guide (ports, Docker, Coolify, n8n) seedha DM mein.
+🔁 Us dost ko bhejo jiske paas hosting ke paise nahi hain.
+
+free cloud server | Oracle Cloud free tier | free VPS 2026 | free hosting for students | n8n self host free | Coolify setup | Docker seekho Hindi
+
+#freeserver #oraclecloud #n8n #devops #computerhub
+
+----- PINNED COMMENT -----
+Guide chahiye? "SERVER" comment karo, DM mein aa jayegi 📩 Tum is free server pe sabse pehle kya chalaoge: website, n8n ya college project? 👇
