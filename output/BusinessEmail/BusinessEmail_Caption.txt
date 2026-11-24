@@ -1,0 +1,29 @@
+Free Business Email (Cloudflare + Brevo) — Instagram caption (not a paid promo, no #ad)
+Facts checked 23 Nov 2026:
+- Cloudflare Email Routing forwards incoming mail only.
+- Brevo free plan = 300 emails/day.
+- Gmail removes "Send mail as" for third-party addresses from January 2027 (Gmail Help, answer 17101213).
+- You need your own domain.
+
+----- CAPTION (copy from the next line) -----
+Supplier ne bola "ye fake Gmail ID hai?" 😳 Apne domain pe FREE business email banao: orders@aapkidukaan.com 👇
+
+📩 2 free services:
+1️⃣ Cloudflare Email Routing → orders@aapkadomain.com pe aaya mail seedha aapke Gmail inbox mein (receive)
+2️⃣ Brevo SMTP → domain authenticate (SPF, DKIM) karo, aur usi business address se mail bhejo (send)
+✅ Brevo free plan: roz 300 emails, koi monthly subscription nahi
+
+⚠️ Dhyan do:
+• Cloudflare sirf incoming forward karta hai, bhejta nahi
+• Domain aapke paas pehle se hona chahiye
+• Gmail ka third-party "Send mail as" January 2027 se band ho raha hai, isliye long-term ke liye naya sending tareeka use karo
+
+📩 Comment "EMAIL" → poora step-by-step setup seedha DM mein.
+🔁 Us dukaandaar dost ko bhejo jo abhi bhi @gmail.com se business chala raha hai.
+
+free business email | professional email free | Cloudflare email routing | Brevo SMTP free | custom domain email India | small business tips
+
+#businessemail #smallbusinessindia #cloudflare #emailtips #computerhub
+
+----- PINNED COMMENT -----
+Setup guide chahiye? "EMAIL" comment karo, DM mein aa jayegi 📩 Aapka business abhi kis email se chalta hai: Gmail ya apne domain se? 👇

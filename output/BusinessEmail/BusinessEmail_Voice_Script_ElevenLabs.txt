@@ -1,0 +1,29 @@
+[dramatic] "अरे Rohan! Supplier ने मेरा email देखकर बोल दिया—ये business email है या कोई fake Gmail ID?"
+
+[worried] "अब मैं क्या करूँ? Paid business email के लिए पैसे भी नहीं हैं!"
+
+[excited] "Uncle, tension मत लो! अगर आपके पास अपना domain पहले से है, तो बिना paid mailbox subscription के professional email setup कर सकते हैं!"
+
+[confident] "और इसके लिए चाहिए सिर्फ़ दो free services!"
+
+[energetic] "पहला—Cloudflare Email Routing!"
+
+[fast] "आपका orders@sharmakirana.com email आएगा, और incoming messages सीधे आपके personal Gmail inbox में पहुँच जाएँगे!"
+
+[excited] "लेकिन रुकिए! Email receive करना तो हो गया… अब अपने business address से भेजेंगे कैसे?"
+
+[confident] "दूसरा—Brevo SMTP!"
+
+[informative] "अपने domain को authenticate करो, SMTP configure करो, और अपने custom business address से emails भेजना शुरू करो!"
+
+[surprised] "और Brevo के free plan में रोज़ 300 emails भेज सकते हो—बिना monthly subscription के!"
+
+[thoughtful] "लेकिन एक बात ध्यान रखना: Cloudflare सिर्फ़ incoming emails forward करता है, outgoing emails नहीं भेजता। और domain आपके पास पहले से होना चाहिए!"
+
+[serious] "एक और जरूरी update—Gmail का third-party Send mail as feature जनवरी 2027 से बंद होने वाला है। इसलिए long-term setup के लिए updated sending method इस्तेमाल करना!"
+
+[happy] "अब आपका email होगा orders@sharmakirana.com… और supplier के सामने professional business identity भी!"
+
+[excited] "पूरा setup guide चाहिए? नीचे comment करो 'EMAIL', मैं आपको steps सीधे DM में भेज दूँगा!"
+
+[energetic] "और ऐसे ही FREE Business Tools और Smart Tech Solutions के लिए Computer Hub को अभी Follow कर लो!"

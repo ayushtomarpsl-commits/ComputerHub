@@ -1,0 +1,299 @@
+1
+00:00:00,000 --> 00:00:01,100
+Arre Rohan!
+
+2
+00:00:01,120 --> 00:00:02,160
+supplier ne mera email
+
+3
+00:00:02,180 --> 00:00:03,520
+dekh kar bol diya ab:
+
+4
+00:00:03,540 --> 00:00:04,440
+"Ye business email hai
+
+5
+00:00:04,460 --> 00:00:06,300
+ya koi fake Gmail ID?"
+
+6
+00:00:06,320 --> 00:00:07,640
+Ab main kya karun?
+
+7
+00:00:07,660 --> 00:00:08,660
+Paid business email ke
+
+8
+00:00:08,680 --> 00:00:09,560
+liye paise bhi nahi hain.
+
+9
+00:00:09,580 --> 00:00:11,780
+Uncle tension mat lo,
+
+10
+00:00:11,800 --> 00:00:12,700
+agar aapke paas apna
+
+11
+00:00:12,720 --> 00:00:14,220
+domain pehle se hai to
+
+12
+00:00:14,240 --> 00:00:15,340
+bina paid mailbox
+
+13
+00:00:15,360 --> 00:00:16,080
+subscription ke
+
+14
+00:00:16,100 --> 00:00:17,560
+professional email setup
+
+15
+00:00:17,580 --> 00:00:18,120
+kar sakte hain
+
+16
+00:00:18,140 --> 00:00:19,620
+aur iske liye chahiye
+
+17
+00:00:19,640 --> 00:00:21,600
+sirf do free services.
+
+18
+00:00:21,620 --> 00:00:23,880
+Pehla: Cloudflare email routing.
+
+19
+00:00:23,900 --> 00:00:24,260
+Aapka
+
+20
+00:00:24,280 --> 00:00:25,800
+orders@sharmakirana.com
+
+21
+00:00:25,820 --> 00:00:26,060
+com
+
+22
+00:00:26,080 --> 00:00:27,060
+email aayega aur
+
+23
+00:00:27,080 --> 00:00:28,440
+incoming messages seedhe
+
+24
+00:00:28,460 --> 00:00:29,920
+aapke personal Gmail inbox
+
+25
+00:00:29,940 --> 00:00:31,020
+mein pahunch jayenge.
+
+26
+00:00:31,040 --> 00:00:31,700
+Lekin rukiye!
+
+27
+00:00:31,720 --> 00:00:33,060
+email receive karna to
+
+28
+00:00:33,080 --> 00:00:33,760
+ho gaya,
+
+29
+00:00:33,780 --> 00:00:35,000
+ab apne business address
+
+30
+00:00:35,020 --> 00:00:36,430
+se bhejenge kaise?
+
+31
+00:00:36,450 --> 00:00:37,130
+Doosra:
+
+32
+00:00:37,150 --> 00:00:39,350
+Brevo SMTP!
+
+33
+00:00:39,580 --> 00:00:40,740
+Authenticate karo,
+
+34
+00:00:40,760 --> 00:00:42,300
+SMTP configure karo,
+
+35
+00:00:42,320 --> 00:00:43,420
+aur apne custom business
+
+36
+00:00:43,440 --> 00:00:44,840
+address se emails bhejna
+
+37
+00:00:44,860 --> 00:00:45,760
+shuru karo.
+
+38
+00:00:45,780 --> 00:00:46,740
+Aur Brevo ke free
+
+39
+00:00:46,760 --> 00:00:48,120
+plan mein roz 300
+
+40
+00:00:48,140 --> 00:00:49,600
+emails bhej sakte ho,
+
+41
+00:00:49,620 --> 00:00:50,500
+bina monthly subscription
+
+42
+00:00:50,520 --> 00:00:51,040
+ke.
+
+43
+00:00:51,060 --> 00:00:52,100
+Lekin ek baat dhyan
+
+44
+00:00:52,120 --> 00:00:52,760
+rakhna:
+
+45
+00:00:52,780 --> 00:00:54,260
+Cloudflare sirf incoming
+
+46
+00:00:54,280 --> 00:00:55,780
+emails forward karta hai,
+
+47
+00:00:55,800 --> 00:00:56,820
+outgoing emails nahi
+
+48
+00:00:56,840 --> 00:00:57,400
+bhejta.
+
+49
+00:00:57,420 --> 00:00:58,940
+aur domain aapke paas
+
+50
+00:00:58,960 --> 00:01:00,340
+pehle se hona chahiye.
+
+51
+00:01:00,360 --> 00:01:01,760
+Ek aur zaroori update.
+
+52
+00:01:01,780 --> 00:01:03,200
+Gmail ka third party
+
+53
+00:01:03,220 --> 00:01:04,500
+send mail as feature
+
+54
+00:01:04,520 --> 00:01:06,640
+January 2027 se band hone
+
+55
+00:01:06,660 --> 00:01:07,360
+wala hai.
+
+56
+00:01:07,380 --> 00:01:08,560
+Isliye long term setup
+
+57
+00:01:08,580 --> 00:01:08,900
+ke liye,
+
+58
+00:01:08,920 --> 00:01:10,300
+updated sending method
+
+59
+00:01:10,320 --> 00:01:11,400
+istemaal karna.
+
+60
+00:01:11,420 --> 00:01:12,640
+Ab aapka email hoga
+
+61
+00:01:12,660 --> 00:01:14,460
+orders@sharmakirana.com.
+
+62
+00:01:14,480 --> 00:01:15,000
+com.
+
+63
+00:01:15,020 --> 00:01:16,140
+Aur supplier ke saamne
+
+64
+00:01:16,160 --> 00:01:17,320
+professional business
+
+65
+00:01:17,340 --> 00:01:18,200
+identity bhi.
+
+66
+00:01:18,220 --> 00:01:19,860
+Poora setup guide chahiye?
+
+67
+00:01:19,880 --> 00:01:20,780
+Neeche comment karo
+
+68
+00:01:20,800 --> 00:01:21,600
+"EMAIL".
+
+69
+00:01:21,620 --> 00:01:22,780
+Main aapko steps seedhe
+
+70
+00:01:22,800 --> 00:01:24,060
+DM mein bhej dunga.
+
+71
+00:01:24,080 --> 00:01:25,200
+aur aise hi free
+
+72
+00:01:25,220 --> 00:01:26,500
+business tools aur smart
+
+73
+00:01:26,520 --> 00:01:27,560
+tech solutions ke liye
+
+74
+00:01:27,580 --> 00:01:28,960
+Computer Hub ko abhi
+
+75
+00:01:28,980 --> 00:01:30,150
+follow kar lo.
