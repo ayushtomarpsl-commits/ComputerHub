@@ -1,0 +1,41 @@
+Mayson (Awesome Tools Day 5) — Instagram caption + pinned comment (25 Nov 2026).
+Facts checked 25 Nov 2026 on mayson.dev (pricing, FAQ, /dont-use-this):
+- Go plan: ₹199 / 30 days pre-launch offer (regular ₹1,599), 500 credits, 5 live apps, full code access, custom domain.
+- Full-stack: frontend, backend, real database, login, APIs. Code is yours, export on Go and above.
+- "Don't use this" page sends developers to other tools.
+- Indian team (FAQ "Who is behind Mayson").
+- Our demo: Glow Salon booking app, prompt -> built in about 2.5 minutes (rec1), owner dashboard (rec4).
+IF MAYSON PAYS FOR THIS POST: turn on "Paid partnership" in Instagram and add #ad at the end of the caption.
+
+----- CAPTION (copy from the next line) -----
+App banana hai par coding nahi aati? 📱 Maine ek chat se poora salon booking app banaya: login, database, owner dashboard, sab kuch, sirf 2.5 minute mein 🤯👇
+
+Tool: Mayson, Indian team ka full-stack AI agent (AI app builder)
+1️⃣ Apna app idea simple words mein likho
+2️⃣ Mayson khud database, login system, APIs aur dashboard banata hai, har step batata hai
+3️⃣ App ready: customer slot book kare, owner dashboard pe bookings aur kamai dekhe
+✅ Code aapka hai: export karo, apne developer ko do, koi lock-in nahi
+
+💰 Pre-launch offer: Go plan ₹199 / 30 din (500 credits, 5 live apps). Offer ke baad ₹1,599.
+
+⚠️ Dhyan do:
+• Build aur changes credits use karte hain, bade changes zyada
+• "₹50,000 aur ek mahina" ek typical developer quote ka example hai
+• Payments, health ya sensitive data wale app ke liye launch se pehle developer se check karwao
+
+Kiske liye: salon, coaching, dukaan, clinic booking, aur aapka pehla startup idea.
+
+📩 Comment "APP" → Mayson ka link seedha DM mein.
+🔁 Us dost ko bhejo jiske paas app idea hai par coding nahi aati.
+
+AI app builder Hindi | bina coding app kaise banaye | no code app builder India | booking app kaise banaye | AI se app banao | full stack AI agent | Mayson AI review
+
+#aitools #nocode #appbuilder #startupindia #computerhub
+
+----- PINNED COMMENT -----
+Link chahiye? "APP" comment karo, DM mein aa jayega 📩 Aur batao: aap kaun-sa app banaoge? 👇
+
+----- ALT TEXT (Instagram → Advanced settings → Write alt text) -----
+Screen recording: a salon booking app "Glow Salon Gurugram" built with the Mayson AI agent from one prompt. The agent
+sets up the database, login and APIs; the app shows services with prices, 3-tap booking, login before booking and an
+owner dashboard. Pricing: Go plan ₹199 for 30 days in the pre-launch offer, ₹1,599 after.

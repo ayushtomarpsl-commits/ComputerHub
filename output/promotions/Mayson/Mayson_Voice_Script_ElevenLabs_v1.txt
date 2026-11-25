@@ -1,0 +1,13 @@
+[excited] ये पूरा booking app देखो… login, database, owner dashboard, और live link। [short pause] Developer बोलता—पचास हज़ार और एक महीना। [confident] मैंने बनाया… सिर्फ़ chat करके, बिना एक भी line code लिखे!
+[curious] कैसे? अभी live दिखाता हूँ। [whispers] और end में इसकी कीमत बताऊँगा… यक़ीन नहीं होगा।
+[happy] Welcome to Awesome Tools! आज का tool है—Mayson. एक Indian team का full-stack AI agent.
+[informative] मैंने बस इतना लिखा— [slow] "Gurugram के salon का booking app: customer slot book करे, सबका अपना login हो, और owner dashboard पे सारी bookings देखे।"
+[excited] और Mayson ने पूरा app बना दिया: frontend, backend, असली database, login, सब connected। [short pause] और deploy भी कर दिया—सीधा live link।
+[amazed] फिर test किया: sign up किया, booking डाली, tab बंद किया, वापस आया… data वहीं का वहीं। मतलब backend सच में real है।
+[casual] कुछ बदलना है? बस लिखो—"हर booking में status add करो"—और app update।
+[confident] और code आपका है: export करो, अपने developer को दो, कोई lock-in नहीं। अपना domain भी लगा सकते हो।
+[thoughtful] और इनकी honesty देखो: website पे "Don't use this" वाला page है। अगर आप developer हो, तो ये खुद दूसरा tool suggest करते हैं।
+[mischievously] अब वो कीमत, जो मैंने promise की थी… [short pause] [excited] Pre-launch offer में Go plan सिर्फ़ एक सौ निन्यानवे रुपये, तीस दिन के लिए! पाँच सौ credits और पाँच live apps। [reassuring] Offer के बाद इसका दाम पंद्रह सौ निन्यानवे है।
+[serious] Salon हो, coaching हो, दुकान हो, या आपका पहला startup idea—अब developer के पीछे हफ़्तों मत घूमना।
+[excited] Link चाहिए? नीचे comment करो "APP"—link सीधा आपके DM में। [curious] और comment में बताना—आप कौन-सा app बनाओगे?
+[serious] ये reel उस दोस्त को भेजो, जिसके पास app idea है पर coding नहीं आती। [excited] और ऐसे ही AI tools के लिए Computer Hub को follow करो!
