@@ -10,12 +10,13 @@ Facts checked 25 Nov 2026 on mayson.dev (pricing, FAQ, /dont-use-this):
 SEO keywords (25 Nov, from Ayush's keyword tool, seed "AI app builder", India; Google-style volumes, treat as estimates):
 used = free ai app builder, ai app builder in india, ai app builder online, ai app builder reviews (as "Mayson AI review").
 Skipped = certification / pdf / course / guide / cheap / "how to ai app builder" (wrong intent for this reel).
+Mayson Instagram = @mayson.dev (from the footer link on mayson.dev, 25 Nov). Tag it in the caption + in "Tag people".
 IF MAYSON PAYS FOR THIS POST: turn on "Paid partnership" in Instagram and add #ad at the end of the caption.
 
 ----- CAPTION (copy from the next line) -----
 Free AI app builder se bina coding app kaise banaye? 📱 Maine ek chat se poora salon booking app banaya: login, database, owner dashboard, sirf 2.5 minute mein, ₹0 mein 🤯👇
 
-Tool: Mayson, Indian team ka full-stack AI agent (online AI app builder, India)
+Tool: @mayson.dev (Mayson), Indian team ka full-stack AI agent (online AI app builder, India)
 1️⃣ Apna app idea simple words mein likho
 2️⃣ Mayson khud database, login system, APIs aur dashboard banata hai, har step batata hai
 3️⃣ App ready: customer slot book kare, owner dashboard pe bookings aur kamai dekhe
