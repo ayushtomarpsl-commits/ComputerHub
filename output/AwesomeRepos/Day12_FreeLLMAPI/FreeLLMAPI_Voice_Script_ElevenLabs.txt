@@ -1,0 +1,10 @@
+[shocked] Claude Code चलाने के लिए लोग हर महीने दो हज़ार से चौबीस हज़ार रुपये भर रहे हैं। [short pause] [serious] और students? उनके पास तो इतने पैसे ही नहीं।
+[mischievously] आज एक free जुगाड़ दिखाता हूँ… [whispers] और end में इसका एक catch बताऊँगा, जो बाकी creators छुपा रहे हैं।
+[informative] Google, Groq, OpenRouter, Mistral, NVIDIA… ये companies हर महीने कुछ free AI tokens देती हैं। अकेले में थोड़े-थोड़े। [excited] पर सबको जोड़ दो, तो बनते हैं करीब दस billion tokens, हर महीने!
+[confident] और यही किया है एक open-source tool ने: FreeLLMAPI. GitHub पे अट्ठावन हज़ार से ज़्यादा stars। Developer हैं Tashfeen Ahmed.
+[informative] एक app install करो, free keys जोड़ो, और आपको मिलती है एक unified key। Claude Code, Codex, OpenCode… सब इसी एक key से चलते हैं।
+[amazed] और जैसे ही एक model की free limit खत्म होती है, router खुद अगले model पे shift कर देता है। काम रुकता नहीं।
+[curious] अब वो catch, जो मैंने promise किया था… [short pause] [serious] Claude Code का interface वही रहता है, पर अंदर दिमाग Claude का नहीं। जवाब DeepSeek, Qwen, Gemini जैसे free models देते हैं। शाम तक बड़े models की limit भर जाती है, तो quality थोड़ी गिरती है, और सुबह साढ़े पाँच बजे reset होती है। [reassuring] और office या client का code मत डालना, free providers आपका data use कर सकते हैं।
+[happy] पर side projects, practice और students के लिए? एकदम perfect।
+[excited] पूरी setup guide चाहिए? नीचे comment करो "TOKENS"—step-by-step guide सीधा आपके DM में।
+[serious] ये reel उस coder दोस्त को भेजो, जो AI पे हर महीने पैसे भर रहा है। [excited] और ऐसे ही free AI tools के लिए Computer Hub को follow करो!

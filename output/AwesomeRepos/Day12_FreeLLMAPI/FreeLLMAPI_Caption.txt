@@ -1,0 +1,39 @@
+FreeLLMAPI (Awesome Repos Day 12) — Instagram caption + pinned comment (26 Nov 2026). Not paid, no #ad.
+Facts checked 26 Nov 2026 (GitHub API + README): 58.6K stars, MIT, by Tashfeen Ahmed, ~10.1B free tokens/month
+(project's own estimate), 87 free providers, works with Claude Code / Codex / OpenCode, auto failover.
+Limits: no frontier models, quality dips late in the day, reset at UTC midnight (5:30 AM IST), free tiers may use data.
+Claude India prices (Pro ₹2,000/mo annual … Max 20x ₹23,999/mo) = news reports, July 2026.
+Guide page (DM + bio): https://computerhub-links.vercel.app/free-ai-coding-tokens-guide.html
+
+----- CAPTION (copy from the next line) -----
+Claude Code ke liye ₹2,000–₹24,000 har mahine? 💸 Free AI coding ka ye jugaad dekho: ek key, 10 billion tak free tokens, aur end mein woh catch jo koi nahi batata 👇
+
+Tool: FreeLLMAPI (open source, MIT) by Tashfeen Ahmed, GitHub pe 58K+ stars ⭐
+1️⃣ App install karo (Windows / Mac / Linux)
+2️⃣ Google AI Studio, Groq, OpenRouter, NVIDIA jaise providers ki free API keys jodo
+3️⃣ Ek unified key milti hai: Claude Code, Codex, OpenCode sab isi se chalte hain
+✅ Ek model ki free limit khatam? Router khud agle model pe shift kar deta hai
+
+⚠️ Honest catch:
+• Claude Code ka app chalta hai, andar Claude model nahi. Jawab DeepSeek, Qwen, Gemini jaise free models dete hain
+• Shaam ko quality thodi girti hai, limit subah 5:30 (IST) reset hoti hai
+• Office / client ka code mat daalo, free providers data use kar sakte hain
+• "10 billion" project ka apna estimate hai, bahut saari keys jodne par
+
+Kiske liye: students, side projects, coding practice, AI seekhne wale.
+
+📩 Comment "TOKENS" → poori Windows setup guide seedha DM mein.
+🔁 Us coder dost ko bhejo jo AI pe har mahine paise bhar raha hai.
+
+Free AI coding tools | Claude Code free kaise chalaye | free AI API keys | open source AI tools Hindi | free LLM API | AI coding for students India
+
+#aitools #claudecode #opensource #coding #computerhub
+
+----- PINNED COMMENT -----
+Setup guide chahiye? "TOKENS" comment karo, DM mein aa jayegi 📩 Credit: Tashfeen Ahmed (github.com/tashfeenahmed/freellmapi) ⭐
+
+----- ALT TEXT -----
+Animated explainer: Claude Code plans cost ₹2,000 to ₹24,000 a month in India. FreeLLMAPI, an open-source tool with
+58K GitHub stars, pools free AI tiers from Google, Groq, OpenRouter, Mistral and NVIDIA into one key for Claude Code,
+Codex and OpenCode, and switches models when a limit runs out. The catch: answers come from free open models, quality
+dips in the evening, and you should not use it for office or client code.
