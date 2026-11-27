@@ -1,0 +1,21 @@
+InteraOne (Awesome Repos Day 13): voice script, word for word (plain Hinglish)
+Hook A (recommended). ~160 words = ~55 s (ElevenLabs speed 1.05). ElevenLabs version: InteraOne_Voice_Script_ElevenLabs.txt
+
+Pandrah hazaar ka support staff… phir bhi raat ke WhatsApp messages ka jawab subah jaata hai… aur customer nikal jaata hai.
+END mein ek CATCH bhi bataunga.
+
+Badi companies ye kaam AI se karwati hain. Intercom har jawab ke lagbhag pachaasi rupaye leta hai… Zendesk ek sau sattar tak.
+Ek hazaar sawaal? Pachaasi hazaar ka bill!
+
+Lekin ek open-source tool yahi kaam bina per-answer fees ke karta hai… naam hai InteraOne.
+
+Ek: ek hi AI… WhatsApp, email, Telegram aur website chat, chaaron pe jawab.
+Do: jawab aapki apni price list, FAQ aur policy se.
+Teen: AI atak jaaye, to chat seedha aapki team ke paas.
+Aur chaar: code open-source, apna server… per-answer fees ZERO!
+
+Ab wo CATCH… AI ka token kharcha, server, aur WhatsApp ke liye Twilio ka chhota kharcha aapka lagega, aur setup ke liye ek developer.
+Bina setup try karna hai? Unke cloud pe har mahine pachaas AI messages FREE.
+
+Repo aur setup guide chahiye? Comment karo "SUPPORT"… seedha DM mein.
+Ye reel us business wale dost ko bhejo, jo din bhar WhatsApp pe same jawab deta rehta hai.
